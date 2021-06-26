@@ -6638,7 +6638,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="kdenlive:folder.-1.61">musicians</property>
   <property name="kdenlive:folder.-1.87">footage</property>
   <property name="kdenlive:folder.-1.91">ai</property>
-  <property name="kdenlive:docproperties.activeTrack">10</property>
+  <property name="kdenlive:docproperties.activeTrack">4</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
   <property name="kdenlive:docproperties.audioTarget">-1</property>
   <property name="kdenlive:docproperties.compositing">2</property>
@@ -6732,7 +6732,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
 ]
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">21.04.2</property>
-  <property name="kdenlive:docproperties.position">2084</property>
+  <property name="kdenlive:docproperties.position">3274</property>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
   <property name="kdenlive:docproperties.profile">atsc_1080p_30</property>
@@ -6741,15 +6741,15 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="kdenlive:docproperties.proxyimagesize">800</property>
   <property name="kdenlive:docproperties.proxyminsize">1920</property>
   <property name="kdenlive:docproperties.proxyparams"/>
-  <property name="kdenlive:docproperties.renderaudioquality">192</property>
+  <property name="kdenlive:docproperties.renderaudioquality">256</property>
   <property name="kdenlive:docproperties.rendercategory">Generic (HD for web, mobile devices...)</property>
-  <property name="kdenlive:docproperties.renderendguide">1</property>
+  <property name="kdenlive:docproperties.renderendguide">0</property>
   <property name="kdenlive:docproperties.renderexportaudio">0</property>
   <property name="kdenlive:docproperties.renderfield">0</property>
   <property name="kdenlive:docproperties.renderguide">0</property>
   <property name="kdenlive:docproperties.renderplay">0</property>
   <property name="kdenlive:docproperties.renderprofile">MP4-H264/AAC</property>
-  <property name="kdenlive:docproperties.renderquality">23</property>
+  <property name="kdenlive:docproperties.renderquality">21</property>
   <property name="kdenlive:docproperties.renderratio">1</property>
   <property name="kdenlive:docproperties.renderrescale">0</property>
   <property name="kdenlive:docproperties.renderrescaleheight">540</property>
@@ -6760,17 +6760,17 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">0</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">night_is_young_v5.mp4</property>
+  <property name="kdenlive:docproperties.renderurl">night_is_young_v7.mp4</property>
   <property name="kdenlive:docproperties.renderzone">1</property>
-  <property name="kdenlive:docproperties.scrollPos">2553</property>
+  <property name="kdenlive:docproperties.scrollPos">1109</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
   <property name="kdenlive:docproperties.version">1</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
-  <property name="kdenlive:docproperties.videoTarget">-1</property>
+  <property name="kdenlive:docproperties.videoTarget">2</property>
   <property name="kdenlive:docproperties.zonein">210</property>
   <property name="kdenlive:docproperties.zoneout">10871</property>
-  <property name="kdenlive:docproperties.zoom">5</property>
-  <property name="kdenlive:expandedFolders"/>
+  <property name="kdenlive:docproperties.zoom">7</property>
+  <property name="kdenlive:expandedFolders">60</property>
   <property name="kdenlive:documentnotes"/>
   <property name="xml_retain">1</property>
   <entry producer="producer0" in="00:00:00.000" out="00:00:15.000"/>
@@ -8017,14 +8017,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   </entry>
   <entry producer="producer80" in="00:00:00.000" out="00:00:07.433">
    <property name="kdenlive:id">15</property>
-   <filter id="filter57" out="00:00:00.867">
-    <property name="start">0</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_from_black</property>
-    <property name="end">1</property>
-    <property name="alpha">1</property>
-    <property name="kdenlive:collapsed">0</property>
-   </filter>
+   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter58" in="00:00:04.667" out="00:00:07.433">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
@@ -8039,6 +8032,13 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive_id">frei0r.brightness</property>
     <property name="Brightness">00:00:00.000=0.194</property>
     <property name="kdenlive:collapsed">0</property>
+   </filter>
+   <filter id="filter26" out="00:00:00.300">
+    <property name="start">0</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="end">1</property>
+    <property name="alpha">-1</property>
    </filter>
   </entry>
   <blank length="00:01:10.167"/>
@@ -10062,7 +10062,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <entry producer="producer98" in="00:00:00.000" out="00:00:50.333">
    <property name="kdenlive:id">68</property>
    <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter26" out="00:00:00.967">
+   <filter id="filter27" out="00:00:00.967">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -10070,7 +10070,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter27">
+   <filter id="filter28">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -10080,7 +10080,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="distort">1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter28">
+   <filter id="filter57">
     <property name="mirror">horizontal</property>
     <property name="mlt_service">mirror</property>
     <property name="kdenlive_id">mirror</property>
@@ -11877,6 +11877,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <blank length="00:00:12.400"/>
   <entry producer="producer110" in="00:00:00.967" out="00:00:28.000">
    <property name="kdenlive:id">62</property>
+   <property name="kdenlive:activeeffect">1</property>
    <filter id="filter96" in="00:00:00.967" out="00:00:01.533">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -11889,7 +11890,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:00.967=0 0 1920 1080 1.000000</property>
+    <property name="rect">00:00:00.967=-5 0 1930 1080 1.000000</property>
     <property name="rotation">00:00:00.967=0</property>
     <property name="compositing">0</property>
     <property name="distort">1</property>
@@ -11993,10 +11994,10 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:36.400=0 0 1920 1080 0.300000;00:00:36.500~=0 0 1920 1080 0.500000;00:00:36.600~=-48 -27 2016 1134 1.000000;00:00:36.900~=0 0 1920 1080 0.500000;00:00:37.133~=0 0 1920 1080 0.600000;00:00:37.233~=-48 -27 2016 1134 1.000000;00:00:37.633~=0 0 1920 1080 0.753846;00:00:38.100~=0 0 1920 1080 1.000000;00:00:39.700=0 0 1920 1080 0.784615;00:00:39.833~=-48 -27 2016 1134 1.000000;00:00:40.400=0 0 1920 1080 0.800000;00:00:40.500~=-48 -27 2016 1134 1.000000;00:00:41.233~=0 0 1920 1080 0.700000;00:00:43.233=0 0 1913 1076 0.877417</property>
-    <property name="rotation">00:00:36.400=0;00:00:36.500~=0;00:00:36.600~=0;00:00:36.900~=0;00:00:37.133~=0;00:00:37.233~=0;00:00:37.633~=0;00:00:38.100~=0;00:00:39.700=0;00:00:39.833~=0;00:00:40.400=0;00:00:40.500~=0;00:00:41.233~=0;00:00:43.233=0</property>
+    <property name="rect">00:00:36.400=0 0 1920 1080 0.300000;00:00:36.500~=0 0 1920 1080 0.500000;00:00:36.600~=-48 -27 2016 1134 1.000000;00:00:36.900=0 0 1920 1080 0.500000;00:00:37.133~=0 0 1920 1080 0.600000;00:00:37.233~=-48 -27 2016 1134 1.000000;00:00:37.633=0 0 1920 1080 0.753846;00:00:38.100=0 0 1920 1080 1.000000;00:00:39.700=0 0 1920 1080 0.784615;00:00:39.833~=-48 -27 2016 1134 1.000000;00:00:40.400=0 0 1920 1080 0.800000;00:00:40.500~=-48 -27 2016 1134 1.000000;00:00:41.233=0 0 1920 1080 0.700000;00:00:43.233=0 0 1920 1080 0.880000</property>
+    <property name="rotation">00:00:36.400=0;00:00:36.500~=0;00:00:36.600~=0;00:00:36.900=0;00:00:37.133~=0;00:00:37.233~=0;00:00:37.633=0;00:00:38.100=0;00:00:39.700=0;00:00:39.833~=0;00:00:40.400=0;00:00:40.500~=0;00:00:41.233=0;00:00:43.233=0</property>
     <property name="compositing">0</property>
-    <property name="distort">0</property>
+    <property name="distort">1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
@@ -12005,15 +12006,15 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="kdenlive:id">66</property>
   </entry>
   <blank length="00:00:34.367"/>
-  <entry producer="producer116" in="00:00:00.667" out="00:00:43.600">
+  <entry producer="producer116" in="00:00:00.667" out="00:00:38.267">
    <property name="kdenlive:id">65</property>
    <property name="kdenlive:activeeffect">0</property>
    <filter id="filter106">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:00.667=-525 0 1920 1080 1.000000</property>
-    <property name="rotation">00:00:00.667=201</property>
+    <property name="rect">00:00:00.667=-525 0 1920 1080 1.000000;00:00:34.700=-525 0 1920 1080 1.000000;00:00:36.533=-525 0 1920 1080 1.000000</property>
+    <property name="rotation">00:00:00.667=201;00:00:34.700=201;00:00:36.533=170</property>
     <property name="compositing">0</property>
     <property name="distort">1</property>
     <property name="kdenlive:collapsed">0</property>
@@ -12052,7 +12053,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="saturation">00:00:00.667=0.1;00:00:21.767=0.1;00:00:22.167=0.322</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter110" in="00:00:41.967" out="00:00:43.600">
+   <filter id="filter110" in="00:00:36.667" out="00:00:38.300">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -12070,19 +12071,19 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer116" in="00:00:43.633" out="00:01:23.933">
+  <entry producer="producer116" in="00:00:38.300" out="00:01:23.933">
    <property name="kdenlive:id">65</property>
    <filter id="filter112">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:43.633=0 0 1920 1080 1.000000</property>
-    <property name="rotation">00:00:43.633=180</property>
+    <property name="rect">00:00:38.300=0 0 1920 1080 1.000000</property>
+    <property name="rotation">00:00:38.300=180</property>
     <property name="compositing">0</property>
     <property name="distort">1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter118" in="00:01:18.100" out="00:01:23.933">
+   <filter id="filter118" in="00:01:18.133" out="00:01:23.967">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -12090,7 +12091,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter119" in="00:00:43.633" out="00:00:46.600">
+   <filter id="filter119" in="00:00:38.300" out="00:00:41.267">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -12102,9 +12103,9 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.colorize</property>
     <property name="kdenlive_id">frei0r.colorize</property>
-    <property name="hue">00:00:43.633=0.727778</property>
-    <property name="saturation">00:00:43.633=0.561111</property>
-    <property name="lightness">00:00:43.633=0.322222</property>
+    <property name="hue">00:00:38.300=0.727778</property>
+    <property name="saturation">00:00:38.300=0.561111</property>
+    <property name="lightness">00:00:38.300=0.322222</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
    <filter id="filter121">
@@ -30357,7 +30358,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="av.brightness">0</property>
   </filter>
  </producer>
- <producer id="producer147" in="00:00:00.000" out="00:02:03.067">
+ <producer id="producer140" in="00:00:00.000" out="00:02:03.067">
   <property name="length">3693</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Caleb_upright_mason_MVI_6048-take5_from_125.mkv</property>
@@ -30473,7 +30474,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="av.brightness">0</property>
   </filter>
  </producer>
- <producer id="producer140" in="00:00:00.000" out="00:00:32.600">
+ <producer id="producer147" in="00:00:00.000" out="00:00:32.600">
   <property name="length">979</property>
   <property name="eof">pause</property>
   <property name="resource">/home/ryankelln/.cache/kdenlive/proxy/81434f20c2ca82b06e699a6fe6d83b7d.mkv</property>
@@ -30663,7 +30664,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:26.933=-180 -318 1441 1923 1.000000;00:00:39.433=-180 -318 1441 1923 1.000000;00:00:52.833=-2478 -1502 6125 3637 1.000000</property>
+    <property name="rect">00:00:26.933=-180 -318 1441 1923 1.000000;00:00:39.433=-180 -318 1441 1923 1.000000;00:00:52.833=-2958 -1750 7104 3996 1.000000</property>
     <property name="rotation">00:00:26.933=0;00:00:39.433=0;00:00:52.833=0</property>
     <property name="compositing">0</property>
     <property name="distort">0</property>
@@ -30689,10 +30690,18 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Blur">00:00:26.933=0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
+   <filter id="filter256" in="00:00:49.833" out="00:00:52.833">
+    <property name="start">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="end">0</property>
+    <property name="alpha">-1</property>
+    <property name="kdenlive:collapsed">0</property>
+   </filter>
   </entry>
-  <entry producer="producer147" in="00:00:52.300" out="00:01:07.233">
+  <entry producer="producer140" in="00:00:52.300" out="00:01:07.233">
    <property name="kdenlive:id">46</property>
-   <filter id="filter256">
+   <filter id="filter257">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.mask0mate</property>
     <property name="kdenlive_id">frei0r.mask0mate</property>
@@ -30704,7 +30713,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Blur">00:00:52.300=0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter257" in="00:01:04.900" out="00:01:07.233">
+   <filter id="filter258" in="00:01:04.900" out="00:01:07.233">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -30714,12 +30723,12 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    </filter>
   </entry>
   <blank length="00:00:28.233"/>
-  <entry producer="producer140" in="00:00:00.000" out="00:00:20.967">
+  <entry producer="producer147" in="00:00:00.000" out="00:00:20.967">
    <property name="kdenlive:id">36</property>
   </entry>
-  <entry producer="producer140" in="00:00:21.000" out="00:00:23.867">
+  <entry producer="producer147" in="00:00:21.000" out="00:00:23.867">
    <property name="kdenlive:id">36</property>
-   <filter id="filter258">
+   <filter id="filter259">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.hqdn3d</property>
     <property name="kdenlive_id">frei0r.hqdn3d</property>
@@ -30727,7 +30736,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Temporal">00:00:21.000=0.01</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter259">
+   <filter id="filter260">
     <property name="version">0.6</property>
     <property name="mlt_service">frei0r.select0r</property>
     <property name="kdenlive_id">frei0r.select0r</property>
@@ -30743,7 +30752,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Operation">0.5</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter260">
+   <filter id="filter261">
     <property name="mlt_service">avfilter.despill</property>
     <property name="kdenlive_id">avfilter.despill</property>
     <property name="av.type">green</property>
@@ -30755,7 +30764,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="av.brightness">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter261">
+   <filter id="filter262">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -30765,7 +30774,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter262" in="00:00:21.000" out="00:00:21.267">
+   <filter id="filter263" in="00:00:21.000" out="00:00:21.267">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -30861,14 +30870,14 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
-  <filter id="filter263">
+  <filter id="filter264">
    <property name="version">0.1</property>
    <property name="mlt_service">frei0r.hqdn3d</property>
    <property name="kdenlive_id">frei0r.hqdn3d</property>
    <property name="Spatial">00:00:00.000=0.01</property>
    <property name="Temporal">00:00:00.000=0.01</property>
   </filter>
-  <filter id="filter264">
+  <filter id="filter265">
    <property name="version">0.6</property>
    <property name="mlt_service">frei0r.select0r</property>
    <property name="kdenlive_id">frei0r.select0r</property>
@@ -30883,7 +30892,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="Slope">00:00:00.000=0.134</property>
    <property name="Operation">0.5</property>
   </filter>
-  <filter id="filter265">
+  <filter id="filter266">
    <property name="mlt_service">avfilter.despill</property>
    <property name="kdenlive_id">avfilter.despill</property>
    <property name="av.type">green</property>
@@ -31047,7 +31056,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer152" in="00:00:00.000" out="00:02:03.067">
+ <producer id="producer148" in="00:00:00.000" out="00:02:03.067">
   <property name="length">3693</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Caleb_upright_mason_MVI_6048-take5_from_125.mkv</property>
@@ -31118,14 +31127,14 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
-  <filter id="filter266">
+  <filter id="filter267">
    <property name="version">0.1</property>
    <property name="mlt_service">frei0r.hqdn3d</property>
    <property name="kdenlive_id">frei0r.hqdn3d</property>
    <property name="Spatial">00:00:00.000=0.01</property>
    <property name="Temporal">00:00:00.000=0.01</property>
   </filter>
-  <filter id="filter267">
+  <filter id="filter268">
    <property name="version">0.6</property>
    <property name="mlt_service">frei0r.select0r</property>
    <property name="kdenlive_id">frei0r.select0r</property>
@@ -31140,7 +31149,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="Slope">00:00:00.000=0.076</property>
    <property name="Operation">0.5</property>
   </filter>
-  <filter id="filter268">
+  <filter id="filter269">
    <property name="version">0.4</property>
    <property name="mlt_service">frei0r.alpha0ps</property>
    <property name="kdenlive_id">frei0r.alpha0ps</property>
@@ -31151,7 +31160,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="Shrink/Grow/Blur amount">00:00:00.000=0.243</property>
    <property name="Invert">0</property>
   </filter>
-  <filter id="filter269">
+  <filter id="filter270">
    <property name="mlt_service">avfilter.despill</property>
    <property name="kdenlive_id">avfilter.despill</property>
    <property name="av.type">green</property>
@@ -31163,7 +31172,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="av.brightness">0</property>
   </filter>
  </producer>
- <producer id="producer148" in="00:00:00.000" out="00:00:25.933">
+ <producer id="producer152" in="00:00:00.000" out="00:00:25.933">
   <property name="length">779</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Caleb_upright_mason_MVI_6048-take6_ending.mkv</property>
@@ -31230,7 +31239,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <blank length="00:00:50.100"/>
   <entry producer="producer149" in="00:00:11.000" out="00:00:22.733">
    <property name="kdenlive:id">40</property>
-   <filter id="filter270">
+   <filter id="filter271">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">0</property>
@@ -38218,7 +38227,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <entry producer="producer150" in="00:00:06.900" out="00:00:26.233">
    <property name="kdenlive:id">42</property>
    <property name="kdenlive:activeeffect">6</property>
-   <filter id="filter271">
+   <filter id="filter272">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.hqdn3d</property>
     <property name="kdenlive_id">frei0r.hqdn3d</property>
@@ -38226,7 +38235,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Temporal">00:00:06.900=0.01</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter272">
+   <filter id="filter273">
     <property name="version">0.6</property>
     <property name="mlt_service">frei0r.select0r</property>
     <property name="kdenlive_id">frei0r.select0r</property>
@@ -38242,7 +38251,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Operation">0.5</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter273">
+   <filter id="filter274">
     <property name="mlt_service">avfilter.despill</property>
     <property name="kdenlive_id">avfilter.despill</property>
     <property name="av.type">green</property>
@@ -38254,7 +38263,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="av.brightness">-0.32</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter274">
+   <filter id="filter275">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">1</property>
@@ -39801,7 +39810,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
 </property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter275" in="00:00:06.900" out="00:00:07.600">
+   <filter id="filter276" in="00:00:06.900" out="00:00:07.600">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -39809,7 +39818,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter276">
+   <filter id="filter277">
     <property name="mlt_service">avfilter.colorchannelmixer</property>
     <property name="kdenlive_id">avfilter.colorchannelmixer</property>
     <property name="av.rr">0.457386</property>
@@ -39827,7 +39836,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <entry producer="producer151" in="00:00:26.267" out="00:00:34.267">
    <property name="kdenlive:id">42</property>
    <property name="kdenlive:activeeffect">6</property>
-   <filter id="filter277">
+   <filter id="filter278">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.hqdn3d</property>
     <property name="kdenlive_id">frei0r.hqdn3d</property>
@@ -39835,7 +39844,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Temporal">00:00:26.267=0.01</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter278">
+   <filter id="filter279">
     <property name="version">0.6</property>
     <property name="mlt_service">frei0r.select0r</property>
     <property name="kdenlive_id">frei0r.select0r</property>
@@ -39851,7 +39860,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Operation">0.5</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter279">
+   <filter id="filter280">
     <property name="mlt_service">avfilter.despill</property>
     <property name="kdenlive_id">avfilter.despill</property>
     <property name="av.type">green</property>
@@ -39863,7 +39872,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="av.brightness">-0.32</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter280">
+   <filter id="filter281">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">1</property>
@@ -41028,7 +41037,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
 </property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter281" in="00:00:31.767" out="00:00:34.267">
+   <filter id="filter282" in="00:00:31.767" out="00:00:34.267">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -41036,7 +41045,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter282">
+   <filter id="filter283">
     <property name="mlt_service">avfilter.colorchannelmixer</property>
     <property name="kdenlive_id">avfilter.colorchannelmixer</property>
     <property name="av.rr">0.457386</property>
@@ -41050,7 +41059,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="av.bb">1.056</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter283">
+   <filter id="filter284">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">0</property>
@@ -41461,9 +41470,9 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    </filter>
   </entry>
   <blank length="00:01:41.367"/>
-  <entry producer="producer152" in="00:00:52.300" out="00:01:07.233">
+  <entry producer="producer148" in="00:00:52.300" out="00:01:07.233">
    <property name="kdenlive:id">46</property>
-   <filter id="filter284">
+   <filter id="filter285">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.mask0mate</property>
     <property name="kdenlive_id">frei0r.mask0mate</property>
@@ -41475,7 +41484,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Blur">00:00:52.300=0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter285" in="00:01:04.900" out="00:01:07.233">
+   <filter id="filter286" in="00:01:04.900" out="00:01:07.233">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -41485,7 +41494,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    </filter>
   </entry>
   <blank length="00:00:48.733"/>
-  <entry producer="producer148" in="00:00:21.167" out="00:00:25.933">
+  <entry producer="producer152" in="00:00:21.167" out="00:00:25.933">
    <property name="kdenlive:id">47</property>
   </entry>
  </playlist>
@@ -41653,14 +41662,14 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
-  <filter id="filter286">
+  <filter id="filter287">
    <property name="version">0.1</property>
    <property name="mlt_service">frei0r.hqdn3d</property>
    <property name="kdenlive_id">frei0r.hqdn3d</property>
    <property name="Spatial">00:00:00.000=0.01</property>
    <property name="Temporal">00:00:00.000=0.01</property>
   </filter>
-  <filter id="filter287">
+  <filter id="filter288">
    <property name="version">0.6</property>
    <property name="mlt_service">frei0r.select0r</property>
    <property name="kdenlive_id">frei0r.select0r</property>
@@ -41675,7 +41684,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="Slope">00:00:00.000=0.101</property>
    <property name="Operation">0.5</property>
   </filter>
-  <filter id="filter288">
+  <filter id="filter289">
    <property name="mlt_service">avfilter.despill</property>
    <property name="kdenlive_id">avfilter.despill</property>
    <property name="av.type">green</property>
@@ -41840,7 +41849,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">1</property>
-  <filter id="filter289">
+  <filter id="filter290">
    <property name="version">0.1</property>
    <property name="mlt_service">frei0r.hqdn3d</property>
    <property name="kdenlive_id">frei0r.hqdn3d</property>
@@ -41848,7 +41857,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="Temporal">00:00:00.000=0.01</property>
    <property name="kdenlive:collapsed">0</property>
   </filter>
-  <filter id="filter290">
+  <filter id="filter291">
    <property name="version">0.6</property>
    <property name="mlt_service">frei0r.select0r</property>
    <property name="kdenlive_id">frei0r.select0r</property>
@@ -41864,7 +41873,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="Operation">0.5</property>
    <property name="kdenlive:collapsed">0</property>
   </filter>
-  <filter id="filter291">
+  <filter id="filter292">
    <property name="mlt_service">avfilter.despill</property>
    <property name="kdenlive_id">avfilter.despill</property>
    <property name="av.type">green</property>
@@ -41876,14 +41885,14 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="av.brightness">0</property>
    <property name="kdenlive:collapsed">0</property>
   </filter>
-  <filter id="filter292">
+  <filter id="filter293">
    <property name="version">0.1</property>
    <property name="mlt_service">frei0r.hqdn3d</property>
    <property name="kdenlive_id">frei0r.hqdn3d</property>
    <property name="Spatial">00:00:00.000=0.01</property>
    <property name="Temporal">00:00:00.000=0.01</property>
   </filter>
-  <filter id="filter293">
+  <filter id="filter294">
    <property name="version">0.6</property>
    <property name="mlt_service">frei0r.select0r</property>
    <property name="kdenlive_id">frei0r.select0r</property>
@@ -41898,7 +41907,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="Slope">00:00:00.000=0.101</property>
    <property name="Operation">0.5</property>
   </filter>
-  <filter id="filter294">
+  <filter id="filter295">
    <property name="mlt_service">avfilter.despill</property>
    <property name="kdenlive_id">avfilter.despill</property>
    <property name="av.type">green</property>
@@ -42043,14 +42052,14 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
-  <filter id="filter295">
+  <filter id="filter296">
    <property name="version">0.1</property>
    <property name="mlt_service">frei0r.hqdn3d</property>
    <property name="kdenlive_id">frei0r.hqdn3d</property>
    <property name="Spatial">00:00:00.000=0.01</property>
    <property name="Temporal">00:00:00.000=0.01</property>
   </filter>
-  <filter id="filter296">
+  <filter id="filter297">
    <property name="version">0.6</property>
    <property name="mlt_service">frei0r.select0r</property>
    <property name="kdenlive_id">frei0r.select0r</property>
@@ -42065,7 +42074,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="Slope">00:00:00.000=0.113</property>
    <property name="Operation">0.5</property>
   </filter>
-  <filter id="filter297">
+  <filter id="filter298">
    <property name="mlt_service">avfilter.despill</property>
    <property name="kdenlive_id">avfilter.despill</property>
    <property name="av.type">green</property>
@@ -42206,7 +42215,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <blank length="00:00:40.700"/>
   <entry producer="producer153" in="00:00:34.700" out="00:00:44.233">
    <property name="kdenlive:id">58</property>
-   <filter id="filter298" in="00:00:34.700" out="00:00:36.367">
+   <filter id="filter299" in="00:00:34.700" out="00:00:36.367">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -42214,7 +42223,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter299">
+   <filter id="filter300">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -42224,7 +42233,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter300">
+   <filter id="filter301">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">1</property>
@@ -42521,7 +42530,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
 </property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter301">
+   <filter id="filter302">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.mask0mate</property>
     <property name="kdenlive_id">frei0r.mask0mate</property>
@@ -42538,7 +42547,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <entry producer="producer153" in="00:01:02.633" out="00:01:05.400">
    <property name="kdenlive:id">58</property>
    <property name="kdenlive:activeeffect">4</property>
-   <filter id="filter302">
+   <filter id="filter303">
     <property name="background">colour:0</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -42548,7 +42557,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="producer.resource">0x00000000</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter303" in="00:01:02.633" out="00:01:03.133">
+   <filter id="filter304" in="00:01:02.633" out="00:01:03.133">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -42556,7 +42565,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter304" in="00:01:03.767" out="00:01:05.400">
+   <filter id="filter305" in="00:01:03.767" out="00:01:05.400">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -42564,7 +42573,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter305">
+   <filter id="filter306">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.mask0mate</property>
     <property name="kdenlive_id">frei0r.mask0mate</property>
@@ -42576,7 +42585,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Blur">00:01:02.633=0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter306">
+   <filter id="filter307">
     <property name="version">0.3</property>
     <property name="mlt_service">frei0r.saturat0r</property>
     <property name="kdenlive_id">frei0r.saturat0r</property>
@@ -42587,7 +42596,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <blank length="00:01:14.433"/>
   <entry producer="producer153" in="00:02:19.867" out="00:02:37.333">
    <property name="kdenlive:id">58</property>
-   <filter id="filter307">
+   <filter id="filter308">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -42597,7 +42606,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter308" in="00:02:19.867" out="00:02:20.567">
+   <filter id="filter309" in="00:02:19.867" out="00:02:20.567">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -42605,7 +42614,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter309">
+   <filter id="filter310">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.mask0mate</property>
     <property name="kdenlive_id">frei0r.mask0mate</property>
@@ -42617,7 +42626,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Blur">00:02:19.867=0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter310">
+   <filter id="filter311">
     <property name="mlt_service">avfilter.colorchannelmixer</property>
     <property name="kdenlive_id">avfilter.colorchannelmixer</property>
     <property name="av.rr">0.78125</property>
@@ -42631,7 +42640,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="av.bb">1.28977</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter311" in="00:02:35.467" out="00:02:37.333">
+   <filter id="filter312" in="00:02:35.467" out="00:02:37.333">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -42644,7 +42653,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <entry producer="producer153" in="00:02:58.333" out="00:03:31.033">
    <property name="kdenlive:id">58</property>
    <property name="kdenlive:activeeffect">2</property>
-   <filter id="filter312">
+   <filter id="filter313">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.mask0mate</property>
     <property name="kdenlive_id">frei0r.mask0mate</property>
@@ -42656,7 +42665,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Blur">00:02:58.333=0.173</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter313">
+   <filter id="filter314">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -42666,7 +42675,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter314">
+   <filter id="filter315">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">0</property>
@@ -43967,7 +43976,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
 </property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter315">
+   <filter id="filter316">
     <property name="mlt_service">avfilter.colorchannelmixer</property>
     <property name="kdenlive_id">avfilter.colorchannelmixer</property>
     <property name="av.rr">0.144886</property>
@@ -43981,7 +43990,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="av.bb">1.7</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter316" in="00:02:58.333" out="00:03:02.033">
+   <filter id="filter317" in="00:02:58.333" out="00:03:02.033">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -43989,7 +43998,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter317" in="00:03:30.533" out="00:03:31.033">
+   <filter id="filter318" in="00:03:30.533" out="00:03:31.033">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -44001,7 +44010,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <blank length="00:00:00.033"/>
   <entry producer="producer154" in="00:03:31.100" out="00:03:54.333">
    <property name="kdenlive:id">58</property>
-   <filter id="filter318">
+   <filter id="filter319">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.mask0mate</property>
     <property name="kdenlive_id">frei0r.mask0mate</property>
@@ -44013,7 +44022,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Blur">6333=0.173</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter319">
+   <filter id="filter320">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -44023,7 +44032,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter320">
+   <filter id="filter321">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">0</property>
@@ -44404,7 +44413,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
 </property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter321">
+   <filter id="filter322">
     <property name="mlt_service">avfilter.colorchannelmixer</property>
     <property name="kdenlive_id">avfilter.colorchannelmixer</property>
     <property name="av.rr">0.144886</property>
@@ -44418,7 +44427,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="av.bb">1.7</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter322" in="00:03:31.100" out="00:03:34.067">
+   <filter id="filter323" in="00:03:31.100" out="00:03:34.067">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -44426,7 +44435,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter323" in="00:03:52.733" out="00:03:54.333">
+   <filter id="filter324" in="00:03:52.733" out="00:03:54.333">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -44437,17 +44446,17 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <blank length="00:00:23.967"/>
   <entry producer="producer156" in="00:00:26.933" out="00:00:54.100">
    <property name="kdenlive:id">54</property>
-   <filter id="filter324">
+   <filter id="filter325">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
-    <property name="rect">00:00:26.933=-180 -318 1441 1923 1.000000;00:00:39.433=-180 -318 1441 1923 1.000000;00:00:54.100=-2958 -1750 7104 3996 1.000000</property>
-    <property name="rotation">00:00:26.933=0;00:00:39.433=0;00:00:54.100=0</property>
+    <property name="rect">00:00:26.933=-180 -318 1441 1923 1.000000;00:00:39.433=-180 -318 1441 1923 1.000000;00:00:52.867=-2958 -1750 7104 3996 1.000000</property>
+    <property name="rotation">00:00:26.933=0;00:00:39.433=0;00:00:52.867=0</property>
     <property name="compositing">0</property>
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter325" in="00:00:26.933" out="00:00:29.367">
+   <filter id="filter326" in="00:00:26.933" out="00:00:29.367">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -44455,7 +44464,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter326">
+   <filter id="filter327">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.mask0mate</property>
     <property name="kdenlive_id">frei0r.mask0mate</property>
@@ -44637,14 +44646,14 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
-  <filter id="filter327">
+  <filter id="filter328">
    <property name="version">0.1</property>
    <property name="mlt_service">frei0r.hqdn3d</property>
    <property name="kdenlive_id">frei0r.hqdn3d</property>
    <property name="Spatial">00:00:00.000=0.01</property>
    <property name="Temporal">00:00:00.000=0.01</property>
   </filter>
-  <filter id="filter328">
+  <filter id="filter329">
    <property name="version">0.6</property>
    <property name="mlt_service">frei0r.select0r</property>
    <property name="kdenlive_id">frei0r.select0r</property>
@@ -44659,7 +44668,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="Slope">00:00:00.000=0.101</property>
    <property name="Operation">0.5</property>
   </filter>
-  <filter id="filter329">
+  <filter id="filter330">
    <property name="mlt_service">avfilter.despill</property>
    <property name="kdenlive_id">avfilter.despill</property>
    <property name="av.type">green</property>
@@ -44839,7 +44848,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <blank length="00:00:40.700"/>
   <entry producer="producer157" in="00:00:34.700" out="00:00:44.233">
    <property name="kdenlive:id">58</property>
-   <filter id="filter330" in="00:00:34.700" out="00:00:36.367">
+   <filter id="filter331" in="00:00:34.700" out="00:00:36.367">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -44847,7 +44856,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter331">
+   <filter id="filter332">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -44857,7 +44866,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter332">
+   <filter id="filter333">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">1</property>
@@ -45154,7 +45163,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
 </property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter333">
+   <filter id="filter334">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.mask0mate</property>
     <property name="kdenlive_id">frei0r.mask0mate</property>
@@ -45166,7 +45175,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Blur">00:00:34.700=0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter334">
+   <filter id="filter335">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.squareblur</property>
     <property name="kdenlive_id">frei0r.squareblur</property>
@@ -45174,7 +45183,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive:collapsed">0</property>
     <property name="disable">1</property>
    </filter>
-   <filter id="filter335">
+   <filter id="filter336">
     <property name="start">2</property>
     <property name="hori">00:00:34.700=7</property>
     <property name="vert">00:00:34.700=1</property>
@@ -45188,7 +45197,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <blank length="00:02:14.067"/>
   <entry producer="producer157" in="00:02:58.333" out="00:03:31.033">
    <property name="kdenlive:id">58</property>
-   <filter id="filter336">
+   <filter id="filter337">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.mask0mate</property>
     <property name="kdenlive_id">frei0r.mask0mate</property>
@@ -45200,7 +45209,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Blur">00:02:58.333=0.173</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter337">
+   <filter id="filter338">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -45210,7 +45219,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="distort">1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter338">
+   <filter id="filter339">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">0</property>
@@ -46327,7 +46336,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
 </property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter339">
+   <filter id="filter340">
     <property name="mlt_service">avfilter.colorchannelmixer</property>
     <property name="kdenlive_id">avfilter.colorchannelmixer</property>
     <property name="av.rr">0.144886</property>
@@ -46341,7 +46350,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="av.bb">1.7</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter340">
+   <filter id="filter341">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.distort0r</property>
     <property name="kdenlive_id">frei0r.distort0r</property>
@@ -46349,7 +46358,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Frequency">00:02:58.333=0.01</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter341">
+   <filter id="filter342">
     <property name="start">2</property>
     <property name="hori">00:02:58.333=19</property>
     <property name="vert">00:02:58.333=1</property>
@@ -46358,7 +46367,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive_id">boxblur</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter342">
+   <filter id="filter343">
     <property name="version">0.3</property>
     <property name="mlt_service">frei0r.sopsat</property>
     <property name="kdenlive_id">frei0r.sopsat</property>
@@ -46377,7 +46386,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="saturation">00:02:58.333=0.1;00:03:16.500=0.1;00:03:17.067|=0.1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter343" in="00:02:58.333" out="00:03:01.800">
+   <filter id="filter344" in="00:02:58.333" out="00:03:01.800">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -46385,7 +46394,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter344" in="00:03:30.467" out="00:03:31.033">
+   <filter id="filter345" in="00:03:30.467" out="00:03:31.033">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -46564,14 +46573,14 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
-  <filter id="filter345">
+  <filter id="filter346">
    <property name="version">0.1</property>
    <property name="mlt_service">frei0r.hqdn3d</property>
    <property name="kdenlive_id">frei0r.hqdn3d</property>
    <property name="Spatial">00:00:00.000=0.01</property>
    <property name="Temporal">00:00:00.000=0.01</property>
   </filter>
-  <filter id="filter346">
+  <filter id="filter347">
    <property name="version">0.6</property>
    <property name="mlt_service">frei0r.select0r</property>
    <property name="kdenlive_id">frei0r.select0r</property>
@@ -46586,7 +46595,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="Slope">00:00:00.000=0.134</property>
    <property name="Operation">0.5</property>
   </filter>
-  <filter id="filter347">
+  <filter id="filter348">
    <property name="mlt_service">avfilter.despill</property>
    <property name="kdenlive_id">avfilter.despill</property>
    <property name="av.type">green</property>
@@ -46930,7 +46939,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <entry producer="producer162" in="00:00:11.000" out="00:00:22.733">
    <property name="kdenlive:id">40</property>
    <property name="kdenlive:activeeffect">2</property>
-   <filter id="filter348">
+   <filter id="filter349">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">0</property>
@@ -53913,7 +53922,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
 </property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter349">
+   <filter id="filter350">
     <property name="start">2</property>
     <property name="hori">00:00:11.000=7</property>
     <property name="vert">00:00:11.000=1</property>
@@ -53922,7 +53931,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive_id">boxblur</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter350">
+   <filter id="filter351">
     <property name="version">0.3</property>
     <property name="mlt_service">frei0r.sopsat</property>
     <property name="kdenlive_id">frei0r.sopsat</property>
@@ -53946,7 +53955,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <entry producer="producer163" in="00:00:03.000" out="00:00:14.600">
    <property name="kdenlive:id">44</property>
    <property name="kdenlive:activeeffect">5</property>
-   <filter id="filter351">
+   <filter id="filter352">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.hqdn3d</property>
     <property name="kdenlive_id">frei0r.hqdn3d</property>
@@ -53954,7 +53963,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Temporal">00:00:03.000=0.01</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter352">
+   <filter id="filter353">
     <property name="version">0.6</property>
     <property name="mlt_service">frei0r.select0r</property>
     <property name="kdenlive_id">frei0r.select0r</property>
@@ -53970,7 +53979,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Operation">0.5</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter353">
+   <filter id="filter354">
     <property name="mlt_service">avfilter.despill</property>
     <property name="kdenlive_id">avfilter.despill</property>
     <property name="av.type">green</property>
@@ -53982,7 +53991,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="av.brightness">-0.4</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter354" in="00:00:03.000" out="00:00:03.567">
+   <filter id="filter355" in="00:00:03.000" out="00:00:03.567">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -53990,7 +53999,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter355" in="00:00:13.433" out="00:00:14.600">
+   <filter id="filter356" in="00:00:13.433" out="00:00:14.600">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -53998,7 +54007,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter356">
+   <filter id="filter357">
     <property name="mode">alpha</property>
     <property name="alpha_operation">clear</property>
     <property name="invert">0</property>
@@ -54215,7 +54224,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <blank length="00:01:29.633"/>
   <entry producer="producer161" in="00:00:09.167" out="00:00:32.400">
    <property name="kdenlive:id">43</property>
-   <filter id="filter357">
+   <filter id="filter358">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.hqdn3d</property>
     <property name="kdenlive_id">frei0r.hqdn3d</property>
@@ -54223,7 +54232,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Temporal">00:00:09.167=0.01</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter358">
+   <filter id="filter359">
     <property name="version">0.6</property>
     <property name="mlt_service">frei0r.select0r</property>
     <property name="kdenlive_id">frei0r.select0r</property>
@@ -54239,7 +54248,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Operation">0.5</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter359">
+   <filter id="filter360">
     <property name="mlt_service">avfilter.despill</property>
     <property name="kdenlive_id">avfilter.despill</property>
     <property name="av.type">green</property>
@@ -54252,7 +54261,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive:collapsed">0</property>
     <property name="disable">0</property>
    </filter>
-   <filter id="filter360">
+   <filter id="filter361">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">0</property>
@@ -54381,7 +54390,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
 </property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter361" in="00:00:09.167" out="00:00:13.933">
+   <filter id="filter362" in="00:00:09.167" out="00:00:13.933">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -54389,7 +54398,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter362" in="00:00:30.733" out="00:00:32.400">
+   <filter id="filter363" in="00:00:30.733" out="00:00:32.400">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -54397,7 +54406,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter363">
+   <filter id="filter364">
     <property name="mlt_service">avfilter.colorchannelmixer</property>
     <property name="kdenlive_id">avfilter.colorchannelmixer</property>
     <property name="av.rr">0.0625</property>
@@ -54411,7 +54420,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="av.bb">2</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter364">
+   <filter id="filter365">
     <property name="start">2</property>
     <property name="hori">00:00:09.167=1</property>
     <property name="vert">00:00:09.167=7</property>
@@ -54421,7 +54430,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive:collapsed">0</property>
     <property name="disable">1</property>
    </filter>
-   <filter id="filter365">
+   <filter id="filter366">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.distort0r</property>
     <property name="kdenlive_id">frei0r.distort0r</property>
@@ -54430,7 +54439,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive:collapsed">0</property>
     <property name="disable">1</property>
    </filter>
-   <filter id="filter366">
+   <filter id="filter367">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -54449,7 +54458,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <blank length="00:00:30.833"/>
   <entry producer="producer165" in="00:00:22.733" out="00:00:25.600">
    <property name="kdenlive:id">52</property>
-   <filter id="filter367">
+   <filter id="filter368">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.hqdn3d</property>
     <property name="kdenlive_id">frei0r.hqdn3d</property>
@@ -54457,7 +54466,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Temporal">00:00:22.733=0.01</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter368">
+   <filter id="filter369">
     <property name="version">0.6</property>
     <property name="mlt_service">frei0r.select0r</property>
     <property name="kdenlive_id">frei0r.select0r</property>
@@ -54473,7 +54482,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Operation">0.5</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter369">
+   <filter id="filter370">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -54483,7 +54492,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter370" in="00:00:22.733" out="00:00:22.933">
+   <filter id="filter371" in="00:00:22.733" out="00:00:22.933">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -54818,7 +54827,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">1</property>
-  <filter id="filter371">
+  <filter id="filter372">
    <property name="version">0.1</property>
    <property name="mlt_service">frei0r.hqdn3d</property>
    <property name="kdenlive_id">frei0r.hqdn3d</property>
@@ -54826,7 +54835,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="Temporal">00:00:00.000=0.01</property>
    <property name="kdenlive:collapsed">0</property>
   </filter>
-  <filter id="filter372">
+  <filter id="filter373">
    <property name="version">0.6</property>
    <property name="mlt_service">frei0r.select0r</property>
    <property name="kdenlive_id">frei0r.select0r</property>
@@ -54842,7 +54851,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="Operation">0.5</property>
    <property name="kdenlive:collapsed">0</property>
   </filter>
-  <filter id="filter373">
+  <filter id="filter374">
    <property name="mlt_service">avfilter.despill</property>
    <property name="kdenlive_id">avfilter.despill</property>
    <property name="av.type">green</property>
@@ -54855,14 +54864,14 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="kdenlive:collapsed">0</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter374">
+  <filter id="filter375">
    <property name="version">0.1</property>
    <property name="mlt_service">frei0r.hqdn3d</property>
    <property name="kdenlive_id">frei0r.hqdn3d</property>
    <property name="Spatial">00:00:00.000=0.01</property>
    <property name="Temporal">00:00:00.000=0.01</property>
   </filter>
-  <filter id="filter375">
+  <filter id="filter376">
    <property name="version">0.6</property>
    <property name="mlt_service">frei0r.select0r</property>
    <property name="kdenlive_id">frei0r.select0r</property>
@@ -54877,7 +54886,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="Slope">00:00:00.000=0.325</property>
    <property name="Operation">0.5</property>
   </filter>
-  <filter id="filter376">
+  <filter id="filter377">
    <property name="mlt_service">avfilter.despill</property>
    <property name="kdenlive_id">avfilter.despill</property>
    <property name="av.type">green</property>
@@ -54889,7 +54898,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="av.brightness">0</property>
   </filter>
  </producer>
- <producer id="producer170" in="00:00:00.000" out="00:01:59.433">
+ <producer id="producer169" in="00:00:00.000" out="00:01:59.433">
   <property name="length">3584</property>
   <property name="eof">pause</property>
   <property name="resource">/home/ryankelln/.cache/kdenlive/proxy/ae9d9a1ea608f68f4887360253e6d40b.mkv</property>
@@ -55001,8 +55010,41 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <filter id="filter378">
+   <property name="version">0.1</property>
+   <property name="mlt_service">frei0r.hqdn3d</property>
+   <property name="kdenlive_id">frei0r.hqdn3d</property>
+   <property name="Spatial">00:00:00.000=0.01</property>
+   <property name="Temporal">00:00:00.000=0.01</property>
+  </filter>
+  <filter id="filter379">
+   <property name="version">0.6</property>
+   <property name="mlt_service">frei0r.select0r</property>
+   <property name="kdenlive_id">frei0r.select0r</property>
+   <property name="Color to select">0x59a774ff</property>
+   <property name="Invert selection">1</property>
+   <property name="Selection subspace">1</property>
+   <property name="Subspace shape">0</property>
+   <property name="Edge mode">0.9</property>
+   <property name="Delta R / A / Hue">00:00:00.000=0.056</property>
+   <property name="Delta G / B / Chroma">00:00:00.000=0.072</property>
+   <property name="Delta B / I / I">00:00:00.000=0.14</property>
+   <property name="Slope">00:00:00.000=0.325</property>
+   <property name="Operation">0.5</property>
+  </filter>
+  <filter id="filter380">
+   <property name="mlt_service">avfilter.despill</property>
+   <property name="kdenlive_id">avfilter.despill</property>
+   <property name="av.type">green</property>
+   <property name="av.mix">0.09</property>
+   <property name="av.expand">0.024</property>
+   <property name="av.red">0</property>
+   <property name="av.green">-1</property>
+   <property name="av.blue">-0.7</property>
+   <property name="av.brightness">0</property>
+  </filter>
  </producer>
- <producer id="producer169" in="00:00:00.000" out="00:00:27.033">
+ <producer id="producer170" in="00:00:00.000" out="00:00:27.033">
   <property name="length">812</property>
   <property name="eof">pause</property>
   <property name="resource">/home/ryankelln/.cache/kdenlive/proxy/e1edf7bf1bc039ef50e617f39e19f001.mkv</property>
@@ -55111,7 +55153,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <entry producer="producer167" in="00:00:00.067" out="00:00:19.400">
    <property name="kdenlive:id">70</property>
    <property name="kdenlive:activeeffect">2</property>
-   <filter id="filter378">
+   <filter id="filter381">
     <property name="lift_r">-0.4</property>
     <property name="lift_g">-0.4</property>
     <property name="lift_b">-0.4</property>
@@ -55125,7 +55167,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive_id">lift_gamma_gain</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter379">
+   <filter id="filter382">
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
@@ -55138,7 +55180,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Luma formula">1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter380">
+   <filter id="filter383">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.hqdn3d</property>
     <property name="kdenlive_id">frei0r.hqdn3d</property>
@@ -55146,7 +55188,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="Temporal">00:00:00.067=0.25</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter381" in="00:00:00.067" out="00:00:01.567">
+   <filter id="filter384" in="00:00:00.067" out="00:00:01.567">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -55158,7 +55200,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <entry producer="producer168" in="00:00:19.433" out="00:00:27.433">
    <property name="kdenlive:id">70</property>
    <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter382">
+   <filter id="filter385">
     <property name="lift_r">-0.4</property>
     <property name="lift_g">-0.4</property>
     <property name="lift_b">-0.4</property>
@@ -55172,7 +55214,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive_id">lift_gamma_gain</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter383">
+   <filter id="filter386">
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.coloradj_RGB</property>
     <property name="kdenlive_id">frei0r.coloradj_RGB</property>
@@ -55186,7 +55228,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive:collapsed">0</property>
     <property name="disable">0</property>
    </filter>
-   <filter id="filter384">
+   <filter id="filter387">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">0</property>
@@ -55595,7 +55637,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
 </property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter385" in="00:00:25.167" out="00:00:27.433">
+   <filter id="filter388" in="00:00:25.167" out="00:00:27.433">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -55607,7 +55649,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <blank length="00:00:50.967"/>
   <entry producer="producer166" in="00:00:01.567" out="00:00:25.633">
    <property name="kdenlive:id">56</property>
-   <filter id="filter386">
+   <filter id="filter389">
     <property name="version">0.3</property>
     <property name="mlt_service">frei0r.sopsat</property>
     <property name="kdenlive_id">frei0r.sopsat</property>
@@ -55626,7 +55668,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="saturation">00:00:01.567=0.1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter387">
+   <filter id="filter390">
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.vignette</property>
     <property name="kdenlive_id">frei0r.vignette</property>
@@ -55637,9 +55679,9 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    </filter>
   </entry>
   <blank length="00:00:11.133"/>
-  <entry producer="producer170" in="00:00:36.800" out="00:00:58.533">
+  <entry producer="producer169" in="00:00:36.800" out="00:00:58.533">
    <property name="kdenlive:id">56</property>
-   <filter id="filter388" in="00:00:36.800" out="00:00:37.867">
+   <filter id="filter391" in="00:00:36.800" out="00:00:37.867">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -55647,7 +55689,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter389">
+   <filter id="filter392">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">0</property>
@@ -55858,7 +55900,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
 </property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter390">
+   <filter id="filter393">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -55868,7 +55910,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="distort">0</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter391" in="00:00:57.367" out="00:00:58.533">
+   <filter id="filter394" in="00:00:57.367" out="00:00:58.533">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -55879,7 +55921,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   </entry>
   <entry producer="producer166" in="00:00:58.567" out="00:01:56.133">
    <property name="kdenlive:id">56</property>
-   <filter id="filter392">
+   <filter id="filter395">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">0</property>
@@ -56090,7 +56132,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
 </property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter393">
+   <filter id="filter396">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
     <property name="kdenlive_id">qtblend</property>
@@ -56101,7 +56143,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer169" in="00:00:23.033" out="00:00:27.033">
+  <entry producer="producer170" in="00:00:23.033" out="00:00:27.033">
    <property name="kdenlive:id">57</property>
   </entry>
  </playlist>
@@ -56252,7 +56294,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <blank length="00:03:58.400"/>
   <entry producer="producer171" in="00:00:00.000" out="00:01:38.833">
    <property name="kdenlive:id">51</property>
-   <filter id="filter394">
+   <filter id="filter397">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.hqdn3d</property>
     <property name="kdenlive_id">frei0r.hqdn3d</property>
@@ -56261,7 +56303,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive:collapsed">0</property>
     <property name="disable">1</property>
    </filter>
-   <filter id="filter395">
+   <filter id="filter398">
     <property name="version">0.6</property>
     <property name="mlt_service">frei0r.select0r</property>
     <property name="kdenlive_id">frei0r.select0r</property>
@@ -56278,7 +56320,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive:collapsed">0</property>
     <property name="disable">1</property>
    </filter>
-   <filter id="filter396">
+   <filter id="filter399">
     <property name="mode">alpha</property>
     <property name="alpha_operation">add</property>
     <property name="invert">0</property>
@@ -56770,7 +56812,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive:collapsed">0</property>
     <property name="disable">1</property>
    </filter>
-   <filter id="filter397">
+   <filter id="filter400">
     <property name="mode">alpha</property>
     <property name="alpha_operation">sub</property>
     <property name="invert">0</property>
@@ -59306,7 +59348,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive:collapsed">0</property>
     <property name="disable">1</property>
    </filter>
-   <filter id="filter398">
+   <filter id="filter401">
     <property name="version">0.3</property>
     <property name="mlt_service">frei0r.keyspillm0pup</property>
     <property name="kdenlive_id">frei0r.keyspillm0pup</property>
@@ -59326,7 +59368,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive:collapsed">0</property>
     <property name="disable">1</property>
    </filter>
-   <filter id="filter399">
+   <filter id="filter402">
     <property name="version">0.2</property>
     <property name="mlt_service">frei0r.vignette</property>
     <property name="kdenlive_id">frei0r.vignette</property>
@@ -59336,7 +59378,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="kdenlive:collapsed">0</property>
     <property name="disable">1</property>
    </filter>
-   <filter id="filter400">
+   <filter id="filter403">
     <property name="mlt_service">avfilter.despill</property>
     <property name="kdenlive_id">avfilter.despill</property>
     <property name="av.type">green</property>
@@ -59472,7 +59514,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
   <entry producer="producer173" in="00:00:00.000" out="00:00:46.267">
    <property name="kdenlive:id">74</property>
    <property name="kdenlive:activeeffect">1</property>
-   <filter id="filter401" in="00:00:45.400" out="00:00:46.267">
+   <filter id="filter404" in="00:00:45.400" out="00:00:46.267">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -59480,7 +59522,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
     <property name="alpha">-1</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
-   <filter id="filter402" out="00:00:00.300">
+   <filter id="filter405" out="00:00:00.300">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -59662,7 +59704,142 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="0">00:00:00.000=0.45</property>
    <property name="1">hslluminosity</property>
   </transition>
-  <transition id="transition13" in="00:02:25.867" out="00:02:26.267">
+  <transition id="transition13" in="00:14:30.200" out="00:14:59.467">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="rect">00:00:00.000=-768 -432 3456 1944 0.200000</property>
+   <property name="compositing">14</property>
+   <property name="distort">0</property>
+   <property name="rotate_center">1</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="kdenlive_id">qtblend</property>
+   <property name="rotation">00:00:00.000=0</property>
+  </transition>
+  <transition id="transition14" in="00:00:12.400" out="00:00:39.433">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="0">00:00:00.000=0;00:00:02.133=0.15;00:00:03.533=0;00:00:04.600=0.15;00:00:06.467=0.1;00:00:07.133=0;00:00:08.067=0.2;00:00:09.600=0.1;00:00:10.867=0;00:00:12.067=0.2;00:00:13.333=0.1;00:00:14.700=0;00:00:15.933=0.25;00:00:16.433=0.1;00:00:18.367=0;00:00:19.667=0.2;00:00:20.767=0.1;00:00:22.000=0;00:00:23.767=0.2;00:00:27.033=0</property>
+   <property name="1">add</property>
+  </transition>
+  <transition id="transition15" in="00:10:59.933" out="00:11:02.900">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition16" in="00:01:21.933" out="00:01:23.733">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition17" in="00:15:38.300" out="00:16:08.067">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="rect">00:00:00.000=0 0 1920 1080 0.650000</property>
+   <property name="compositing">17</property>
+   <property name="distort">0</property>
+   <property name="rotate_center">1</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="kdenlive_id">qtblend</property>
+   <property name="rotation">00:00:00.000=0</property>
+  </transition>
+  <transition id="transition18" in="00:12:26.533" out="00:13:31.433">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="rect">00:00:00.000=-96 -54 2112 1188 1.000000</property>
+   <property name="compositing">17</property>
+   <property name="distort">0</property>
+   <property name="rotate_center">1</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="kdenlive_id">qtblend</property>
+   <property name="rotation">00:00:00.000=0</property>
+  </transition>
+  <transition id="transition19" in="00:05:07.000" out="00:05:57.333">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="force_track">1</property>
+   <property name="0">00:00:00.000=1</property>
+   <property name="1">lighten</property>
+  </transition>
+  <transition id="transition20" in="00:11:56.800" out="00:12:11.600">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="rect">00:00:00.000=0 0 1920 1080 1</property>
+   <property name="compositing">12</property>
+   <property name="distort">0</property>
+   <property name="rotate_center">1</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="kdenlive_id">qtblend</property>
+   <property name="rotation">00:00:00.000=0</property>
+  </transition>
+  <transition id="transition21" in="00:13:31.467" out="00:14:08.533">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="0">00:00:00.000=0.76</property>
+   <property name="1">softlight</property>
+  </transition>
+  <transition id="transition22" in="00:02:12.367" out="00:02:13.233">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition23" in="00:00:54.000" out="00:01:10.400">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="rect">00:00:00.000=0 0 1920 1080 1</property>
+   <property name="compositing">14</property>
+   <property name="distort">0</property>
+   <property name="rotate_center">1</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="kdenlive_id">qtblend</property>
+   <property name="rotation">00:00:00.000=0</property>
+  </transition>
+  <transition id="transition24" in="00:01:44.033" out="00:01:50.467">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="version">0.2</property>
+   <property name="mlt_service">frei0r.screen</property>
+   <property name="kdenlive_id">frei0r.screen</property>
+  </transition>
+  <transition id="transition25" in="00:02:25.867" out="00:02:26.267">
    <property name="a_track">4</property>
    <property name="b_track">5</property>
    <property name="start">0/0:100%x100%</property>
@@ -59677,68 +59854,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition14" in="00:10:59.933" out="00:11:02.900">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition15" in="00:01:21.933" out="00:01:23.733">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition16" in="00:15:38.300" out="00:16:08.067">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
-   <property name="rect">00:00:00.000=0 0 1920 1080 0.650000</property>
-   <property name="compositing">17</property>
-   <property name="distort">0</property>
-   <property name="rotate_center">1</property>
-   <property name="mlt_service">qtblend</property>
-   <property name="kdenlive_id">qtblend</property>
-   <property name="rotation">00:00:00.000=0</property>
-  </transition>
-  <transition id="transition17" in="00:12:26.533" out="00:13:31.433">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
-   <property name="rect">00:00:00.000=-96 -54 2112 1188 1.000000</property>
-   <property name="compositing">17</property>
-   <property name="distort">0</property>
-   <property name="rotate_center">1</property>
-   <property name="mlt_service">qtblend</property>
-   <property name="kdenlive_id">qtblend</property>
-   <property name="rotation">00:00:00.000=0</property>
-  </transition>
-  <transition id="transition18" in="00:00:12.400" out="00:00:39.433">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="0">00:00:00.000=0;00:00:02.133=0.15;00:00:03.533=0;00:00:04.600=0.15;00:00:06.467=0.1;00:00:07.133=0;00:00:08.067=0.2;00:00:09.600=0.1;00:00:10.867=0;00:00:12.067=0.2;00:00:13.333=0.1;00:00:14.700=0;00:00:15.933=0.25;00:00:16.433=0.1;00:00:18.367=0;00:00:19.667=0.2;00:00:20.767=0.1;00:00:22.000=0;00:00:23.767=0.2;00:00:27.033=0</property>
-   <property name="1">add</property>
-  </transition>
-  <transition id="transition19" in="00:14:08.567" out="00:14:26.133">
+  <transition id="transition26" in="00:14:08.567" out="00:14:26.133">
    <property name="a_track">4</property>
    <property name="b_track">5</property>
    <property name="version">0.9</property>
@@ -59747,91 +59863,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="0">00:00:00.000=0.74</property>
    <property name="1">lighten</property>
   </transition>
-  <transition id="transition20" in="00:13:31.467" out="00:14:08.533">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="0">00:00:00.000=0.76</property>
-   <property name="1">softlight</property>
-  </transition>
-  <transition id="transition21" in="00:02:12.367" out="00:02:13.233">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition22" in="00:00:54.000" out="00:01:10.400">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
-   <property name="rect">00:00:00.000=0 0 1920 1080 1</property>
-   <property name="compositing">14</property>
-   <property name="distort">0</property>
-   <property name="rotate_center">1</property>
-   <property name="mlt_service">qtblend</property>
-   <property name="kdenlive_id">qtblend</property>
-   <property name="rotation">00:00:00.000=0</property>
-  </transition>
-  <transition id="transition23" in="00:01:44.033" out="00:01:50.467">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
-   <property name="version">0.2</property>
-   <property name="mlt_service">frei0r.screen</property>
-   <property name="kdenlive_id">frei0r.screen</property>
-  </transition>
-  <transition id="transition24" in="00:14:30.200" out="00:14:59.467">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
-   <property name="rect">00:00:00.000=-768 -432 3456 1944 0.200000</property>
-   <property name="compositing">14</property>
-   <property name="distort">0</property>
-   <property name="rotate_center">1</property>
-   <property name="mlt_service">qtblend</property>
-   <property name="kdenlive_id">qtblend</property>
-   <property name="rotation">00:00:00.000=0</property>
-  </transition>
-  <transition id="transition25" in="00:05:07.000" out="00:05:57.333">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="force_track">1</property>
-   <property name="0">00:00:00.000=1</property>
-   <property name="1">lighten</property>
-  </transition>
-  <transition id="transition26" in="00:11:56.800" out="00:12:11.600">
-   <property name="a_track">4</property>
-   <property name="b_track">5</property>
-   <property name="rect">00:00:00.000=0 0 1920 1080 1</property>
-   <property name="compositing">12</property>
-   <property name="distort">0</property>
-   <property name="rotate_center">1</property>
-   <property name="mlt_service">qtblend</property>
-   <property name="kdenlive_id">qtblend</property>
-   <property name="rotation">00:00:00.000=0</property>
-  </transition>
-  <transition id="transition27" in="00:13:31.467" out="00:13:57.767">
-   <property name="a_track">4</property>
-   <property name="b_track">6</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="force_track">1</property>
-   <property name="0">00:00:00.000=0.26</property>
-   <property name="1">lighten</property>
-  </transition>
-  <transition id="transition28" in="00:01:09.000" out="00:01:22.567">
+  <transition id="transition27" in="00:01:09.000" out="00:01:21.900">
    <property name="a_track">4</property>
    <property name="b_track">6</property>
    <property name="version">0.9</property>
@@ -59840,6 +59872,16 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="force_track">1</property>
    <property name="0">00:00:00.000=0.28;00:00:05.667=0.55;00:00:06.967=0.5;00:00:07.067=0.06;00:00:07.400=0.75</property>
    <property name="1">multiply</property>
+  </transition>
+  <transition id="transition28" in="00:13:31.467" out="00:13:57.767">
+   <property name="a_track">4</property>
+   <property name="b_track">6</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="force_track">1</property>
+   <property name="0">00:00:00.000=0.26</property>
+   <property name="1">lighten</property>
   </transition>
   <transition id="transition29" in="00:05:07.000" out="00:05:57.333">
    <property name="a_track">4</property>
@@ -59998,7 +60040,17 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition44" in="00:13:57.800" out="00:14:08.533">
+  <transition id="transition44" in="00:01:23.333" out="00:01:52.833">
+   <property name="a_track">3</property>
+   <property name="b_track">6</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="force_track">1</property>
+   <property name="0">00:00:00.000=0.8;00:00:05.967~=0.88;00:00:20.700=0.277053;00:00:20.867=0.714286;00:00:21.267=0.272842;00:00:21.533=0.72;00:00:22.833~=0.15;00:00:23.900=0.1;00:00:24.067=0.535714;00:00:24.700=0.215185;00:00:24.800=0.607143;00:00:25.433~=0.05;00:00:29.500~=0.28047</property>
+   <property name="1">add</property>
+  </transition>
+  <transition id="transition45" in="00:13:57.800" out="00:14:08.533">
    <property name="a_track">3</property>
    <property name="b_track">6</property>
    <property name="version">0.9</property>
@@ -60008,7 +60060,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="0">00:00:00.000=0.66</property>
    <property name="1">lighten</property>
   </transition>
-  <transition id="transition45" in="00:04:35.100" out="00:04:45.800">
+  <transition id="transition46" in="00:04:35.100" out="00:04:45.800">
    <property name="a_track">3</property>
    <property name="b_track">6</property>
    <property name="version">0.9</property>
@@ -60017,16 +60069,6 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="force_track">1</property>
    <property name="0">00:00:00.000=0.46</property>
    <property name="1">screen</property>
-  </transition>
-  <transition id="transition46" in="00:01:23.333" out="00:01:52.833">
-   <property name="a_track">3</property>
-   <property name="b_track">6</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="force_track">1</property>
-   <property name="0">00:00:00.000=0.8;00:00:05.967~=0.88;00:00:20.700=0.277053;00:00:20.867=0.714286;00:00:21.267=0.272842;00:00:21.533=0.72;00:00:22.833~=0.15;00:00:23.900=0.1;00:00:24.067=0.535714;00:00:24.700=0.215185;00:00:24.800=0.607143;00:00:25.433~=0.05;00:00:29.500~=0.28047</property>
-   <property name="1">add</property>
   </transition>
   <transition id="transition47" in="00:01:25.433" out="00:01:43.067">
    <property name="a_track">3</property>
@@ -60055,7 +60097,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="mlt_service">frei0r.cairoblend</property>
    <property name="kdenlive_id">frei0r.cairoblend</property>
    <property name="force_track">1</property>
-   <property name="0">00:00:00.000=0.3</property>
+   <property name="0">00:00:00.000=0.25</property>
    <property name="1">lighten</property>
   </transition>
   <transition id="transition50" in="00:00:37.700" out="00:00:42.267">
@@ -60078,15 +60120,15 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="0">00:00:00.000=0;00:00:07.400=0.47;00:00:10.533=0.08</property>
    <property name="1">add</property>
   </transition>
-  <transition id="transition52" in="00:04:50.267" out="00:05:05.200">
+  <transition id="transition52" in="00:02:06.333" out="00:02:13.233">
    <property name="a_track">3</property>
    <property name="b_track">9</property>
    <property name="version">0.9</property>
    <property name="mlt_service">frei0r.cairoblend</property>
    <property name="kdenlive_id">frei0r.cairoblend</property>
    <property name="force_track">1</property>
-   <property name="0">00:00:00.000=0.1</property>
-   <property name="1">screen</property>
+   <property name="0">00:00:00.000=0.45</property>
+   <property name="1">hslluminosity</property>
   </transition>
   <transition id="transition53" in="00:04:24.333" out="00:04:50.233">
    <property name="a_track">3</property>
@@ -60098,27 +60140,17 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="0">00:00:00.000=0.18;00:00:12.367=0.18;00:00:13.000=0.45;00:00:18.500=0.33;00:00:25.900=0.1</property>
    <property name="1">lighten</property>
   </transition>
-  <transition id="transition54" in="00:02:06.333" out="00:02:13.233">
+  <transition id="transition54" in="00:04:50.267" out="00:05:05.200">
    <property name="a_track">3</property>
    <property name="b_track">9</property>
    <property name="version">0.9</property>
    <property name="mlt_service">frei0r.cairoblend</property>
    <property name="kdenlive_id">frei0r.cairoblend</property>
    <property name="force_track">1</property>
-   <property name="0">00:00:00.000=0.45</property>
-   <property name="1">hslluminosity</property>
+   <property name="0">00:00:00.000=0.1</property>
+   <property name="1">screen</property>
   </transition>
-  <transition id="transition55" in="00:02:41.500" out="00:03:08.867">
-   <property name="a_track">3</property>
-   <property name="b_track">10</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="force_track">1</property>
-   <property name="0">00:00:00.000=0.11</property>
-   <property name="1">softlight</property>
-  </transition>
-  <transition id="transition56" in="00:04:50.267" out="00:05:05.200">
+  <transition id="transition55" in="00:04:50.267" out="00:05:05.200">
    <property name="a_track">3</property>
    <property name="b_track">10</property>
    <property name="version">0.9</property>
@@ -60128,17 +60160,17 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="0">00:00:00.000=0.6</property>
    <property name="1">softlight</property>
   </transition>
-  <transition id="transition57" in="00:01:08.633" out="00:01:11.400">
+  <transition id="transition56" in="00:02:41.500" out="00:03:08.867">
    <property name="a_track">3</property>
-   <property name="b_track">11</property>
+   <property name="b_track">10</property>
    <property name="version">0.9</property>
    <property name="mlt_service">frei0r.cairoblend</property>
    <property name="kdenlive_id">frei0r.cairoblend</property>
    <property name="force_track">1</property>
-   <property name="0">00:00:00.000=0.46</property>
-   <property name="1">screen</property>
+   <property name="0">00:00:00.000=0.11</property>
+   <property name="1">softlight</property>
   </transition>
-  <transition id="transition58" in="00:04:24.333" out="00:04:50.233">
+  <transition id="transition57" in="00:04:24.333" out="00:04:50.233">
    <property name="a_track">3</property>
    <property name="b_track">11</property>
    <property name="version">0.9</property>
@@ -60147,6 +60179,16 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="force_track">1</property>
    <property name="0">00:00:00.000=0.52</property>
    <property name="1">softlight</property>
+  </transition>
+  <transition id="transition58" in="00:00:40.700" out="00:00:50.067">
+   <property name="a_track">3</property>
+   <property name="b_track">11</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="force_track">1</property>
+   <property name="0">00:00:00.000=0.8</property>
+   <property name="1">lighten</property>
   </transition>
   <transition id="transition59" in="00:02:25.867" out="00:02:43.333">
    <property name="a_track">3</property>
@@ -60158,15 +60200,15 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="0">00:00:00.000=0.56</property>
    <property name="1">lighten</property>
   </transition>
-  <transition id="transition60" in="00:00:40.700" out="00:00:50.067">
+  <transition id="transition60" in="00:01:08.633" out="00:01:11.400">
    <property name="a_track">3</property>
    <property name="b_track">11</property>
    <property name="version">0.9</property>
    <property name="mlt_service">frei0r.cairoblend</property>
    <property name="kdenlive_id">frei0r.cairoblend</property>
    <property name="force_track">1</property>
-   <property name="0">00:00:00.000=0.8</property>
-   <property name="1">lighten</property>
+   <property name="0">00:00:00.000=0.46</property>
+   <property name="1">screen</property>
   </transition>
   <transition id="transition61" in="00:03:04.333" out="00:04:00.333">
    <property name="a_track">3</property>
@@ -60178,17 +60220,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="0">00:00:00.000=0.19;00:00:11.867=0.15;00:00:13.300=0.36;00:00:19.200=0.24;00:00:27.633=0.28;00:00:28.200=0.28;00:00:32.133=0.27</property>
    <property name="1">lighten</property>
   </transition>
-  <transition id="transition62" in="00:03:21.900" out="00:03:37.033">
-   <property name="a_track">3</property>
-   <property name="b_track">12</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="0">00:00:00.000=0.09;00:00:01.067=0.36</property>
-   <property name="1">lighten</property>
-   <property name="force_track">1</property>
-  </transition>
-  <transition id="transition63" in="00:05:54.467" out="00:05:57.333">
+  <transition id="transition62" in="00:05:54.467" out="00:05:57.333">
    <property name="a_track">3</property>
    <property name="b_track">12</property>
    <property name="version">0.9</property>
@@ -60198,7 +60230,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="0">00:00:00.000=0.39;00:00:01.467=0.5;00:00:02.200=0.73;00:00:02.867|=0.97</property>
    <property name="1">add</property>
   </transition>
-  <transition id="transition64" in="00:03:04.333" out="00:03:21.867">
+  <transition id="transition63" in="00:03:04.333" out="00:03:21.867">
    <property name="a_track">3</property>
    <property name="b_track">12</property>
    <property name="version">0.9</property>
@@ -60207,6 +60239,16 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="force_track">1</property>
    <property name="0">00:00:00.000=0.47</property>
    <property name="1">overlay</property>
+  </transition>
+  <transition id="transition64" in="00:03:21.900" out="00:03:37.033">
+   <property name="a_track">3</property>
+   <property name="b_track">12</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="0">00:00:00.000=0.09;00:00:01.067=0.36</property>
+   <property name="1">lighten</property>
+   <property name="force_track">1</property>
   </transition>
   <transition id="transition65" in="00:00:50.100" out="00:01:01.833">
    <property name="a_track">3</property>
@@ -60228,17 +60270,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="0">00:00:00.000=0.29</property>
    <property name="1">softlight</property>
   </transition>
-  <transition id="transition67" in="00:04:00.367" out="00:04:23.933">
-   <property name="a_track">3</property>
-   <property name="b_track">14</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="force_track">1</property>
-   <property name="0">00:00:00.000=0.52</property>
-   <property name="1">lighten</property>
-  </transition>
-  <transition id="transition68" in="00:02:41.500" out="00:03:08.867">
+  <transition id="transition67" in="00:02:41.500" out="00:03:08.867">
    <property name="a_track">3</property>
    <property name="b_track">14</property>
    <property name="version">0.9</property>
@@ -60248,7 +60280,7 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="0">00:00:00.000=0.57</property>
    <property name="1">lighten</property>
   </transition>
-  <transition id="transition69" in="00:04:35.100" out="00:04:56.833">
+  <transition id="transition68" in="00:04:35.100" out="00:04:56.833">
    <property name="a_track">3</property>
    <property name="b_track">14</property>
    <property name="version">0.9</property>
@@ -60256,6 +60288,16 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="kdenlive_id">frei0r.cairoblend</property>
    <property name="force_track">1</property>
    <property name="0">00:00:00.000=0.54</property>
+   <property name="1">lighten</property>
+  </transition>
+  <transition id="transition69" in="00:04:00.367" out="00:04:23.933">
+   <property name="a_track">3</property>
+   <property name="b_track">14</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="force_track">1</property>
+   <property name="0">00:00:00.000=0.52</property>
    <property name="1">lighten</property>
   </transition>
   <transition id="transition70" in="00:03:37.067" out="00:04:23.367">
@@ -60447,21 +60489,21 @@ Segment-Durations-Ms: 5259,5260,5259(r=1),5260,5259(r=1),5260,5259(r=2),5260,525
    <property name="internal_added">237</property>
    <property name="always_active">1</property>
   </transition>
-  <filter id="filter403">
+  <filter id="filter406">
    <property name="window">75</property>
    <property name="max_gain">20dB</property>
    <property name="mlt_service">volume</property>
    <property name="internal_added">237</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter404">
+  <filter id="filter407">
    <property name="channel">-1</property>
    <property name="mlt_service">panner</property>
    <property name="internal_added">237</property>
    <property name="start">0.5</property>
    <property name="disable">1</property>
   </filter>
-  <filter id="filter377">
+  <filter id="filter408">
    <property name="iec_scale">0</property>
    <property name="mlt_service">audiolevel</property>
    <property name="disable">1</property>
