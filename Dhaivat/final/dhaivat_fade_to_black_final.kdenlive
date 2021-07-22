@@ -3815,7 +3815,7 @@
   <property name="global_feed">1</property>
  </producer>
  <playlist id="main_bin">
-  <property name="kdenlive:docproperties.activeTrack">5</property>
+  <property name="kdenlive:docproperties.activeTrack">3</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
   <property name="kdenlive:docproperties.audioTarget">-1</property>
   <property name="kdenlive:docproperties.disablepreview">0</property>
@@ -3938,7 +3938,7 @@
 ]
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">21.04.3</property>
-  <property name="kdenlive:docproperties.position">9160</property>
+  <property name="kdenlive:docproperties.position">5184</property>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
   <property name="kdenlive:docproperties.profile">atsc_1080p_30</property>
@@ -3947,15 +3947,15 @@
   <property name="kdenlive:docproperties.proxyimagesize">800</property>
   <property name="kdenlive:docproperties.proxyminsize">1000</property>
   <property name="kdenlive:docproperties.proxyparams"/>
-  <property name="kdenlive:docproperties.renderaudioquality">256</property>
+  <property name="kdenlive:docproperties.renderaudioquality">192</property>
   <property name="kdenlive:docproperties.rendercategory">Generic (HD for web, mobile devices...)</property>
-  <property name="kdenlive:docproperties.renderendguide">0</property>
+  <property name="kdenlive:docproperties.renderendguide">20</property>
   <property name="kdenlive:docproperties.renderexportaudio">0</property>
   <property name="kdenlive:docproperties.renderfield">0</property>
-  <property name="kdenlive:docproperties.renderguide">0</property>
+  <property name="kdenlive:docproperties.renderguide">1</property>
   <property name="kdenlive:docproperties.renderplay">0</property>
   <property name="kdenlive:docproperties.renderprofile">MP4-H264/AAC</property>
-  <property name="kdenlive:docproperties.renderquality">24</property>
+  <property name="kdenlive:docproperties.renderquality">21</property>
   <property name="kdenlive:docproperties.renderratio">1</property>
   <property name="kdenlive:docproperties.renderrescale">0</property>
   <property name="kdenlive:docproperties.renderrescaleheight">540</property>
@@ -3966,16 +3966,16 @@
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">0</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">fade_to_black_v2.mp4</property>
-  <property name="kdenlive:docproperties.renderzone">1</property>
-  <property name="kdenlive:docproperties.scrollPos">179</property>
+  <property name="kdenlive:docproperties.renderurl">fade_to_black_final.mp4</property>
+  <property name="kdenlive:docproperties.renderzone">0</property>
+  <property name="kdenlive:docproperties.scrollPos">0</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
   <property name="kdenlive:docproperties.version">1</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videoTarget">-1</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">9215</property>
-  <property name="kdenlive:docproperties.zoom">11</property>
+  <property name="kdenlive:docproperties.zoom">8</property>
   <property name="kdenlive:expandedFolders">84</property>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:folder.-1.65">musicians</property>
@@ -4345,7 +4345,7 @@
  <playlist id="playlist4">
   <entry producer="producer81" in="00:00:00.000" out="00:01:16.000">
    <property name="kdenlive:id">30</property>
-   <property name="kdenlive:activeeffect">3</property>
+   <property name="kdenlive:activeeffect">2</property>
    <filter id="filter25">
     <property name="rotate_center">1</property>
     <property name="mlt_service">qtblend</property>
@@ -4369,8 +4369,9 @@
     <property name="version">0.3</property>
     <property name="mlt_service">frei0r.saturat0r</property>
     <property name="kdenlive_id">frei0r.saturat0r</property>
-    <property name="Saturation">00:00:00.000=0.244</property>
+    <property name="Saturation">00:00:00.000=0.16</property>
     <property name="kdenlive:collapsed">0</property>
+    <property name="disable">0</property>
    </filter>
    <filter id="filter33">
     <property name="lift_r">0.375006</property>
@@ -4392,6 +4393,7 @@
     <property name="kdenlive_id">fade_from_black</property>
     <property name="end">1</property>
     <property name="alpha">-1</property>
+    <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
   <blank length="00:01:31.967"/>
@@ -4446,7 +4448,7 @@
  </playlist>
  <playlist id="playlist5"/>
  <tractor id="tractor2" in="00:00:00.000" out="00:05:08.067">
-  <property name="kdenlive:trackheight">69</property>
+  <property name="kdenlive:trackheight">85</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:track_name">AI2</property>
@@ -4613,7 +4615,7 @@
  </playlist>
  <playlist id="playlist7"/>
  <tractor id="tractor3" in="00:00:00.000" out="00:05:07.100">
-  <property name="kdenlive:trackheight">69</property>
+  <property name="kdenlive:trackheight">85</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:track_name">AI blend</property>
@@ -4671,6 +4673,8 @@
   <property name="meta.media.color_range">full</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist8">
   <entry producer="producer37" in="00:00:00.000" out="00:04:48.100">
@@ -4694,7 +4698,7 @@
  </playlist>
  <playlist id="playlist9"/>
  <tractor id="tractor4" in="00:00:00.000" out="00:04:48.100">
-  <property name="kdenlive:trackheight">69</property>
+  <property name="kdenlive:trackheight">85</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:track_name">AI</property>
@@ -4753,6 +4757,8 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist10">
   <entry producer="producer38" in="00:00:00.000" out="00:04:54.300">
@@ -4768,7 +4774,7 @@
  </playlist>
  <playlist id="playlist11"/>
  <tractor id="tractor5" in="00:00:00.000" out="00:04:54.300">
-  <property name="kdenlive:trackheight">69</property>
+  <property name="kdenlive:trackheight">85.5</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:track_name">Humanity w musicians</property>
@@ -4846,21 +4852,21 @@
   <property name="kdenlive:original.backup">1</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.frame_rate">24.0245</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.frame_rate">24</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">38524246</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.TIMECODE.markup">06:57:38:03</property>
@@ -4872,17 +4878,23 @@
   <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">24</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.frame_rate_num">91125</property>
+  <property name="meta.media.frame_rate_den">3793</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.timecode.markup">06:57:38:03</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
  </producer>
  <producer id="producer90" in="00:00:00.000" out="00:00:18.000">
   <property name="length">541</property>
@@ -4955,21 +4967,21 @@
   <property name="kdenlive:original.backup">1</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">24</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.frame_rate">24</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">38309254</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.TIMECODE.markup">08:40:44:15</property>
@@ -4983,15 +4995,23 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">24</property>
   <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2021-05-16T16:43:21.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.timecode.markup">08:40:44:15</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.creation_time.markup">2021-05-16T16:43:21.000000Z</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
  </producer>
  <producer id="producer91" in="00:00:00.000" out="00:07:39.900">
   <property name="length">13798</property>
@@ -5626,29 +5646,29 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.939</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">3840</property>
+  <property name="meta.media.0.codec.height">2160</property>
   <property name="meta.media.0.codec.rotate">0</property>
   <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
+  <property name="meta.media.0.codec.name">vp9</property>
+  <property name="meta.media.0.codec.long_name">Google VP9</property>
   <property name="meta.media.0.codec.bit_rate">0</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.0.stream.DURATION.markup">00:08:26.363000000</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">44100</property>
   <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">1411200</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
   <property name="meta.attr.1.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
   <property name="meta.attr.1.stream.DURATION.markup">00:08:26.427000000</property>
-  <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+  <property name="meta.attr.ENCODER.markup">Lavf58.45.100</property>
   <property name="seekable">1</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
@@ -5668,11 +5688,11 @@
   <property name="warp_pitch">0</property>
   <property name="meta.media.frame_rate_num">29939</property>
   <property name="meta.media.frame_rate_den">1000</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">3840</property>
+  <property name="meta.media.height">2160</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
@@ -6865,43 +6885,43 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.frame_rate">29.97</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
   <property name="meta.media.0.codec.bit_rate">0</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
   <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 mjpeg</property>
   <property name="meta.attr.0.stream.DURATION.markup">00:02:01.655000000</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">48000</property>
   <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">1536000</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
   <property name="meta.attr.1.stream.language.markup">eng</property>
   <property name="meta.attr.1.stream.ENCODER.markup">Lavc58.134.100 pcm_s16le</property>
-  <property name="meta.attr.1.stream.DURATION.markup">00:02:01.668000000</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:02:01.681000000</property>
   <property name="meta.attr.MINOR_VERSION.markup">0</property>
   <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6avc1mp41</property>
   <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
-  <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+  <property name="meta.attr.ENCODER.markup">Lavf58.45.100</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">30000</property>
   <property name="meta.media.frame_rate_den">1001</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
@@ -7252,21 +7272,21 @@
   <property name="kdenlive:original.backup">1</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">24</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.frame_rate">24</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">38733598</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.TIMECODE.markup">08:44:31:15</property>
@@ -7280,15 +7300,23 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">24</property>
   <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2020-10-17T07:36:40.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.timecode.markup">08:44:31:15</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.creation_time.markup">2020-10-17T07:36:40.000000Z</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
  </producer>
  <producer id="producer118" in="00:00:00.000" out="00:00:11.000">
   <property name="length">331</property>
@@ -7361,21 +7389,21 @@
   <property name="kdenlive:original.backup">1</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">24</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.frame_rate">24</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">38193358</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.TIMECODE.markup">08:42:47:15</property>
@@ -7389,15 +7417,23 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">24</property>
   <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2021-05-16T16:44:39.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.0.stream.timecode.markup">08:42:47:15</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.creation_time.markup">2021-05-16T16:44:39.000000Z</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
  </producer>
  <producer id="producer119" in="00:00:00.000" out="00:00:08.400">
   <property name="length">253</property>
@@ -7486,30 +7522,30 @@
   <property name="xml">was here</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">30</property>
+  <property name="meta.media.0.stream.frame_rate">29.9191</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.frame_rate">90000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">17089582</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandle</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 mjpeg</property>
   <property name="meta.attr.0.stream.DURATION.markup">00:00:08.433000000</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">48000</property>
   <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">1536000</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">256009</property>
   <property name="meta.attr.1.stream.language.markup">eng</property>
   <property name="meta.attr.1.stream.HANDLER_NAME.markup">SoundHandle</property>
   <property name="meta.attr.1.stream.VENDOR_ID.markup">[0][0][0][0]</property>
@@ -7523,17 +7559,28 @@
   <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">30</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.frame_rate_num">2520000</property>
+  <property name="meta.media.frame_rate_den">84227</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2021-04-24T16:35:48.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandle</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2021-04-24T16:35:48.000000Z</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandle</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.creation_time.markup">2021-04-24T16:35:48.000000Z</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
+  <property name="meta.attr.location-eng.markup">+43.6433-079.4404/</property>
+  <property name="meta.attr.location.markup">+43.6433-079.4404/</property>
  </producer>
  <producer id="producer120" in="00:00:00.000" out="00:07:39.900">
   <property name="length">13798</property>
@@ -7836,40 +7883,40 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.939</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">3840</property>
+  <property name="meta.media.0.codec.height">2160</property>
   <property name="meta.media.0.codec.rotate">0</property>
   <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
+  <property name="meta.media.0.codec.name">vp9</property>
+  <property name="meta.media.0.codec.long_name">Google VP9</property>
   <property name="meta.media.0.codec.bit_rate">0</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 mjpeg</property>
   <property name="meta.attr.0.stream.DURATION.markup">00:08:26.363000000</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">44100</property>
   <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">1411200</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
   <property name="meta.attr.1.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
   <property name="meta.attr.1.stream.ENCODER.markup">Lavc58.134.100 pcm_s16le</property>
   <property name="meta.attr.1.stream.DURATION.markup">00:08:26.427000000</property>
-  <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+  <property name="meta.attr.ENCODER.markup">Lavf58.45.100</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">29939</property>
   <property name="meta.media.frame_rate_den">1000</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">3840</property>
+  <property name="meta.media.height">2160</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
@@ -8436,29 +8483,29 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.939</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">3840</property>
+  <property name="meta.media.0.codec.height">2160</property>
   <property name="meta.media.0.codec.rotate">0</property>
   <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
+  <property name="meta.media.0.codec.name">vp9</property>
+  <property name="meta.media.0.codec.long_name">Google VP9</property>
   <property name="meta.media.0.codec.bit_rate">0</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.0.stream.DURATION.markup">00:08:26.363000000</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">44100</property>
   <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">1411200</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
   <property name="meta.attr.1.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
   <property name="meta.attr.1.stream.DURATION.markup">00:08:26.427000000</property>
-  <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+  <property name="meta.attr.ENCODER.markup">Lavf58.45.100</property>
   <property name="seekable">1</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
@@ -8478,11 +8525,11 @@
   <property name="warp_pitch">0</property>
   <property name="meta.media.frame_rate_num">29939</property>
   <property name="meta.media.frame_rate_den">1000</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">3840</property>
+  <property name="meta.media.height">2160</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
@@ -8616,43 +8663,43 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.frame_rate">29.97</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
   <property name="meta.media.0.codec.bit_rate">0</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
   <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 mjpeg</property>
   <property name="meta.attr.0.stream.DURATION.markup">00:01:53.179000000</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">48000</property>
   <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">1536000</property>
+  <property name="meta.media.1.codec.name">opus</property>
+  <property name="meta.media.1.codec.long_name">Opus</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
   <property name="meta.attr.1.stream.language.markup">eng</property>
   <property name="meta.attr.1.stream.ENCODER.markup">Lavc58.134.100 pcm_s16le</property>
-  <property name="meta.attr.1.stream.DURATION.markup">00:01:53.216000000</property>
+  <property name="meta.attr.1.stream.DURATION.markup">00:01:53.221000000</property>
   <property name="meta.attr.MINOR_VERSION.markup">0</property>
   <property name="meta.attr.COMPATIBLE_BRANDS.markup">iso6avc1mp41</property>
   <property name="meta.attr.MAJOR_BRAND.markup">dash</property>
-  <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+  <property name="meta.attr.ENCODER.markup">Lavf58.45.100</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">30000</property>
   <property name="meta.media.frame_rate_den">1001</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
@@ -9473,29 +9520,29 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.939</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">3840</property>
+  <property name="meta.media.0.codec.height">2160</property>
   <property name="meta.media.0.codec.rotate">0</property>
   <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
+  <property name="meta.media.0.codec.name">vp9</property>
+  <property name="meta.media.0.codec.long_name">Google VP9</property>
   <property name="meta.media.0.codec.bit_rate">0</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.0.stream.DURATION.markup">00:08:26.363000000</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">44100</property>
   <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">1411200</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">0</property>
   <property name="meta.attr.1.stream.HANDLER_NAME.markup">ISO Media file produced by Google Inc.</property>
   <property name="meta.attr.1.stream.DURATION.markup">00:08:26.427000000</property>
-  <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
+  <property name="meta.attr.ENCODER.markup">Lavf58.45.100</property>
   <property name="seekable">1</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
@@ -9515,11 +9562,11 @@
   <property name="warp_pitch">0</property>
   <property name="meta.media.frame_rate_num">29939</property>
   <property name="meta.media.frame_rate_den">1000</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">3840</property>
+  <property name="meta.media.height">2160</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
@@ -9530,19 +9577,19 @@
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">30</property>
+  <property name="meta.media.0.stream.frame_rate">30.0007</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">640</property>
+  <property name="meta.media.0.codec.width">2048</property>
+  <property name="meta.media.0.codec.height">2048</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.frame_rate">16000</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">vp9</property>
+  <property name="meta.media.0.codec.long_name">Google VP9</property>
+  <property name="meta.media.0.codec.bit_rate">5987101</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.major_brand.markup">isom</property>
@@ -9572,13 +9619,13 @@
   <property name="set.test_image">0</property>
   <property name="kdenlive:id">25</property>
   <property name="warp_pitch">0</property>
-  <property name="meta.media.frame_rate_num">30</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.frame_rate_num">427000</property>
+  <property name="meta.media.frame_rate_den">14233</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">640</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">2048</property>
+  <property name="meta.media.height">2048</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
@@ -9623,9 +9670,9 @@
  </playlist>
  <playlist id="playlist17"/>
  <tractor id="tractor8" in="00:00:00.000" out="00:04:55.267">
-  <property name="kdenlive:trackheight">69</property>
+  <property name="kdenlive:trackheight">85.5</property>
   <property name="kdenlive:timeline_active">0</property>
-  <property name="kdenlive:collapsed">28</property>
+  <property name="kdenlive:collapsed">57</property>
   <property name="kdenlive:track_name">Humanity blend</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
@@ -9673,6 +9720,15 @@
   <property name="set.test_image">0</property>
   <property name="kdenlive:id">2</property>
   <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <producer id="producer40" in="00:00:00.000" out="00:05:14.133">
   <property name="length">9425</property>
@@ -9714,6 +9770,15 @@
   <property name="set.test_image">0</property>
   <property name="kdenlive:id">2</property>
   <property name="warp_pitch">0</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist18">
   <entry producer="producer39" in="00:00:01.467" out="00:00:31.400">
@@ -9754,7 +9819,7 @@
  </playlist>
  <playlist id="playlist19"/>
  <tractor id="tractor9" in="00:00:00.000" out="00:04:54.300">
-  <property name="kdenlive:trackheight">64</property>
+  <property name="kdenlive:trackheight">85</property>
   <property name="kdenlive:timeline_active">0</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:track_name">Tree mask</property>
@@ -9823,6 +9888,8 @@
   <property name="meta.media.color_range">mpeg</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist20">
   <blank length="00:00:29.567"/>
@@ -10022,7 +10089,7 @@
  </playlist>
  <playlist id="playlist21"/>
  <tractor id="tractor10" in="00:00:00.000" out="00:04:54.300">
-  <property name="kdenlive:trackheight">69</property>
+  <property name="kdenlive:trackheight">85</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:track_name">Tree leaves</property>
@@ -10103,17 +10170,17 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">30</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.frame_rate">30</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">5018663</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 mjpeg</property>
@@ -10126,15 +10193,20 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">30</property>
   <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf58.76.100</property>
  </producer>
  <playlist id="playlist22">
   <entry producer="producer158" in="00:00:00.000" out="00:03:31.033">
@@ -10504,8 +10576,8 @@
   <property name="kdenlive:track_name">Musicianmask</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
-  <track hide="both" producer="playlist22"/>
+  <property name="kdenlive:locked_track"/>
+  <track hide="audio" producer="playlist22"/>
   <track producer="playlist23"/>
  </tractor>
  <producer id="producer42" in="00:00:00.000" out="00:04:50.600">
@@ -10775,27 +10847,27 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">59.9401</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.frame_rate">59.9401</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">24980173</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 mjpeg</property>
   <property name="meta.attr.0.stream.DURATION.markup">00:04:50.624000000</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">48000</property>
   <property name="meta.media.1.codec.channels">6</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">4608000</property>
+  <property name="meta.media.1.codec.name">ac3</property>
+  <property name="meta.media.1.codec.long_name">ATSC A/52A (AC-3)</property>
+  <property name="meta.media.1.codec.bit_rate">448000</property>
   <property name="meta.attr.1.stream.HANDLER_NAME.markup">SoundHandler</property>
   <property name="meta.attr.1.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.1.stream.ENCODER.markup">Lavc58.134.100 pcm_s16le</property>
@@ -10806,17 +10878,23 @@
   <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">19001</property>
-  <property name="meta.media.frame_rate_den">317</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.frame_rate_num">1561770000</property>
+  <property name="meta.media.frame_rate_den">26055529</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
  </producer>
  <playlist id="playlist24">
   <blank length="00:00:10.567"/>
@@ -14536,27 +14614,27 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">59.9401</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1.33333</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.width">1440</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.frame_rate">29.97</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1.33333</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">6688996</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 mjpeg</property>
   <property name="meta.attr.0.stream.DURATION.markup">00:04:43.467000000</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">48000</property>
   <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">1536000</property>
+  <property name="meta.media.1.codec.name">ac3</property>
+  <property name="meta.media.1.codec.long_name">ATSC A/52A (AC-3)</property>
+  <property name="meta.media.1.codec.bit_rate">256000</property>
   <property name="meta.attr.1.stream.HANDLER_NAME.markup">SoundHandler</property>
   <property name="meta.attr.1.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.1.stream.ENCODER.markup">Lavc58.134.100 pcm_s16le</property>
@@ -14567,17 +14645,23 @@
   <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
   <property name="meta.media.sample_aspect_num">4</property>
   <property name="meta.media.sample_aspect_den">3</property>
-  <property name="meta.media.frame_rate_num">19001</property>
-  <property name="meta.media.frame_rate_den">317</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.frame_rate_num">60000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">480</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">1440</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
  </producer>
  <producer id="producer155" in="00:00:00.000" out="00:04:43.367">
   <property name="length">8502</property>
@@ -15050,17 +15134,17 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1280</property>
+  <property name="meta.media.0.codec.height">720</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
+  <property name="meta.media.0.codec.frame_rate">30000</property>
   <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.0.codec.colorspace">601</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">31631631</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">FFMP</property>
@@ -15088,13 +15172,22 @@
   <property name="meta.media.frame_rate_den">1001</property>
   <property name="meta.media.colorspace">601</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
+  <property name="meta.media.width">1280</property>
+  <property name="meta.media.height">720</property>
   <property name="meta.media.color_range">full</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2021-06-02T15:23:31.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2021-06-02T15:23:31.000000Z</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.creation_time.markup">2021-06-02T15:23:31.000000Z</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
  </producer>
  <producer id="producer163" in="00:00:00.000" out="00:05:04.367">
   <property name="length">9132</property>
@@ -15951,28 +16044,28 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.width">3328</property>
+  <property name="meta.media.0.codec.height">2496</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
+  <property name="meta.media.0.codec.frame_rate">29.97</property>
   <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">95803943</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 mjpeg</property>
   <property name="meta.attr.0.stream.DURATION.markup">00:04:49.355000000</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">48000</property>
   <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">1536000</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">125375</property>
   <property name="meta.attr.1.stream.HANDLER_NAME.markup">SoundHandler</property>
   <property name="meta.attr.1.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.1.stream.ENCODER.markup">Lavc58.134.100 pcm_s16le</property>
@@ -15985,15 +16078,24 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">30000</property>
   <property name="meta.media.frame_rate_den">1001</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">480</property>
+  <property name="meta.media.width">3328</property>
+  <property name="meta.media.height">2496</property>
   <property name="meta.media.color_range">full</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2021-06-02T15:25:14.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2021-06-02T15:25:14.000000Z</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.creation_time.markup">2021-06-02T15:25:14.000000Z</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
  </producer>
  <producer id="producer170" in="00:00:00.000" out="00:04:49.267">
   <property name="length">8679</property>
@@ -16261,28 +16363,28 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.width">3328</property>
+  <property name="meta.media.0.codec.height">2496</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
+  <property name="meta.media.0.codec.frame_rate">29.97</property>
   <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">95803943</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 mjpeg</property>
   <property name="meta.attr.0.stream.DURATION.markup">00:04:49.355000000</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">48000</property>
   <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">1536000</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">125375</property>
   <property name="meta.attr.1.stream.HANDLER_NAME.markup">SoundHandler</property>
   <property name="meta.attr.1.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.1.stream.ENCODER.markup">Lavc58.134.100 pcm_s16le</property>
@@ -16295,15 +16397,24 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">30000</property>
   <property name="meta.media.frame_rate_den">1001</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">480</property>
+  <property name="meta.media.width">3328</property>
+  <property name="meta.media.height">2496</property>
   <property name="meta.media.color_range">full</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2021-06-02T15:25:14.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2021-06-02T15:25:14.000000Z</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.creation_time.markup">2021-06-02T15:25:14.000000Z</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
  </producer>
  <playlist id="playlist30">
   <blank length="00:00:19.133"/>
@@ -16654,17 +16765,17 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.frame_rate">29.97</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">48256015</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">Video Media Handler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 mjpeg</property>
@@ -16677,15 +16788,22 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">30000</property>
   <property name="meta.media.frame_rate_den">1001</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2021-06-03T20:14:08.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Video Media Handler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.creation_time.markup">2021-06-03T20:14:08.000000Z</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
   <filter id="filter207">
    <property name="version">0.6</property>
    <property name="mlt_service">frei0r.select0r</property>
@@ -17078,27 +17196,27 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">59.9401</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.frame_rate">59.9401</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">24980173</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 mjpeg</property>
   <property name="meta.attr.0.stream.DURATION.markup">00:04:50.624000000</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">48000</property>
   <property name="meta.media.1.codec.channels">6</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">4608000</property>
+  <property name="meta.media.1.codec.name">ac3</property>
+  <property name="meta.media.1.codec.long_name">ATSC A/52A (AC-3)</property>
+  <property name="meta.media.1.codec.bit_rate">448000</property>
   <property name="meta.attr.1.stream.HANDLER_NAME.markup">SoundHandler</property>
   <property name="meta.attr.1.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.1.stream.ENCODER.markup">Lavc58.134.100 pcm_s16le</property>
@@ -17109,17 +17227,23 @@
   <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">19001</property>
-  <property name="meta.media.frame_rate_den">317</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.frame_rate_num">1561770000</property>
+  <property name="meta.media.frame_rate_den">26055529</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
  </producer>
  <playlist id="playlist32">
   <blank length="00:00:51.233"/>
@@ -17498,17 +17622,17 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj422p</property>
+  <property name="meta.media.0.codec.frame_rate">29.97</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">2540812</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 mjpeg</property>
@@ -17521,15 +17645,20 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">30000</property>
   <property name="meta.media.frame_rate_den">1001</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf58.76.100</property>
   <filter id="filter222">
    <property name="version">0.3</property>
    <property name="mlt_service">frei0r.keyspillm0pup</property>
@@ -17908,17 +18037,17 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
+  <property name="meta.media.0.codec.frame_rate">30000</property>
   <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
   <property name="meta.media.0.codec.colorspace">601</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">46391413</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">FFMP</property>
@@ -17946,13 +18075,22 @@
   <property name="meta.media.frame_rate_den">1001</property>
   <property name="meta.media.colorspace">601</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
   <property name="meta.media.color_range">full</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2021-06-02T15:26:38.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2021-06-02T15:26:38.000000Z</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.creation_time.markup">2021-06-02T15:26:38.000000Z</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
  </producer>
  <producer id="producer182" in="00:00:00.000" out="00:04:43.367">
   <property name="length">8502</property>
@@ -18061,27 +18199,27 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">59.9401</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1.33333</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">480</property>
+  <property name="meta.media.0.codec.width">1440</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.frame_rate">29.97</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1.33333</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">6688996</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 mjpeg</property>
   <property name="meta.attr.0.stream.DURATION.markup">00:04:43.467000000</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">48000</property>
   <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">1536000</property>
+  <property name="meta.media.1.codec.name">ac3</property>
+  <property name="meta.media.1.codec.long_name">ATSC A/52A (AC-3)</property>
+  <property name="meta.media.1.codec.bit_rate">256000</property>
   <property name="meta.attr.1.stream.HANDLER_NAME.markup">SoundHandler</property>
   <property name="meta.attr.1.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.1.stream.ENCODER.markup">Lavc58.134.100 pcm_s16le</property>
@@ -18092,17 +18230,23 @@
   <property name="meta.attr.ENCODER.markup">Lavf58.76.100</property>
   <property name="meta.media.sample_aspect_num">4</property>
   <property name="meta.media.sample_aspect_den">3</property>
-  <property name="meta.media.frame_rate_num">19001</property>
-  <property name="meta.media.frame_rate_den">317</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.frame_rate_num">60000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">480</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.width">1440</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
  </producer>
  <producer id="producer183" in="00:00:00.000" out="00:04:43.367">
   <property name="length">8502</property>
@@ -19844,28 +19988,28 @@
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">3840</property>
+  <property name="meta.media.0.codec.height">2160</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
+  <property name="meta.media.0.codec.frame_rate">29.97</property>
   <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">95869016</property>
   <property name="meta.attr.0.stream.HANDLER_NAME.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.0.stream.ENCODER.markup">Lavc58.134.100 mjpeg</property>
   <property name="meta.attr.0.stream.DURATION.markup">00:00:52.686000000</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">48000</property>
   <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">1536000</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">125373</property>
   <property name="meta.attr.1.stream.HANDLER_NAME.markup">SoundHandler</property>
   <property name="meta.attr.1.stream.VENDOR_ID.markup">[0][0][0][0]</property>
   <property name="meta.attr.1.stream.ENCODER.markup">Lavc58.134.100 pcm_s16le</property>
@@ -19878,15 +20022,24 @@
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">30000</property>
   <property name="meta.media.frame_rate_den">1001</property>
-  <property name="meta.media.colorspace">601</property>
+  <property name="meta.media.colorspace">709</property>
   <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
+  <property name="meta.media.width">3840</property>
+  <property name="meta.media.height">2160</property>
   <property name="meta.media.color_range">full</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2021-06-02T15:25:09.000000Z</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2021-06-02T15:25:09.000000Z</property>
+  <property name="meta.attr.1.stream.handler_name.markup">SoundHandler</property>
+  <property name="meta.attr.major_brand.markup">isom</property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
+  <property name="meta.attr.creation_time.markup">2021-06-02T15:25:09.000000Z</property>
+  <property name="meta.attr.encoder.markup">Lavf58.45.100</property>
   <filter id="filter250">
    <property name="version">0.6</property>
    <property name="mlt_service">frei0r.select0r</property>
@@ -21244,18 +21397,7 @@
   <track producer="tractor17"/>
   <track producer="tractor18"/>
   <track producer="tractor19"/>
-  <transition id="transition0" in="00:08:35.533" out="00:08:36.933">
-   <property name="a_track">19</property>
-   <property name="b_track">20</property>
-   <property name="rect">0=0 0 1920 1080 1</property>
-   <property name="compositing">0</property>
-   <property name="distort">0</property>
-   <property name="rotate_center">1</property>
-   <property name="mlt_service">qtblend</property>
-   <property name="kdenlive_id">qtblend</property>
-   <property name="rotation">0=0</property>
-  </transition>
-  <transition id="transition1" in="00:08:37.233" out="00:08:41.600">
+  <transition id="transition0" in="00:08:37.233" out="00:08:41.600">
    <property name="a_track">19</property>
    <property name="b_track">20</property>
    <property name="rect">00:00:00.000=0 0 1920 1080 1</property>
@@ -21266,7 +21408,7 @@
    <property name="kdenlive_id">qtblend</property>
    <property name="rotation">00:00:00.000=0</property>
   </transition>
-  <transition id="transition2" in="00:08:42.733" out="00:08:54.500">
+  <transition id="transition1" in="00:08:42.733" out="00:08:54.500">
    <property name="a_track">19</property>
    <property name="b_track">20</property>
    <property name="rect">00:00:00.000=0 0 1920 1080 1</property>
@@ -21277,7 +21419,7 @@
    <property name="kdenlive_id">qtblend</property>
    <property name="rotation">00:00:00.000=0</property>
   </transition>
-  <transition id="transition3" in="00:07:25.300" out="00:08:06.300">
+  <transition id="transition2" in="00:07:25.300" out="00:08:06.300">
    <property name="a_track">19</property>
    <property name="b_track">20</property>
    <property name="rect">00:00:00.000=0 0 1920 1080 1</property>
@@ -21287,6 +21429,17 @@
    <property name="mlt_service">qtblend</property>
    <property name="kdenlive_id">qtblend</property>
    <property name="rotation">00:00:00.000=0</property>
+  </transition>
+  <transition id="transition3" in="00:08:35.533" out="00:08:36.933">
+   <property name="a_track">19</property>
+   <property name="b_track">20</property>
+   <property name="rect">0=0 0 1920 1080 1</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="rotate_center">1</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="kdenlive_id">qtblend</property>
+   <property name="rotation">0=0</property>
   </transition>
   <transition id="transition4" in="00:00:19.867" out="00:00:20.233">
    <property name="a_track">15</property>
@@ -21343,7 +21496,7 @@
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition8" in="00:03:06.167" out="00:03:07.900">
+  <transition id="transition8" in="00:00:09.833" out="00:00:10.533">
    <property name="a_track">7</property>
    <property name="b_track">8</property>
    <property name="start">0/0:100%x100%</property>
@@ -21358,149 +21511,119 @@
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition9" in="00:01:59.900" out="00:02:00.567">
-   <property name="a_track">7</property>
-   <property name="b_track">8</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition10" in="00:00:29.567" out="00:00:29.933">
-   <property name="a_track">7</property>
-   <property name="b_track">8</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition11" in="00:01:15.833" out="00:01:16.500">
-   <property name="a_track">7</property>
-   <property name="b_track">8</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition12" in="00:01:34.267" out="00:01:35.367">
-   <property name="a_track">7</property>
-   <property name="b_track">8</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition13" in="00:00:19.867" out="00:00:20.533">
-   <property name="a_track">7</property>
-   <property name="b_track">8</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition14" in="00:00:23.700" out="00:00:24.800">
-   <property name="a_track">7</property>
-   <property name="b_track">8</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition15" in="00:00:09.833" out="00:00:10.533">
-   <property name="a_track">7</property>
-   <property name="b_track">8</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition16" in="00:02:48.333" out="00:02:51.467">
-   <property name="a_track">7</property>
-   <property name="b_track">8</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition17" in="00:03:51.267" out="00:03:54.800">
-   <property name="a_track">7</property>
-   <property name="b_track">8</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition18" in="00:02:23.067" out="00:02:33.500">
+  <transition id="transition9" in="00:02:23.067" out="00:02:33.500">
    <property name="a_track">7</property>
    <property name="b_track">8</property>
    <property name="version">0.2</property>
    <property name="mlt_service">frei0r.darken</property>
    <property name="kdenlive_id">frei0r.darken</property>
   </transition>
-  <transition id="transition19" in="00:04:28.700" out="00:04:36.500">
+  <transition id="transition10" in="00:03:06.167" out="00:03:07.900">
+   <property name="a_track">7</property>
+   <property name="b_track">8</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition11" in="00:01:59.900" out="00:02:00.567">
+   <property name="a_track">7</property>
+   <property name="b_track">8</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition12" in="00:00:29.567" out="00:00:29.933">
+   <property name="a_track">7</property>
+   <property name="b_track">8</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition13" in="00:01:15.833" out="00:01:16.500">
+   <property name="a_track">7</property>
+   <property name="b_track">8</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition14" in="00:01:34.267" out="00:01:35.367">
+   <property name="a_track">7</property>
+   <property name="b_track">8</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition15" in="00:00:19.867" out="00:00:20.533">
+   <property name="a_track">7</property>
+   <property name="b_track">8</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition16" in="00:00:23.700" out="00:00:24.800">
+   <property name="a_track">7</property>
+   <property name="b_track">8</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition17" in="00:04:28.700" out="00:04:36.500">
    <property name="a_track">7</property>
    <property name="b_track">8</property>
    <property name="rect">00:00:00.000=0 0 1920 1080 0.090000;00:00:07.800|=0 0 1920 1080 1.000000</property>
@@ -21511,7 +21634,7 @@
    <property name="kdenlive_id">qtblend</property>
    <property name="rotation">00:00:00.000=0;00:00:07.800|=0</property>
   </transition>
-  <transition id="transition20" in="00:01:25.200" out="00:01:26.033">
+  <transition id="transition18" in="00:02:48.333" out="00:02:51.467">
    <property name="a_track">7</property>
    <property name="b_track">8</property>
    <property name="start">0/0:100%x100%</property>
@@ -21525,6 +21648,32 @@
    <property name="luma_invert">0</property>
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
+  </transition>
+  <transition id="transition19" in="00:03:51.267" out="00:03:54.800">
+   <property name="a_track">7</property>
+   <property name="b_track">8</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition20" in="00:04:36.533" out="00:04:44.367">
+   <property name="a_track">7</property>
+   <property name="b_track">8</property>
+   <property name="rect">00:00:00.000=0 0 1920 1080 1.000000;00:00:07.833=0 0 1920 1080 0.000000</property>
+   <property name="compositing">14</property>
+   <property name="distort">0</property>
+   <property name="rotate_center">1</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="kdenlive_id">qtblend</property>
+   <property name="rotation">00:00:00.000=0;00:00:07.833=0</property>
   </transition>
   <transition id="transition21" in="00:01:50.300" out="00:01:51.367">
    <property name="a_track">7</property>
@@ -21541,18 +21690,32 @@
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition22" in="00:04:36.533" out="00:04:44.367">
+  <transition id="transition22" in="00:01:25.200" out="00:01:26.033">
    <property name="a_track">7</property>
    <property name="b_track">8</property>
-   <property name="rect">00:00:00.000=0 0 1920 1080 1.000000;00:00:07.833=0 0 1920 1080 0.000000</property>
-   <property name="compositing">14</property>
-   <property name="distort">0</property>
-   <property name="rotate_center">1</property>
-   <property name="mlt_service">qtblend</property>
-   <property name="kdenlive_id">qtblend</property>
-   <property name="rotation">00:00:00.000=0;00:00:07.833=0</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
+   <property name="fill">1</property>
   </transition>
-  <transition id="transition23" in="00:02:24.100" out="00:02:41.967">
+  <transition id="transition23" in="00:04:26.833" out="00:04:55.267">
+   <property name="a_track">7</property>
+   <property name="b_track">9</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="force_track">1</property>
+   <property name="0">00:00:00.000=0.38;00:00:02.867|=0.351316;00:00:03.767=0.976316;00:00:09.600=0.34;00:00:14.233=0.151316;00:00:16.833=0.851316;00:00:22.600=0.87;00:00:28.433|=0</property>
+   <property name="1">screen</property>
+  </transition>
+  <transition id="transition24" in="00:02:24.100" out="00:02:41.967">
    <property name="a_track">7</property>
    <property name="b_track">9</property>
    <property name="factory">loader</property>
@@ -21563,16 +21726,6 @@
    <property name="softness">0.21</property>
    <property name="reverse">0</property>
   </transition>
-  <transition id="transition24" in="00:04:26.833" out="00:04:55.267">
-   <property name="a_track">7</property>
-   <property name="b_track">9</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="force_track">1</property>
-   <property name="0">00:00:00.000=0.38;00:00:02.867|=0.351316;00:00:03.767=0.976316;00:00:09.600=0.34;00:00:14.233=0.151316;00:00:16.833=0.851316;00:00:22.600=0.87;00:00:28.433|=0</property>
-   <property name="1">screen</property>
-  </transition>
   <transition id="transition25" out="00:04:54.300">
    <property name="a_track">6</property>
    <property name="b_track">10</property>
@@ -21580,16 +21733,20 @@
    <property name="kdenlive_id">matte</property>
    <property name="force_track">1</property>
   </transition>
-  <transition id="transition26" in="00:04:53.767" out="00:05:07.100">
+  <transition id="transition26" in="00:02:48.000" out="00:02:48.967">
    <property name="a_track">3</property>
    <property name="b_track">4</property>
-   <property name="rect">00:00:00.000=0 0 1920 1080 0.000000;00:00:01.433=0 0 1920 1080 0.250000;00:00:05.633=0 0 1920 1080 0.200000;00:00:10.800=0 0 1920 1080 0.000000</property>
-   <property name="compositing">17</property>
-   <property name="distort">0</property>
-   <property name="rotate_center">1</property>
-   <property name="mlt_service">qtblend</property>
-   <property name="kdenlive_id">qtblend</property>
-   <property name="rotation">00:00:00.000=0;00:00:01.433=0;00:00:05.633=0;00:00:10.800=0</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
+   <property name="fill">1</property>
   </transition>
   <transition id="transition27" in="00:01:14.967" out="00:01:16.000">
    <property name="a_track">3</property>
@@ -21606,26 +21763,22 @@
    <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition28" in="00:02:48.000" out="00:02:48.967">
+  <transition id="transition28" in="00:04:53.767" out="00:05:07.100">
    <property name="a_track">3</property>
    <property name="b_track">4</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
-   <property name="fill">1</property>
+   <property name="rect">00:00:00.000=0 0 1920 1080 0.000000;00:00:01.433=0 0 1920 1080 0.250000;00:00:05.633=0 0 1920 1080 0.200000;00:00:10.800=0 0 1920 1080 0.000000</property>
+   <property name="compositing">17</property>
+   <property name="distort">0</property>
+   <property name="rotate_center">1</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="kdenlive_id">qtblend</property>
+   <property name="rotation">00:00:00.000=0;00:00:01.433=0;00:00:05.633=0;00:00:10.800=0</property>
   </transition>
-  <transition id="transition29" out="00:02:48.967">
+  <transition id="transition29" in="00:02:49.000" out="00:04:49.433">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
-   <property name="rect">00:00:00.000=0 0 1920 1080 0.960000</property>
-   <property name="compositing">15</property>
+   <property name="rect">00:00:00.000=0 0 1920 1080 0.610000</property>
+   <property name="compositing">20</property>
    <property name="distort">0</property>
    <property name="rotate_center">1</property>
    <property name="mlt_service">qtblend</property>
@@ -21633,11 +21786,11 @@
    <property name="force_track">1</property>
    <property name="rotation">00:00:00.000=0</property>
   </transition>
-  <transition id="transition30" in="00:02:49.000" out="00:04:49.433">
+  <transition id="transition30" out="00:02:48.967">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
-   <property name="rect">00:00:00.000=0 0 1920 1080 0.610000</property>
-   <property name="compositing">20</property>
+   <property name="rect">00:00:00.000=0 0 1920 1080 0.960000</property>
+   <property name="compositing">15</property>
    <property name="distort">0</property>
    <property name="rotate_center">1</property>
    <property name="mlt_service">qtblend</property>
