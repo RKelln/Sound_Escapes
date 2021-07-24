@@ -3065,14 +3065,43 @@
   <property name="mlt_image_format">rgb24</property>
   <property name="kdenlive:file_hash">039b56a692cd66eefeea44a17539e5a2</property>
  </producer>
+ <producer id="producer5" in="00:00:00.000" out="00:05:31.967">
+  <property name="length">9960</property>
+  <property name="eof">pause</property>
+  <property name="resource">content/Sarah_SoundEscapes-MIX3_MASTER-001.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s32</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">pcm_s24le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 24-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">2304000</property>
+  <property name="meta.attr.encoded_by.markup">REAPER</property>
+  <property name="meta.attr.date.markup">2021-07-23</property>
+  <property name="meta.attr.creation_time.markup">19-32-24</property>
+  <property name="meta.attr.time_reference.markup">49920000</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">76</property>
+  <property name="kdenlive:file_size">95616736</property>
+  <property name="kdenlive:file_hash">c8e09e6428647f0793c85098bb88284a</property>
+  <property name="kdenlive:audio_max">1</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist id="main_bin">
   <property name="kdenlive:folder.-1.22">musicians</property>
   <property name="kdenlive:folder.-1.34">animal_textures</property>
   <property name="kdenlive:folder.-1.121">flowers</property>
   <property name="kdenlive:folder.34.56">stills</property>
-  <property name="kdenlive:docproperties.activeTrack">16</property>
+  <property name="kdenlive:docproperties.activeTrack">1</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
-  <property name="kdenlive:docproperties.audioTarget">-1</property>
+  <property name="kdenlive:docproperties.audioTarget">1</property>
   <property name="kdenlive:docproperties.compositing">2</property>
   <property name="kdenlive:docproperties.dirtypreviewchunks"/>
   <property name="kdenlive:docproperties.disablepreview">0</property>
@@ -3501,7 +3530,7 @@
 ]
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">21.04.3</property>
-  <property name="kdenlive:docproperties.position">491</property>
+  <property name="kdenlive:docproperties.position">10001</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=30 s=1920x1080 vb=45M threads=0 vcodec=dnxhd progressive=1</property>
@@ -3532,15 +3561,15 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">hot_bod_v2.mp4</property>
   <property name="kdenlive:docproperties.renderzone">1</property>
-  <property name="kdenlive:docproperties.scrollPos">1569</property>
+  <property name="kdenlive:docproperties.scrollPos">2996</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
   <property name="kdenlive:docproperties.version">1</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videoTarget">-1</property>
   <property name="kdenlive:docproperties.zonein">116</property>
   <property name="kdenlive:docproperties.zoneout">10322</property>
-  <property name="kdenlive:docproperties.zoom">4</property>
-  <property name="kdenlive:expandedFolders">34;56</property>
+  <property name="kdenlive:docproperties.zoom">8</property>
+  <property name="kdenlive:expandedFolders">56</property>
   <property name="kdenlive:documentnotes"/>
   <property name="xml_retain">1</property>
   <entry producer="producer21" in="00:00:00.000" out="00:01:34.567"/>
@@ -3611,6 +3640,7 @@
   <entry producer="producer149" in="00:00:00.000" out="00:00:04.967"/>
   <entry producer="producer147" in="00:00:00.000" out="00:00:04.967"/>
   <entry producer="producer152" in="00:00:00.000" out="00:00:04.967"/>
+  <entry producer="producer5" in="00:00:00.000" out="00:05:31.967"/>
  </playlist>
  <producer id="black_track" in="00:00:00.000" out="00:39:37.767">
   <property name="length">2147483647</property>
@@ -3621,17 +3651,56 @@
   <property name="mlt_image_format">rgb24a</property>
   <property name="set.test_audio">0</property>
  </producer>
+ <producer id="producer6" in="00:00:00.000" out="00:05:34.767">
+  <property name="length">10044</property>
+  <property name="eof">pause</property>
+  <property name="resource">content/20210602_SpectrumMusic-SoundEscapesSARAH EDIT4 MIDI.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s32</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">pcm_s24le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 24-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">2304000</property>
+  <property name="meta.attr.encoded_by.markup">Pro Tools</property>
+  <property name="meta.attr.originator_reference.markup">auifOhYExHGk</property>
+  <property name="meta.attr.date.markup">2021-07-16</property>
+  <property name="meta.attr.creation_time.markup">20:46:55</property>
+  <property name="meta.attr.time_reference.markup">147442626</property>
+  <property name="meta.attr.umid.markup">0x060A2B340101010501010F101300000008577B21E8148500DD7D005056C00001</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="kdenlive:clipname">20210602_SpectrumMusic-SoundEscapesSARAH EDIT4 MIDI.wav</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">50</property>
+  <property name="kdenlive:file_size">96934174</property>
+  <property name="kdenlive:audio_max">1</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:file_hash">69dd81f5a263d80b29727d8f25426ab3</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
  <playlist id="playlist0">
   <property name="kdenlive:audio_track">1</property>
+  <blank length="00:00:07.000"/>
+  <entry producer="producer6" in="00:00:00.000" out="00:05:34.767">
+   <property name="kdenlive:id">50</property>
+  </entry>
  </playlist>
  <playlist id="playlist1"/>
- <tractor id="tractor0" in="00:00:00.000">
+ <tractor id="tractor0" in="00:00:00.000" out="00:05:41.767">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
+  <property name="kdenlive:locked_track">1</property>
   <track hide="both" producer="playlist0"/>
   <track hide="video" producer="playlist1"/>
   <filter id="filter16">
@@ -3652,14 +3721,10 @@
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer154" in="00:00:00.000" out="00:05:34.767">
-  <property name="length">10044</property>
+ <producer id="producer7" in="00:00:00.000" out="00:05:31.967">
+  <property name="length">9960</property>
   <property name="eof">pause</property>
-  <property name="resource">content/20210602_SpectrumMusic-SoundEscapesSARAH EDIT4 MIDI.wav</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">content/Sarah_SoundEscapes-MIX3_MASTER-001.wav</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">audio</property>
   <property name="meta.media.0.codec.sample_fmt">s32</property>
@@ -3668,18 +3733,20 @@
   <property name="meta.media.0.codec.name">pcm_s24le</property>
   <property name="meta.media.0.codec.long_name">PCM signed 24-bit little-endian</property>
   <property name="meta.media.0.codec.bit_rate">2304000</property>
-  <property name="meta.attr.encoded_by.markup">Pro Tools</property>
-  <property name="meta.attr.originator_reference.markup">auifOhYExHGk</property>
-  <property name="meta.attr.date.markup">2021-07-16</property>
-  <property name="meta.attr.creation_time.markup">20:46:55</property>
-  <property name="meta.attr.time_reference.markup">147442626</property>
-  <property name="meta.attr.umid.markup">0x060A2B340101010501010F101300000008577B21E8148500DD7D005056C00001</property>
+  <property name="meta.attr.encoded_by.markup">REAPER</property>
+  <property name="meta.attr.date.markup">2021-07-23</property>
+  <property name="meta.attr.creation_time.markup">19-32-24</property>
+  <property name="meta.attr.time_reference.markup">49920000</property>
   <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:clipname"/>
   <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">50</property>
-  <property name="kdenlive:file_size">96934174</property>
-  <property name="kdenlive:file_hash">69dd81f5a263d80b29727d8f25426ab3</property>
+  <property name="kdenlive:id">76</property>
+  <property name="kdenlive:file_size">95616736</property>
+  <property name="kdenlive:file_hash">c8e09e6428647f0793c85098bb88284a</property>
   <property name="kdenlive:audio_max">1</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
@@ -3688,13 +3755,13 @@
  </producer>
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
-  <blank length="00:00:07.000"/>
-  <entry producer="producer154" in="00:00:00.000" out="00:05:34.767">
-   <property name="kdenlive:id">50</property>
+  <blank length="00:00:06.500"/>
+  <entry producer="producer7" in="00:00:00.000" out="00:05:31.967">
+   <property name="kdenlive:id">76</property>
   </entry>
  </playlist>
  <playlist id="playlist3"/>
- <tractor id="tractor1" in="00:00:00.000" out="00:05:41.767">
+ <tractor id="tractor1" in="00:00:00.000" out="00:05:38.467">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
@@ -4007,7 +4074,6 @@
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
   <track hide="audio" producer="playlist4"/>
   <track producer="playlist5"/>
  </tractor>
@@ -4070,7 +4136,7 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer5" in="00:00:00.000" out="00:01:14.000">
+ <producer id="producer9" in="00:00:00.000" out="00:01:14.000">
   <property name="length">2221</property>
   <property name="eof">pause</property>
   <property name="resource">content/hot_bod_180000_97c282c6_synth_solo.mp4</property>
@@ -4270,7 +4336,7 @@
     <property name="alpha">-1</property>
    </filter>
   </entry>
-  <entry producer="producer5" in="00:00:00.000" out="00:01:14.000">
+  <entry producer="producer9" in="00:00:00.000" out="00:01:14.000">
    <property name="kdenlive:id">12</property>
    <filter id="filter58">
     <property name="mirror">horizontal</property>
@@ -4333,7 +4399,6 @@
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
   <track hide="audio" producer="playlist6"/>
   <track producer="playlist7"/>
  </tractor>
@@ -4463,7 +4528,7 @@
    </filter>
   </entry>
   <blank length="00:01:30.700"/>
-  <entry producer="producer5" in="00:00:00.000" out="00:01:14.000">
+  <entry producer="producer9" in="00:00:00.000" out="00:01:14.000">
    <property name="kdenlive:id">12</property>
    <filter id="filter108">
     <property name="mirror">horizontal</property>
@@ -4510,7 +4575,6 @@
   <property name="kdenlive:collapsed">28</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
   <track hide="audio" producer="playlist8"/>
   <track producer="playlist9"/>
  </tractor>
@@ -4974,7 +5038,7 @@
    </filter>
   </entry>
   <blank length="00:01:32.900"/>
-  <entry producer="producer5" in="00:00:00.000" out="00:01:14.000">
+  <entry producer="producer9" in="00:00:00.000" out="00:01:14.000">
    <property name="kdenlive:id">12</property>
    <filter id="filter135">
     <property name="mirror">vertical</property>
@@ -5037,7 +5101,6 @@
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
   <track hide="audio" producer="playlist10"/>
   <track producer="playlist11"/>
  </tractor>
@@ -5303,7 +5366,7 @@
    </filter>
   </entry>
   <blank length="00:01:29.767"/>
-  <entry producer="producer5" in="00:00:00.000" out="00:01:14.000">
+  <entry producer="producer9" in="00:00:00.000" out="00:01:14.000">
    <property name="kdenlive:id">12</property>
    <filter id="filter161">
     <property name="rotate_center">1</property>
@@ -5462,7 +5525,6 @@
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
   <track hide="audio" producer="playlist12"/>
   <track producer="playlist13"/>
  </tractor>
@@ -5825,13 +5887,12 @@
   <blank length="00:00:07.967"/>
   <entry producer="producer177" in="00:00:00.000" out="00:00:25.367">
    <property name="kdenlive:id">17</property>
-   <property name="kdenlive:activeeffect">1</property>
    <filter id="filter184">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.distort0r</property>
     <property name="kdenlive_id">frei0r.distort0r</property>
-    <property name="Amplitude">00:00:00.000=0;00:00:09.367=0;00:00:10.800=0.018;00:00:13.000=0.089;00:00:14.000=0.001;00:00:14.867=0.257;00:00:16.667=0.01;00:00:18.633=0.025;00:00:19.700=0.025;00:00:20.000=0.183;00:00:21.333|=0.032</property>
-    <property name="Frequency">00:00:00.000=0;00:00:09.367=0;00:00:10.800=0.045;00:00:13.000=0.122;00:00:14.000=-0.0566071;00:00:14.867=-0.123;00:00:16.667=0.01;00:00:18.633=0.401;00:00:19.700=0.036;00:00:20.000=0.065;00:00:21.333|=0.065</property>
+    <property name="Amplitude">00:00:00.000=0;00:00:12.767=0;00:00:13.167=0.089;00:00:14.000=0.07;00:00:14.867=0.167;00:00:16.667=0.01;00:00:18.633=0.025;00:00:19.700=0.025;00:00:20.000=0.183;00:00:21.333|=0.032</property>
+    <property name="Frequency">00:00:00.000=0;00:00:12.767=0;00:00:13.167=0.122;00:00:14.000=0.291;00:00:14.867=0.05;00:00:16.667=-0.105;00:00:18.633=0.401;00:00:19.700=0.036;00:00:20.000=0.065;00:00:21.333|=0.065</property>
     <property name="kdenlive:collapsed">0</property>
    </filter>
    <filter id="filter185">
@@ -5880,11 +5941,10 @@
   <property name="kdenlive:track_name">sarah-test</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
   <track hide="audio" producer="playlist14"/>
   <track producer="playlist15"/>
  </tractor>
- <producer id="producer6" in="00:00:00.000" out="00:03:25.633">
+ <producer id="producer11" in="00:00:00.000" out="00:03:25.633">
   <property name="length">6170</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Sarah_kit_sarah_00049-take2.mp4</property>
@@ -5975,7 +6035,7 @@
    <property name="Operation">0.5</property>
   </filter>
  </producer>
- <producer id="producer7" in="00:00:00.000" out="00:04:52.800">
+ <producer id="producer12" in="00:00:00.000" out="00:04:52.800">
   <property name="length">8785</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_162118_Sarah_kit+handheld_sarah-take3.mp4</property>
@@ -6036,11 +6096,11 @@
  </producer>
  <playlist id="playlist16">
   <blank length="00:00:07.000"/>
-  <entry producer="producer6" in="00:00:08.333" out="00:00:47.800">
+  <entry producer="producer11" in="00:00:08.333" out="00:00:47.800">
    <property name="kdenlive:id">8</property>
   </entry>
   <blank length="00:00:01.067"/>
-  <entry producer="producer7" in="00:00:02.633" out="00:04:52.800">
+  <entry producer="producer12" in="00:00:02.633" out="00:04:52.800">
    <property name="kdenlive:id">4</property>
   </entry>
  </playlist>
@@ -6212,7 +6272,7 @@
    <property name="Mask to Alpha">0</property>
   </filter>
  </producer>
- <producer id="producer9" in="00:00:00.000" out="00:05:23.967">
+ <producer id="producer13" in="00:00:00.000" out="00:05:23.967">
   <property name="length">9720</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Sarah_kit_sarah_00049-take3_from_bass_solo.mp4</property>
@@ -6775,7 +6835,7 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer11" in="00:00:00.000" out="00:05:23.967">
+ <producer id="producer14" in="00:00:00.000" out="00:05:23.967">
   <property name="length">9720</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Sarah_kit_sarah_00049-take3_from_bass_solo.mp4</property>
@@ -7118,7 +7178,7 @@
    </filter>
   </entry>
   <blank length="00:00:00.833"/>
-  <entry producer="producer9" in="00:00:07.833" out="00:02:56.867">
+  <entry producer="producer13" in="00:00:07.833" out="00:02:56.867">
    <property name="kdenlive:id">9</property>
   </entry>
   <entry producer="producer165" in="00:02:56.900" out="00:03:16.233">
@@ -7140,10 +7200,10 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer9" in="00:03:16.267" out="00:04:28.033">
+  <entry producer="producer13" in="00:03:16.267" out="00:04:28.033">
    <property name="kdenlive:id">9</property>
   </entry>
-  <entry producer="producer11" in="00:04:28.067" out="00:04:52.433">
+  <entry producer="producer14" in="00:04:28.067" out="00:04:52.433">
    <property name="kdenlive:id">9</property>
    <filter id="filter217">
     <property name="mode">alpha</property>
@@ -7676,7 +7736,7 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer11" in="00:04:52.467" out="00:05:04.300">
+  <entry producer="producer14" in="00:04:52.467" out="00:05:04.300">
    <property name="kdenlive:id">9</property>
    <filter id="filter219" in="00:05:02.833" out="00:05:04.300">
     <property name="start">1</property>
@@ -13332,11 +13392,10 @@
   <property name="kdenlive:track_name">sarah1</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
   <track hide="audio" producer="playlist18"/>
   <track producer="playlist19"/>
  </tractor>
- <producer id="producer12" in="00:00:00.000" out="00:01:25.100">
+ <producer id="producer15" in="00:00:00.000" out="00:01:25.100">
   <property name="length">2554</property>
   <property name="eof">pause</property>
   <property name="resource">/home/ryankelln/.cache/kdenlive/proxy/ce779b7974f19632a07732a59b8bd64b.mkv</property>
@@ -13499,7 +13558,7 @@
  </producer>
  <playlist id="playlist20">
   <blank length="00:00:10.600"/>
-  <entry producer="producer12" in="00:00:00.000" out="00:00:35.867">
+  <entry producer="producer15" in="00:00:00.000" out="00:00:35.867">
    <property name="kdenlive:id">6</property>
   </entry>
  </playlist>
@@ -13642,7 +13701,7 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer13" in="00:00:00.000" out="00:04:51.800">
+ <producer id="producer16" in="00:00:00.000" out="00:04:51.800">
   <property name="length">8755</property>
   <property name="eof">pause</property>
   <property name="resource">/home/ryankelln/.cache/kdenlive/proxy/d744105bb6ea0a63ee18b489cf89062b.mkv</property>
@@ -22737,7 +22796,7 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer13" in="00:02:02.500" out="00:04:51.800">
+  <entry producer="producer16" in="00:02:02.500" out="00:04:51.800">
    <property name="kdenlive:id">7</property>
    <filter id="filter246">
     <property name="rotate_center">1</property>
@@ -22999,7 +23058,6 @@
   <property name="kdenlive:track_name">caleb1</property>
   <property name="kdenlive:thumbs_format">0</property>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
   <track hide="audio" producer="playlist22"/>
   <track producer="playlist23"/>
  </tractor>
@@ -23165,11 +23223,10 @@
   <property name="kdenlive:track_name">caleb-handheld</property>
   <property name="kdenlive:thumbs_format">0</property>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
   <track hide="audio" producer="playlist24"/>
   <track producer="playlist25"/>
  </tractor>
- <producer id="producer14" in="00:00:00.000" out="00:01:34.567">
+ <producer id="producer27" in="00:00:00.000" out="00:01:34.567">
   <property name="length">2838</property>
   <property name="eof">pause</property>
   <property name="resource">/home/ryankelln/.cache/kdenlive/proxy/da970b83fbe60ca04de6e51c97c1f0e2.mkv</property>
@@ -23508,7 +23565,7 @@
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer15" in="00:00:00.000" out="00:04:48.267">
+ <producer id="producer28" in="00:00:00.000" out="00:04:48.267">
   <property name="length">8649</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Caleb+Chris_electric+synth+handheld+portrait_sarah_MVI_6003-take3_from_bass_solo.mp4</property>
@@ -23580,7 +23637,7 @@
  </producer>
  <playlist id="playlist26">
   <blank length="00:00:28.433"/>
-  <entry producer="producer14" in="00:00:13.167" out="00:00:31.200">
+  <entry producer="producer27" in="00:00:13.167" out="00:00:31.200">
    <property name="kdenlive:id">2</property>
   </entry>
   <blank length="00:01:17.000"/>
@@ -23773,7 +23830,7 @@
     <property name="Mask to Alpha">0</property>
    </filter>
   </entry>
-  <entry producer="producer15" in="00:02:55.033" out="00:03:00.133">
+  <entry producer="producer28" in="00:02:55.033" out="00:03:00.133">
    <property name="kdenlive:id">5</property>
    <filter id="filter267">
     <property name="rotate_center">1</property>
@@ -23786,7 +23843,7 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer15" in="00:03:00.167" out="00:03:00.167">
+  <entry producer="producer28" in="00:03:00.167" out="00:03:00.167">
    <property name="kdenlive:id">5</property>
    <filter id="filter268">
     <property name="rotate_center">1</property>
@@ -23798,7 +23855,7 @@
     <property name="distort">0</property>
    </filter>
   </entry>
-  <entry producer="producer15" in="00:03:00.200" out="00:04:48.267">
+  <entry producer="producer28" in="00:03:00.200" out="00:04:48.267">
    <property name="kdenlive:id">5</property>
    <filter id="filter269">
     <property name="rotate_center">1</property>
@@ -23819,11 +23876,10 @@
   <property name="kdenlive:track_name">chris2</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
   <track hide="audio" producer="playlist26"/>
   <track producer="playlist27"/>
  </tractor>
- <producer id="producer16" in="00:00:00.000" out="00:04:49.833">
+ <producer id="producer29" in="00:00:00.000" out="00:04:49.833">
   <property name="length">8696</property>
   <property name="eof">pause</property>
   <property name="resource">/home/ryankelln/.cache/kdenlive/proxy/a281898ead78dab9d417b8c3e676a6c8.mkv</property>
@@ -23952,10 +24008,10 @@
  </producer>
  <playlist id="playlist28">
   <blank length="00:00:47.567"/>
-  <entry producer="producer16" in="00:00:01.700" out="00:01:47.800">
+  <entry producer="producer29" in="00:00:01.700" out="00:01:47.800">
    <property name="kdenlive:id">3</property>
   </entry>
-  <entry producer="producer16" in="00:01:47.833" out="00:02:54.467">
+  <entry producer="producer29" in="00:01:47.833" out="00:02:54.467">
    <property name="kdenlive:id">3</property>
    <filter id="filter270">
     <property name="version">0.1</property>
@@ -24052,7 +24108,7 @@
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer16" in="00:02:54.500" out="00:04:49.833">
+  <entry producer="producer29" in="00:02:54.500" out="00:04:49.833">
    <property name="kdenlive:id">3</property>
    <filter id="filter278">
     <property name="version">0.1</property>
@@ -24084,7 +24140,7 @@
   <track hide="both" producer="playlist28"/>
   <track producer="playlist29"/>
  </tractor>
- <producer id="producer27" in="00:00:00.000" out="00:01:27.000">
+ <producer id="producer30" in="00:00:00.000" out="00:01:27.000">
   <property name="length">2611</property>
   <property name="eof">pause</property>
   <property name="resource">content/hot_bod_120000_f34ec270_bass_solo_electric.mp4</property>
@@ -24592,7 +24648,7 @@
    </filter>
   </entry>
   <blank length="00:00:18.900"/>
-  <entry producer="producer27" in="00:00:00.000" out="00:01:27.000">
+  <entry producer="producer30" in="00:00:00.000" out="00:01:27.000">
    <property name="kdenlive:id">13</property>
    <filter id="filter302">
     <property name="rotate_center">1</property>
@@ -24735,7 +24791,6 @@
   <property name="kdenlive:track_name">lighting</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
   <track hide="audio" producer="playlist30"/>
   <track producer="playlist31"/>
  </tractor>
@@ -25224,7 +25279,6 @@
   <property name="kdenlive:track_name">panels</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
   <track hide="audio" producer="playlist32"/>
   <track producer="playlist33"/>
  </tractor>
