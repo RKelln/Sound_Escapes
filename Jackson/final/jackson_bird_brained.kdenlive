@@ -3995,10 +3995,40 @@
   <property name="meta.attr.compatible_brands.markup">isomiso2avc1mp41</property>
   <property name="meta.attr.encoder.markup">Lavf56.40.101</property>
  </producer>
+ <producer id="producer0" in="00:00:00.000" out="00:05:35.967">
+  <property name="length">10080</property>
+  <property name="eof">pause</property>
+  <property name="resource">content/Jackson_SoundEscapes-MIX3_MASTER-001.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s32</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">pcm_s24le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 24-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">2304000</property>
+  <property name="meta.attr.encoded_by.markup">REAPER</property>
+  <property name="meta.attr.date.markup">2021-07-23</property>
+  <property name="meta.attr.creation_time.markup">19-33-45</property>
+  <property name="meta.attr.time_reference.markup">91680000</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">66</property>
+  <property name="kdenlive:file_size">96768736</property>
+  <property name="kdenlive:file_hash">58e95711718743d493c04bbcc6411af1</property>
+  <property name="kdenlive:audio_max">4</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist id="main_bin">
-  <property name="kdenlive:docproperties.activeTrack">5</property>
+  <property name="kdenlive:docproperties.activeTrack">4</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
-  <property name="kdenlive:docproperties.audioTarget">-1</property>
+  <property name="kdenlive:docproperties.audioTarget">1</property>
+  <property name="kdenlive:docproperties.dirtypreviewchunks"/>
   <property name="kdenlive:docproperties.disablepreview">0</property>
   <property name="kdenlive:docproperties.documentid">1620996488137</property>
   <property name="kdenlive:docproperties.enableTimelineZone">0</property>
@@ -4011,17 +4041,17 @@
     {
         "children": [
             {
+                "data": "6:8033",
+                "leaf": "clip",
+                "type": "Leaf"
+            },
+            {
                 "data": "6:8049",
                 "leaf": "clip",
                 "type": "Leaf"
             },
             {
                 "data": "6:8086",
-                "leaf": "clip",
-                "type": "Leaf"
-            },
-            {
-                "data": "6:8033",
                 "leaf": "clip",
                 "type": "Leaf"
             }
@@ -4355,11 +4385,17 @@
         "comment": "guide",
         "pos": 8504,
         "type": 0
+    },
+    {
+        "comment": "guide",
+        "pos": 654,
+        "type": 0
     }
 ]
 </property>
   <property name="kdenlive:docproperties.kdenliveversion">21.04.3</property>
-  <property name="kdenlive:docproperties.position">736</property>
+  <property name="kdenlive:docproperties.position">590</property>
+  <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">avi</property>
   <property name="kdenlive:docproperties.previewparameters">f=avi vcodec=mjpeg progressive=1 qscale=1</property>
   <property name="kdenlive:docproperties.profile">atsc_1080p_30</property>
@@ -4389,22 +4425,20 @@
   <property name="kdenlive:docproperties.rendertwopass">0</property>
   <property name="kdenlive:docproperties.renderurl">jackson_bird_brained_1.mp4</property>
   <property name="kdenlive:docproperties.renderzone">1</property>
-  <property name="kdenlive:docproperties.scrollPos">3496</property>
+  <property name="kdenlive:docproperties.scrollPos">11123</property>
   <property name="kdenlive:docproperties.seekOffset">30000</property>
   <property name="kdenlive:docproperties.version">1</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videoTarget">-1</property>
   <property name="kdenlive:docproperties.zonein">210</property>
   <property name="kdenlive:docproperties.zoneout">9987</property>
-  <property name="kdenlive:docproperties.zoom">3</property>
+  <property name="kdenlive:docproperties.zoom">1</property>
   <property name="kdenlive:expandedFolders"/>
   <property name="kdenlive:documentnotes">&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
 p, li { white-space: pre-wrap; }
 &lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:9pt; font-weight:400; font-style:normal;">
 &lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">x&lt;/p>&lt;/body>&lt;/html></property>
-  <property name="kdenlive:docproperties.dirtypreviewchunks"/>
-  <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:folder.-1.41">musicians</property>
   <property name="kdenlive:folder.-1.55">footage</property>
   <property name="kdenlive:folder.-1.71">ai</property>
@@ -4456,8 +4490,9 @@ p, li { white-space: pre-wrap; }
   <entry producer="producer101" in="00:00:00.000" out="00:00:04.967"/>
   <entry producer="producer102" in="00:00:00.000" out="00:00:10.633"/>
   <entry producer="producer76" in="00:00:00.000" out="00:01:40.400"/>
+  <entry producer="producer0" in="00:00:00.000" out="00:05:35.967"/>
  </playlist>
- <producer id="black_track" in="00:00:00.000" out="00:22:12.900">
+ <producer id="black_track" in="00:00:00.000" out="00:22:23.000">
   <property name="length">2147483647</property>
   <property name="eof">continue</property>
   <property name="resource">black</property>
@@ -4515,7 +4550,8 @@ p, li { white-space: pre-wrap; }
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="video" producer="playlist0"/>
+  <property name="kdenlive:locked_track">1</property>
+  <track hide="both" producer="playlist0"/>
   <track hide="video" producer="playlist1"/>
   <filter id="filter5">
    <property name="window">75</property>
@@ -4537,18 +4573,54 @@ p, li { white-space: pre-wrap; }
    <property name="disable">1</property>
   </filter>
  </tractor>
+ <producer id="producer1" in="00:00:00.000" out="00:05:35.967">
+  <property name="length">10080</property>
+  <property name="eof">pause</property>
+  <property name="resource">content/Jackson_SoundEscapes-MIX3_MASTER-001.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s32</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">pcm_s24le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 24-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">2304000</property>
+  <property name="meta.attr.encoded_by.markup">REAPER</property>
+  <property name="meta.attr.date.markup">2021-07-23</property>
+  <property name="meta.attr.creation_time.markup">19-33-45</property>
+  <property name="meta.attr.time_reference.markup">91680000</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">0</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="kdenlive:clipname"/>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:id">66</property>
+  <property name="kdenlive:file_size">96768736</property>
+  <property name="kdenlive:file_hash">58e95711718743d493c04bbcc6411af1</property>
+  <property name="kdenlive:audio_max">4</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="set.test_audio">0</property>
+  <property name="set.test_image">1</property>
+ </producer>
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
+  <blank length="00:00:07.000"/>
+  <entry producer="producer1" in="00:00:00.000" out="00:05:35.967">
+   <property name="kdenlive:id">66</property>
+  </entry>
  </playlist>
  <playlist id="playlist3"/>
- <tractor id="tractor1" in="00:00:00.000">
+ <tractor id="tractor1" in="00:00:00.000" out="00:05:42.967">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <track hide="both" producer="playlist2"/>
+  <track hide="video" producer="playlist2"/>
   <track hide="video" producer="playlist3"/>
   <filter id="filter8">
    <property name="window">75</property>
@@ -7507,7 +7579,7 @@ p, li { white-space: pre-wrap; }
  <tractor id="tractor2" in="00:00:00.000" out="00:05:30.467">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
-  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:collapsed">28</property>
   <property name="kdenlive:track_name">background</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
@@ -7650,27 +7722,27 @@ p, li { white-space: pre-wrap; }
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">59.9401</property>
+  <property name="meta.media.0.stream.frame_rate">60.233</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.frame_rate">59.9401</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">1702801</property>
   <property name="meta.attr.0.stream.handler_name.markup">ISO Media file produced by Google Inc. Created on: 05/11/2021.</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">44100</property>
   <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">1411200</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">127999</property>
   <property name="meta.attr.1.stream.handler_name.markup">ISO Media file produced by Google Inc. Created on: 11/30/2018.</property>
   <property name="meta.attr.major_brand.markup">isom</property>
   <property name="meta.attr.minor_version.markup">512</property>
@@ -7701,15 +7773,16 @@ p, li { white-space: pre-wrap; }
   <property name="set.test_image">0</property>
   <property name="kdenlive:id">17</property>
   <property name="warp_pitch">0</property>
-  <property name="meta.media.frame_rate_num">19001</property>
-  <property name="meta.media.frame_rate_den">317</property>
-  <property name="meta.media.colorspace">601</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.frame_rate_num">1360000</property>
+  <property name="meta.media.frame_rate_den">22579</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <property name="meta.media.variable_frame_rate">1</property>
  </producer>
  <producer id="producer142" in="00:00:00.000" out="00:00:36.867">
   <property name="length">1109</property>
@@ -8196,7 +8269,7 @@ p, li { white-space: pre-wrap; }
  <tractor id="tractor3" in="00:00:00.000" out="00:03:48.367">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
-  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:collapsed">28</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
   <track hide="audio" producer="playlist6"/>
@@ -9177,7 +9250,6 @@ p, li { white-space: pre-wrap; }
   </entry>
   <entry producer="producer160" in="00:00:01.167" out="00:00:06.367">
    <property name="kdenlive:id">17</property>
-   <property name="kdenlive:activeeffect">0</property>
    <filter id="filter39">
     <property name="version">0.1</property>
     <property name="mlt_service">frei0r.mask0mate</property>
@@ -12620,27 +12692,27 @@ p, li { white-space: pre-wrap; }
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.frame_rate">30.0968</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">640</property>
-  <property name="meta.media.0.codec.height">360</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
   <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">1000</property>
-  <property name="meta.media.0.codec.pix_fmt">yuvj420p</property>
+  <property name="meta.media.0.codec.frame_rate">29.97</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
   <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.colorspace">601</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
   <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">mjpeg</property>
-  <property name="meta.media.0.codec.long_name">MJPEG (Motion JPEG)</property>
-  <property name="meta.media.0.codec.bit_rate">0</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">1049438</property>
   <property name="meta.attr.0.stream.handler_name.markup">ISO Media file produced by Google Inc. Created on: 05/22/2021.</property>
   <property name="meta.media.1.stream.type">audio</property>
-  <property name="meta.media.1.codec.sample_fmt">s16</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
   <property name="meta.media.1.codec.sample_rate">44100</property>
   <property name="meta.media.1.codec.channels">2</property>
-  <property name="meta.media.1.codec.name">pcm_s16le</property>
-  <property name="meta.media.1.codec.long_name">PCM signed 16-bit little-endian</property>
-  <property name="meta.media.1.codec.bit_rate">1411200</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">127999</property>
   <property name="meta.attr.1.stream.handler_name.markup">ISO Media file produced by Google Inc.</property>
   <property name="meta.attr.major_brand.markup">isom</property>
   <property name="meta.attr.minor_version.markup">512</property>
@@ -12671,13 +12743,13 @@ p, li { white-space: pre-wrap; }
   <property name="set.test_image">0</property>
   <property name="kdenlive:id">18</property>
   <property name="warp_pitch">0</property>
-  <property name="meta.media.frame_rate_num">30000</property>
-  <property name="meta.media.frame_rate_den">1001</property>
-  <property name="meta.media.colorspace">601</property>
-  <property name="meta.media.color_trc">2</property>
-  <property name="meta.media.width">640</property>
-  <property name="meta.media.height">360</property>
-  <property name="meta.media.color_range">full</property>
+  <property name="meta.media.frame_rate_num">1762500</property>
+  <property name="meta.media.frame_rate_den">58561</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.color_range">mpeg</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
@@ -13707,7 +13779,7 @@ p, li { white-space: pre-wrap; }
   <track hide="audio" producer="playlist16"/>
   <track producer="playlist17"/>
  </tractor>
- <producer id="producer0" in="00:00:00.000" out="00:04:01.167">
+ <producer id="producer2" in="00:00:00.000" out="00:04:01.167">
   <property name="length">7236</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Sarah_kit_jackson_00044-take3_beginning_to_G.mp4</property>
@@ -13896,7 +13968,7 @@ p, li { white-space: pre-wrap; }
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer1" in="00:00:00.000" out="00:04:59.600">
+ <producer id="producer3" in="00:00:00.000" out="00:04:59.600">
   <property name="length">8989</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Sarah_kit_jackson_00044-take2_full.mp4</property>
@@ -13957,7 +14029,7 @@ p, li { white-space: pre-wrap; }
   <property name="set.test_audio">1</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer2" in="00:00:00.000" out="00:01:18.333">
+ <producer id="producer4" in="00:00:00.000" out="00:01:18.333">
   <property name="length">2351</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Sarah_kit_jackson_00045-take_unknown_m44_unknown.mp4</property>
@@ -14195,7 +14267,7 @@ p, li { white-space: pre-wrap; }
  </producer>
  <playlist id="playlist18">
   <blank length="00:00:12.400"/>
-  <entry producer="producer0" in="00:00:00.000" out="00:00:13.933">
+  <entry producer="producer2" in="00:00:00.000" out="00:00:13.933">
    <property name="kdenlive:id">3</property>
   </entry>
   <entry producer="producer223" in="00:00:13.967" out="00:00:18.700">
@@ -14555,16 +14627,16 @@ p, li { white-space: pre-wrap; }
     <property name="disable">0</property>
    </filter>
   </entry>
-  <entry producer="producer0" in="00:00:18.733" out="00:01:13.567">
+  <entry producer="producer2" in="00:00:18.733" out="00:01:13.567">
    <property name="kdenlive:id">3</property>
   </entry>
-  <entry producer="producer1" in="00:01:06.833" out="00:01:41.733">
+  <entry producer="producer3" in="00:01:06.833" out="00:01:41.733">
    <property name="kdenlive:id">2</property>
   </entry>
-  <entry producer="producer0" in="00:01:49.633" out="00:03:14.467">
+  <entry producer="producer2" in="00:01:49.633" out="00:03:14.467">
    <property name="kdenlive:id">3</property>
   </entry>
-  <entry producer="producer2" in="00:00:07.567" out="00:00:22.500">
+  <entry producer="producer4" in="00:00:07.567" out="00:00:22.500">
    <property name="kdenlive:id">5</property>
   </entry>
   <entry producer="producer226" in="00:00:22.533" out="00:00:24.567">
@@ -14952,7 +15024,7 @@ p, li { white-space: pre-wrap; }
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer2" in="00:00:24.600" out="00:00:44.000">
+  <entry producer="producer4" in="00:00:24.600" out="00:00:44.000">
    <property name="kdenlive:id">5</property>
   </entry>
   <entry producer="producer227" in="00:00:44.033" out="00:00:46.000">
@@ -15326,10 +15398,10 @@ p, li { white-space: pre-wrap; }
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer2" in="00:00:46.033" out="00:00:52.633">
+  <entry producer="producer4" in="00:00:46.033" out="00:00:52.633">
    <property name="kdenlive:id">5</property>
   </entry>
-  <entry producer="producer2" in="00:00:52.667" out="00:00:54.967">
+  <entry producer="producer4" in="00:00:52.667" out="00:00:54.967">
    <property name="kdenlive:id">5</property>
    <filter id="filter225" in="00:00:52.667" out="00:00:53.267">
     <property name="start">0</property>
@@ -15376,7 +15448,7 @@ p, li { white-space: pre-wrap; }
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer2" in="00:00:55.000" out="00:01:14.333">
+  <entry producer="producer4" in="00:00:55.000" out="00:01:14.333">
    <property name="kdenlive:id">5</property>
   </entry>
   <blank length="00:00:14.467"/>
@@ -18851,14 +18923,14 @@ p, li { white-space: pre-wrap; }
  <tractor id="tractor9" in="00:00:00.000" out="00:05:25.100">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
-  <property name="kdenlive:collapsed">28</property>
+  <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:track_name">sarah-ride_side</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
   <track hide="audio" producer="playlist18"/>
   <track producer="playlist19"/>
  </tractor>
- <producer id="producer3" in="00:00:00.000" out="00:04:00.633">
+ <producer id="producer5" in="00:00:00.000" out="00:04:00.633">
   <property name="length">7220</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_06-08-41_Sarah_kit_jackson_MVI_6065-take3_beginning.MP4</property>
@@ -18996,7 +19068,7 @@ p, li { white-space: pre-wrap; }
   <property name="set.test_audio">1</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer4" in="00:00:00.000" out="00:02:25.600">
+ <producer id="producer6" in="00:00:00.000" out="00:02:25.600">
   <property name="length">4369</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_06-26-54_Sarah_kit_jackson_MVI_6066-take4_m44_to_end.MP4</property>
@@ -19264,14 +19336,14 @@ p, li { white-space: pre-wrap; }
  </producer>
  <playlist id="playlist20">
   <blank length="00:00:12.267"/>
-  <entry producer="producer3" in="00:00:00.000" out="00:01:13.700">
+  <entry producer="producer5" in="00:00:00.000" out="00:01:13.700">
    <property name="kdenlive:id">7</property>
   </entry>
   <blank length="00:00:33.933"/>
-  <entry producer="producer3" in="00:01:48.667" out="00:03:14.500">
+  <entry producer="producer5" in="00:01:48.667" out="00:03:14.500">
    <property name="kdenlive:id">7</property>
   </entry>
-  <entry producer="producer4" in="00:00:08.133" out="00:00:53.200">
+  <entry producer="producer6" in="00:00:08.133" out="00:00:53.200">
    <property name="kdenlive:id">8</property>
   </entry>
   <entry producer="producer231" in="00:00:53.233" out="00:00:55.533">
@@ -23163,10 +23235,10 @@ p, li { white-space: pre-wrap; }
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer4" in="00:00:55.567" out="00:01:14.900">
+  <entry producer="producer6" in="00:00:55.567" out="00:01:14.900">
    <property name="kdenlive:id">8</property>
   </entry>
-  <entry producer="producer4" in="00:01:25.333" out="00:02:05.900">
+  <entry producer="producer6" in="00:01:25.333" out="00:02:05.900">
    <property name="kdenlive:id">8</property>
    <filter id="filter249">
     <property name="rotate_center">1</property>
@@ -23179,7 +23251,7 @@ p, li { white-space: pre-wrap; }
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer4" in="00:02:10.900" out="00:02:25.600">
+  <entry producer="producer6" in="00:02:10.900" out="00:02:25.600">
    <property name="kdenlive:id">8</property>
   </entry>
  </playlist>
@@ -23187,14 +23259,14 @@ p, li { white-space: pre-wrap; }
  <tractor id="tractor10" in="00:00:00.000" out="00:05:27.900">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
-  <property name="kdenlive:collapsed">28</property>
+  <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:track_name">sarah-snare</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
   <track hide="audio" producer="playlist20"/>
   <track producer="playlist21"/>
  </tractor>
- <producer id="producer5" in="00:00:00.000" out="00:04:00.133">
+ <producer id="producer7" in="00:00:00.000" out="00:04:00.133">
   <property name="length">7205</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_140918_Sarah_kit+handheld_jackson-take3_beginning_to_D.mp4</property>
@@ -23320,7 +23392,7 @@ p, li { white-space: pre-wrap; }
   <property name="set.test_audio">1</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer6" in="00:00:00.000" out="00:02:22.400">
+ <producer id="producer8" in="00:00:00.000" out="00:02:22.400">
   <property name="length">4273</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_142358_Sarah_kit+handheld_jackson-take4_m44_to_end.mp4</property>
@@ -23574,14 +23646,14 @@ p, li { white-space: pre-wrap; }
  </producer>
  <playlist id="playlist22">
   <blank length="00:00:13.500"/>
-  <entry producer="producer5" in="00:00:00.000" out="00:01:12.467">
+  <entry producer="producer7" in="00:00:00.000" out="00:01:12.467">
    <property name="kdenlive:id">14</property>
   </entry>
   <blank length="00:00:33.833"/>
-  <entry producer="producer5" in="00:01:47.500" out="00:03:13.433">
+  <entry producer="producer7" in="00:01:47.500" out="00:03:13.433">
    <property name="kdenlive:id">14</property>
   </entry>
-  <entry producer="producer6" in="00:00:04.933" out="00:01:11.367">
+  <entry producer="producer8" in="00:00:04.933" out="00:01:11.367">
    <property name="kdenlive:id">15</property>
   </entry>
   <entry producer="producer234" in="00:01:21.733" out="00:01:37.100">
@@ -23608,10 +23680,10 @@ p, li { white-space: pre-wrap; }
     <property name="alpha">-1</property>
    </filter>
   </entry>
-  <entry producer="producer6" in="00:01:37.133" out="00:02:02.633">
+  <entry producer="producer8" in="00:01:37.133" out="00:02:02.633">
    <property name="kdenlive:id">15</property>
   </entry>
-  <entry producer="producer6" in="00:02:07.800" out="00:02:22.400">
+  <entry producer="producer8" in="00:02:07.800" out="00:02:22.400">
    <property name="kdenlive:id">15</property>
   </entry>
  </playlist>
@@ -23626,7 +23698,7 @@ p, li { white-space: pre-wrap; }
   <track hide="audio" producer="playlist22"/>
   <track producer="playlist23"/>
  </tractor>
- <producer id="producer7" in="00:00:00.000" out="00:04:09.133">
+ <producer id="producer9" in="00:00:00.000" out="00:04:09.133">
   <property name="length">7475</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Caleb+Chris_upright+piano+handheld_jackson_MVI_6038-take3_full.mkv</property>
@@ -23829,7 +23901,7 @@ p, li { white-space: pre-wrap; }
  </producer>
  <playlist id="playlist24">
   <blank length="00:00:07.000"/>
-  <entry producer="producer7" in="00:00:01.467" out="00:01:12.167">
+  <entry producer="producer9" in="00:00:01.467" out="00:01:12.167">
    <property name="kdenlive:id">9</property>
   </entry>
   <entry producer="producer236" in="00:01:12.200" out="00:01:20.433">
@@ -25307,7 +25379,7 @@ p, li { white-space: pre-wrap; }
   <track hide="audio" producer="playlist24"/>
   <track producer="playlist25"/>
  </tractor>
- <producer id="producer8" in="00:00:00.000" out="00:04:14.500">
+ <producer id="producer10" in="00:00:00.000" out="00:04:14.500">
   <property name="length">7636</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Caleb_upright+4k+portrait_jackson_P1000536-take3_beginning_to_G.MP4</property>
@@ -25690,7 +25762,7 @@ p, li { white-space: pre-wrap; }
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer9" in="00:00:00.000" out="00:02:27.500">
+ <producer id="producer11" in="00:00:00.000" out="00:02:27.500">
   <property name="length">4426</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Caleb_upright+4k+portrait_jackson_P1000538-take4_m44-to-end.MP4</property>
@@ -25822,7 +25894,7 @@ p, li { white-space: pre-wrap; }
  </producer>
  <playlist id="playlist26">
   <blank length="00:00:07.000"/>
-  <entry producer="producer8" in="00:00:03.400" out="00:01:21.567">
+  <entry producer="producer10" in="00:00:03.400" out="00:01:21.567">
    <property name="kdenlive:id">12</property>
   </entry>
   <entry producer="producer239" in="00:00:08.700" out="00:00:43.867">
@@ -29661,7 +29733,7 @@ p, li { white-space: pre-wrap; }
    </filter>
   </entry>
   <blank length="00:00:00.300"/>
-  <entry producer="producer9" in="00:00:23.867" out="00:01:15.000">
+  <entry producer="producer11" in="00:00:23.867" out="00:01:15.000">
    <property name="kdenlive:id">11</property>
    <filter id="filter269">
     <property name="version">0.6</property>
@@ -30045,7 +30117,7 @@ p, li { white-space: pre-wrap; }
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer9" in="00:01:30.567" out="00:02:27.500">
+  <entry producer="producer11" in="00:01:30.567" out="00:02:27.500">
    <property name="kdenlive:id">11</property>
    <filter id="filter272">
     <property name="version">0.6</property>
@@ -30264,7 +30336,7 @@ p, li { white-space: pre-wrap; }
  <tractor id="tractor13" in="00:00:00.000" out="00:05:29.533">
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
-  <property name="kdenlive:collapsed">28</property>
+  <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:track_name">caleb-4k portrait</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
@@ -30718,7 +30790,7 @@ p, li { white-space: pre-wrap; }
    </filter>
   </entry>
   <blank length="00:00:07.300"/>
-  <entry producer="producer8" in="00:02:07.333" out="00:03:22.033">
+  <entry producer="producer10" in="00:02:07.333" out="00:03:22.033">
    <property name="kdenlive:id">12</property>
    <filter id="filter280">
     <property name="version">0.6</property>
@@ -30778,7 +30850,7 @@ p, li { white-space: pre-wrap; }
   <track hide="audio" producer="playlist28"/>
   <track producer="playlist29"/>
  </tractor>
- <producer id="producer10" in="00:00:00.000" out="00:00:21.300">
+ <producer id="producer12" in="00:00:00.000" out="00:00:21.300">
   <property name="length">640</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Chris_piano_4k_jackson_P1180167-pickup.MP4</property>
@@ -30977,7 +31049,7 @@ p, li { white-space: pre-wrap; }
  </producer>
  <playlist id="playlist30">
   <blank length="00:01:20.033"/>
-  <entry producer="producer10" in="00:00:00.000" out="00:00:18.400">
+  <entry producer="producer12" in="00:00:00.000" out="00:00:18.400">
    <property name="kdenlive:id">13</property>
   </entry>
   <blank length="00:00:31.700"/>
@@ -38981,7 +39053,7 @@ p, li { white-space: pre-wrap; }
   <track hide="audio" producer="playlist30"/>
   <track producer="playlist31"/>
  </tractor>
- <tractor id="tractor16" global_feed="1" in="00:00:00.000" out="00:22:12.900">
+ <tractor id="tractor16" global_feed="1" in="00:00:00.000" out="00:22:23.000">
   <track producer="black_track"/>
   <track producer="tractor0"/>
   <track producer="tractor1"/>
@@ -38999,27 +39071,7 @@ p, li { white-space: pre-wrap; }
   <track producer="tractor13"/>
   <track producer="tractor14"/>
   <track producer="tractor15"/>
-  <transition id="transition0">
-   <property name="a_track">0</property>
-   <property name="b_track">1</property>
-   <property name="mlt_service">mix</property>
-   <property name="kdenlive_id">mix</property>
-   <property name="internal_added">237</property>
-   <property name="always_active">1</property>
-   <property name="accepts_blanks">1</property>
-   <property name="sum">1</property>
-  </transition>
-  <transition id="transition1">
-   <property name="a_track">0</property>
-   <property name="b_track">2</property>
-   <property name="mlt_service">mix</property>
-   <property name="kdenlive_id">mix</property>
-   <property name="internal_added">237</property>
-   <property name="always_active">1</property>
-   <property name="accepts_blanks">1</property>
-   <property name="sum">1</property>
-  </transition>
-  <transition id="transition2" in="00:04:32.600" out="00:04:47.633">
+  <transition id="transition0" in="00:04:32.600" out="00:04:47.633">
    <property name="a_track">12</property>
    <property name="b_track">13</property>
    <property name="version">0.9</property>
@@ -39029,7 +39081,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=0.19;00:00:00.167=1;00:00:06.100=1;00:00:07.067=0.12;00:00:07.133|=1;00:00:07.267|=0.1;00:00:07.367|=1;00:00:07.400=1;00:00:07.433|=0.24;00:00:07.467=1;00:00:07.633|=0.25;00:00:08.867=1;00:00:09.200|=0.24;00:00:09.633=0.6;00:00:09.667=1;00:00:09.967|=0.27;00:00:10.867=1;00:00:11.100|=0.32;00:00:12.067=1;00:00:12.333|=0.23;00:00:12.667=1;00:00:13.000=0.47;00:00:13.033=1;00:00:13.267=0.51;00:00:13.300=1;00:00:14.067=0.27;00:00:14.100=1;00:00:14.433=0.37;00:00:14.467=1;00:00:14.533=0.55;00:00:14.567=1;00:00:15.033=0.43</property>
    <property name="1">lighten</property>
   </transition>
-  <transition id="transition3" in="00:04:10.900" out="00:04:13.200">
+  <transition id="transition1" in="00:04:10.900" out="00:04:13.200">
    <property name="a_track">8</property>
    <property name="b_track">10</property>
    <property name="version">0.9</property>
@@ -39039,7 +39091,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=0.54;00:00:01.233=0.54;00:00:01.467=0.31</property>
    <property name="1">colordodge</property>
   </transition>
-  <transition id="transition4" in="00:04:02.267" out="00:04:04.233">
+  <transition id="transition2" in="00:04:02.267" out="00:04:04.233">
    <property name="a_track">8</property>
    <property name="b_track">10</property>
    <property name="version">0.9</property>
@@ -39049,7 +39101,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=0.82</property>
    <property name="1">colordodge</property>
   </transition>
-  <transition id="transition5" in="00:04:10.900" out="00:04:13.200">
+  <transition id="transition3" in="00:04:10.900" out="00:04:13.200">
    <property name="a_track">8</property>
    <property name="b_track">11</property>
    <property name="version">0.9</property>
@@ -39059,7 +39111,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=0.54;00:00:01.233=0.54;00:00:01.467=0.31</property>
    <property name="1">colordodge</property>
   </transition>
-  <transition id="transition6" in="00:04:04.033" out="00:04:04.600">
+  <transition id="transition4" in="00:04:04.033" out="00:04:04.600">
    <property name="a_track">7</property>
    <property name="b_track">8</property>
    <property name="start">0/0:100%x100%</property>
@@ -39074,7 +39126,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition7" in="00:04:08.367" out="00:04:08.933">
+  <transition id="transition5" in="00:04:08.367" out="00:04:08.933">
    <property name="a_track">7</property>
    <property name="b_track">8</property>
    <property name="start">0/0:100%x100%</property>
@@ -39089,7 +39141,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition8" in="00:04:10.567" out="00:04:11.367">
+  <transition id="transition6" in="00:04:10.567" out="00:04:11.367">
    <property name="a_track">7</property>
    <property name="b_track">8</property>
    <property name="start">0/0:100%x100%</property>
@@ -39104,7 +39156,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition9" in="00:04:01.600" out="00:04:01.900">
+  <transition id="transition7" in="00:04:01.600" out="00:04:01.900">
    <property name="a_track">7</property>
    <property name="b_track">8</property>
    <property name="start">0/0:100%x100%</property>
@@ -39119,7 +39171,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition10" in="00:04:06.300" out="00:04:06.767">
+  <transition id="transition8" in="00:04:06.300" out="00:04:06.767">
    <property name="a_track">7</property>
    <property name="b_track">8</property>
    <property name="start">0/0:100%x100%</property>
@@ -39134,7 +39186,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition11" in="00:03:56.500" out="00:03:56.667">
+  <transition id="transition9" in="00:04:18.967" out="00:04:19.200">
    <property name="a_track">6</property>
    <property name="b_track">7</property>
    <property name="start">0/0:100%x100%</property>
@@ -39143,6 +39195,37 @@ p, li { white-space: pre-wrap; }
    <property name="progressive">1</property>
    <property name="mlt_service">composite</property>
    <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition10" in="00:04:16.733" out="00:04:16.967">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition11" in="00:03:35.500" out="00:03:35.933">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="force_track">1</property>
    <property name="softness">0</property>
    <property name="luma"/>
    <property name="luma_invert">0</property>
@@ -39164,38 +39247,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition13" in="00:03:35.500" out="00:03:35.933">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="force_track">1</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition14" in="00:04:16.733" out="00:04:16.967">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition15" in="00:04:18.967" out="00:04:19.200">
+  <transition id="transition13" in="00:03:56.500" out="00:03:56.667">
    <property name="a_track">6</property>
    <property name="b_track">7</property>
    <property name="start">0/0:100%x100%</property>
@@ -39210,7 +39262,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition16" in="00:04:12.900" out="00:04:13.567">
+  <transition id="transition14" in="00:04:12.900" out="00:04:13.567">
    <property name="a_track">6</property>
    <property name="b_track">8</property>
    <property name="start">0/0:100%x100%</property>
@@ -39226,7 +39278,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition17" in="00:03:35.500" out="00:03:35.933">
+  <transition id="transition15" in="00:03:35.500" out="00:03:35.933">
    <property name="a_track">6</property>
    <property name="b_track">8</property>
    <property name="start">0/0:100%x100%</property>
@@ -39242,7 +39294,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition18" in="00:03:40.767" out="00:03:42.800">
+  <transition id="transition16" in="00:03:40.767" out="00:03:42.800">
    <property name="a_track">6</property>
    <property name="b_track">10</property>
    <property name="version">0.9</property>
@@ -39252,7 +39304,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=0.64</property>
    <property name="1">colordodge</property>
   </transition>
-  <transition id="transition19" in="00:03:42.767" out="00:03:43.200">
+  <transition id="transition17" in="00:03:42.767" out="00:03:43.200">
    <property name="a_track">5</property>
    <property name="b_track">6</property>
    <property name="start">0/0:100%x100%</property>
@@ -39267,7 +39319,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition20" in="00:04:20.267" out="00:04:20.667">
+  <transition id="transition18" in="00:04:20.267" out="00:04:20.667">
    <property name="a_track">5</property>
    <property name="b_track">6</property>
    <property name="start">0/0:100%x100%</property>
@@ -39282,17 +39334,17 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition21" in="00:00:18.333" out="00:00:23.533">
+  <transition id="transition19" in="00:00:18.333" out="00:00:23.533">
    <property name="a_track">4</property>
    <property name="b_track">5</property>
    <property name="version">0.9</property>
    <property name="mlt_service">frei0r.cairoblend</property>
    <property name="kdenlive_id">frei0r.cairoblend</property>
    <property name="force_track">1</property>
-   <property name="0">00:00:00.000=100</property>
+   <property name="0">00:00:00.000=0;00:00:00.167=1;00:00:03.467=1;00:00:05.200=0</property>
    <property name="1">overlay</property>
   </transition>
-  <transition id="transition22" in="00:03:45.367" out="00:03:45.767">
+  <transition id="transition20" in="00:03:45.367" out="00:03:45.767">
    <property name="a_track">4</property>
    <property name="b_track">5</property>
    <property name="start">0/0:100%x100%</property>
@@ -39307,7 +39359,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition23" in="00:03:47.900" out="00:03:48.367">
+  <transition id="transition21" in="00:03:47.900" out="00:03:48.367">
    <property name="a_track">4</property>
    <property name="b_track">5</property>
    <property name="start">0/0:100%x100%</property>
@@ -39322,7 +39374,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition24" in="00:01:03.367" out="00:01:03.567">
+  <transition id="transition22" in="00:01:03.367" out="00:01:03.567">
    <property name="a_track">4</property>
    <property name="b_track">5</property>
    <property name="start">0/0:100%x100%</property>
@@ -39337,7 +39389,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition25" in="00:01:01.633" out="00:01:01.800">
+  <transition id="transition23" in="00:01:01.633" out="00:01:01.800">
    <property name="a_track">4</property>
    <property name="b_track">5</property>
    <property name="start">0/0:100%x100%</property>
@@ -39346,6 +39398,32 @@ p, li { white-space: pre-wrap; }
    <property name="progressive">1</property>
    <property name="mlt_service">composite</property>
    <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition24" in="00:00:18.333" out="00:00:23.533">
+   <property name="a_track">4</property>
+   <property name="b_track">6</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="force_track">1</property>
+   <property name="0">00:00:00.000=0;00:00:00.167=1;00:00:03.467=1;00:00:05.200=0</property>
+   <property name="1">hardlight</property>
+  </transition>
+  <transition id="transition25" in="00:03:29.700" out="00:03:30.433">
+   <property name="a_track">4</property>
+   <property name="b_track">7</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="force_track">1</property>
    <property name="softness">0</property>
    <property name="luma"/>
    <property name="luma_invert">0</property>
@@ -39354,41 +39432,15 @@ p, li { white-space: pre-wrap; }
   </transition>
   <transition id="transition26" in="00:00:18.333" out="00:00:23.533">
    <property name="a_track">4</property>
-   <property name="b_track">6</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="0">00:00:00.000=1</property>
-   <property name="1">hardlight</property>
-   <property name="force_track">1</property>
-  </transition>
-  <transition id="transition27" in="00:03:29.700" out="00:03:30.433">
-   <property name="a_track">4</property>
-   <property name="b_track">7</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="force_track">1</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition28" in="00:00:18.333" out="00:00:23.533">
-   <property name="a_track">4</property>
    <property name="b_track">7</property>
    <property name="version">0.9</property>
    <property name="mlt_service">frei0r.cairoblend</property>
    <property name="kdenlive_id">frei0r.cairoblend</property>
    <property name="force_track">1</property>
-   <property name="0">00:00:00.000=1</property>
+   <property name="0">00:00:00.000=0;00:00:00.133=1;00:00:03.467=1;00:00:05.200=0</property>
    <property name="1">darken</property>
   </transition>
-  <transition id="transition29" in="00:03:29.700" out="00:03:30.433">
+  <transition id="transition27" in="00:03:29.700" out="00:03:30.433">
    <property name="a_track">4</property>
    <property name="b_track">8</property>
    <property name="start">0/0:100%x100%</property>
@@ -39404,7 +39456,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition30" in="00:02:02.967" out="00:03:06.300">
+  <transition id="transition28" in="00:02:02.967" out="00:03:06.300">
    <property name="a_track">4</property>
    <property name="b_track">9</property>
    <property name="version">0.9</property>
@@ -39414,7 +39466,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=100</property>
    <property name="1">darken</property>
   </transition>
-  <transition id="transition31" in="00:03:06.333" out="00:03:30.433">
+  <transition id="transition29" in="00:03:06.333" out="00:03:30.433">
    <property name="a_track">4</property>
    <property name="b_track">9</property>
    <property name="version">0.9</property>
@@ -39424,7 +39476,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=0.8;00:00:19.667=0.8;00:00:24.100=0.28</property>
    <property name="1">colordodge</property>
   </transition>
-  <transition id="transition32" in="00:02:10.167" out="00:03:25.767">
+  <transition id="transition30" in="00:02:10.167" out="00:03:25.767">
    <property name="a_track">4</property>
    <property name="b_track">16</property>
    <property name="version">0.9</property>
@@ -39434,7 +39486,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=0;00:00:02.000=0.48;00:00:21.700=0.48;00:00:23.333=0;00:00:31.833=0;00:00:32.933=0.4;00:00:37.000=0.4;00:00:37.700=0;00:00:43.000=0;00:00:43.667=0.4;00:00:47.167=0.4;00:00:47.533=0;00:00:51.600=0;00:00:53.100=0.4;00:01:08.467=0.4;00:01:09.233=0</property>
    <property name="1">overlay</property>
   </transition>
-  <transition id="transition33" in="00:00:12.300" out="00:00:12.633">
+  <transition id="transition31" in="00:00:28.733" out="00:00:28.967">
    <property name="a_track">3</property>
    <property name="b_track">4</property>
    <property name="start">0/0:100%x100%</property>
@@ -39449,22 +39501,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition34" in="00:00:28.733" out="00:00:28.967">
-   <property name="a_track">3</property>
-   <property name="b_track">4</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition35" in="00:00:30.467" out="00:00:30.733">
+  <transition id="transition32" in="00:01:59.833" out="00:02:00.367">
    <property name="a_track">3</property>
    <property name="b_track">4</property>
    <property name="start">0/0:100%x100%</property>
@@ -39479,15 +39516,66 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition36" in="00:00:40.233" out="00:00:59.867">
+  <transition id="transition33" in="00:00:17.933" out="00:00:18.300">
    <property name="a_track">3</property>
    <property name="b_track">4</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition34" in="00:00:23.233" out="00:00:23.533">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition35" in="00:00:26.933" out="00:00:27.200">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition36" in="00:01:09.767" out="00:01:12.133">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
    <property name="force_track">1</property>
-   <property name="0">00:00:00.000=100</property>
-   <property name="1">darken</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
+   <property name="fill">1</property>
   </transition>
   <transition id="transition37" in="00:00:31.200" out="00:00:40.200">
    <property name="a_track">3</property>
@@ -39499,83 +39587,47 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=1</property>
    <property name="1">darken</property>
   </transition>
-  <transition id="transition38" in="00:01:09.767" out="00:01:12.133">
+  <transition id="transition38" in="00:00:40.233" out="00:00:59.867">
    <property name="a_track">3</property>
    <property name="b_track">4</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
    <property name="force_track">1</property>
+   <property name="0">00:00:00.000=100</property>
+   <property name="1">darken</property>
+  </transition>
+  <transition id="transition39" in="00:00:30.467" out="00:00:30.733">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
+   <property name="softness">0</property>
+   <property name="luma"/>
+   <property name="luma_invert">0</property>
+   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
+   <property name="fill">1</property>
+  </transition>
+  <transition id="transition40" in="00:00:12.300" out="00:00:12.633">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="start">0/0:100%x100%</property>
+   <property name="factory">loader</property>
+   <property name="aligned">0</property>
+   <property name="progressive">1</property>
+   <property name="mlt_service">composite</property>
+   <property name="kdenlive_id">wipe</property>
    <property name="softness">0</property>
    <property name="luma"/>
    <property name="luma_invert">0</property>
    <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
    <property name="fill">1</property>
   </transition>
-  <transition id="transition39" in="00:00:26.933" out="00:00:27.200">
-   <property name="a_track">3</property>
-   <property name="b_track">4</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition40" in="00:00:23.233" out="00:00:23.533">
-   <property name="a_track">3</property>
-   <property name="b_track">4</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:100;-1=0%/0%:100%x100%:0</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition41" in="00:00:17.933" out="00:00:18.300">
-   <property name="a_track">3</property>
-   <property name="b_track">4</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition42" in="00:01:59.833" out="00:02:00.367">
-   <property name="a_track">3</property>
-   <property name="b_track">4</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">0</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="kdenlive_id">wipe</property>
-   <property name="softness">0</property>
-   <property name="luma"/>
-   <property name="luma_invert">0</property>
-   <property name="geometry">0%/0%:100%x100%:0;-1=0%/0%:100%x100%:100</property>
-   <property name="fill">1</property>
-  </transition>
-  <transition id="transition43" in="00:01:25.200" out="00:02:03.733">
+  <transition id="transition41" in="00:01:25.200" out="00:02:03.733">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="version">0.9</property>
@@ -39585,27 +39637,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=0.87</property>
    <property name="1">darken</property>
   </transition>
-  <transition id="transition44" in="00:00:23.567" out="00:00:27.200">
-   <property name="a_track">3</property>
-   <property name="b_track">5</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="force_track">1</property>
-   <property name="0">00:00:00.000=1</property>
-   <property name="1">overlay</property>
-  </transition>
-  <transition id="transition45" in="00:00:12.667" out="00:00:18.300">
-   <property name="a_track">3</property>
-   <property name="b_track">5</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="force_track">1</property>
-   <property name="0">00:00:00.000=0;00:00:00.333=100</property>
-   <property name="1">overlay</property>
-  </transition>
-  <transition id="transition46" in="00:00:40.233" out="00:00:59.867">
+  <transition id="transition42" in="00:00:40.233" out="00:00:59.867">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="version">0.9</property>
@@ -39615,7 +39647,27 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=100</property>
    <property name="1">darken</property>
   </transition>
-  <transition id="transition47" in="00:00:32.500" out="00:00:40.200">
+  <transition id="transition43" in="00:00:23.567" out="00:00:27.200">
+   <property name="a_track">3</property>
+   <property name="b_track">5</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="force_track">1</property>
+   <property name="0">00:00:00.000=0.08;00:00:00.167=1;00:00:03.367=1;00:00:03.633=0.14</property>
+   <property name="1">overlay</property>
+  </transition>
+  <transition id="transition44" in="00:00:12.667" out="00:00:18.300">
+   <property name="a_track">3</property>
+   <property name="b_track">5</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="force_track">1</property>
+   <property name="0">00:00:00.000=0;00:00:00.333=1;00:00:03.433=1;00:00:05.633=0.06</property>
+   <property name="1">overlay</property>
+  </transition>
+  <transition id="transition45" in="00:00:32.500" out="00:00:40.200">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="version">0.9</property>
@@ -39625,7 +39677,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=1</property>
    <property name="1">darken</property>
   </transition>
-  <transition id="transition48" in="00:01:25.200" out="00:02:00.367">
+  <transition id="transition46" in="00:01:25.200" out="00:02:00.367">
    <property name="a_track">3</property>
    <property name="b_track">6</property>
    <property name="version">0.9</property>
@@ -39635,7 +39687,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=0.37</property>
    <property name="1">darken</property>
   </transition>
-  <transition id="transition49" in="00:00:40.233" out="00:00:59.867">
+  <transition id="transition47" in="00:00:40.233" out="00:00:59.867">
    <property name="a_track">3</property>
    <property name="b_track">6</property>
    <property name="version">0.9</property>
@@ -39645,17 +39697,17 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=100</property>
    <property name="1">darken</property>
   </transition>
-  <transition id="transition50" in="00:00:23.567" out="00:00:27.200">
+  <transition id="transition48" in="00:00:23.567" out="00:00:27.200">
    <property name="a_track">3</property>
    <property name="b_track">6</property>
    <property name="version">0.9</property>
    <property name="mlt_service">frei0r.cairoblend</property>
    <property name="kdenlive_id">frei0r.cairoblend</property>
    <property name="force_track">1</property>
-   <property name="0">00:00:00.000=1</property>
+   <property name="0">00:00:00.000=0.1;00:00:00.200=1;00:00:03.367=1;00:00:03.633=0.16</property>
    <property name="1">hardlight</property>
   </transition>
-  <transition id="transition51" in="00:00:34.433" out="00:00:40.200">
+  <transition id="transition49" in="00:00:34.433" out="00:00:40.200">
    <property name="a_track">3</property>
    <property name="b_track">6</property>
    <property name="version">0.9</property>
@@ -39663,6 +39715,26 @@ p, li { white-space: pre-wrap; }
    <property name="kdenlive_id">frei0r.cairoblend</property>
    <property name="force_track">1</property>
    <property name="0">00:00:00.000=1</property>
+   <property name="1">darken</property>
+  </transition>
+  <transition id="transition50" in="00:00:35.200" out="00:00:40.200">
+   <property name="a_track">3</property>
+   <property name="b_track">7</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="force_track">1</property>
+   <property name="0">00:00:00.000=1</property>
+   <property name="1">darken</property>
+  </transition>
+  <transition id="transition51" in="00:00:23.567" out="00:00:27.200">
+   <property name="a_track">3</property>
+   <property name="b_track">7</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="force_track">1</property>
+   <property name="0">00:00:00.000=0.31;00:00:00.267=1;00:00:03.367=1;00:00:03.633=0.1</property>
    <property name="1">darken</property>
   </transition>
   <transition id="transition52" in="00:00:40.233" out="00:00:59.867">
@@ -39675,27 +39747,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=100</property>
    <property name="1">darken</property>
   </transition>
-  <transition id="transition53" in="00:00:23.567" out="00:00:27.200">
-   <property name="a_track">3</property>
-   <property name="b_track">7</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="force_track">1</property>
-   <property name="0">00:00:00.000=1</property>
-   <property name="1">darken</property>
-  </transition>
-  <transition id="transition54" in="00:00:35.200" out="00:00:40.200">
-   <property name="a_track">3</property>
-   <property name="b_track">7</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="force_track">1</property>
-   <property name="0">00:00:00.000=1</property>
-   <property name="1">darken</property>
-  </transition>
-  <transition id="transition55" in="00:00:40.233" out="00:00:59.867">
+  <transition id="transition53" in="00:00:40.233" out="00:00:59.867">
    <property name="a_track">3</property>
    <property name="b_track">8</property>
    <property name="version">0.9</property>
@@ -39705,7 +39757,17 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=100</property>
    <property name="1">darken</property>
   </transition>
-  <transition id="transition56" in="00:00:36.367" out="00:00:40.200">
+  <transition id="transition54" in="00:00:12.400" out="00:00:26.500">
+   <property name="a_track">3</property>
+   <property name="b_track">8</property>
+   <property name="version">0.9</property>
+   <property name="mlt_service">frei0r.cairoblend</property>
+   <property name="kdenlive_id">frei0r.cairoblend</property>
+   <property name="force_track">1</property>
+   <property name="0">00:00:00.000=0;00:00:00.267~=1;00:00:13.967=1;00:00:14.100=0.18</property>
+   <property name="1">softlight</property>
+  </transition>
+  <transition id="transition55" in="00:00:36.367" out="00:00:40.200">
    <property name="a_track">3</property>
    <property name="b_track">8</property>
    <property name="version">0.9</property>
@@ -39715,17 +39777,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=1</property>
    <property name="1">darken</property>
   </transition>
-  <transition id="transition57" in="00:00:12.400" out="00:00:26.500">
-   <property name="a_track">3</property>
-   <property name="b_track">8</property>
-   <property name="version">0.9</property>
-   <property name="mlt_service">frei0r.cairoblend</property>
-   <property name="kdenlive_id">frei0r.cairoblend</property>
-   <property name="force_track">1</property>
-   <property name="0">00:00:00.000=0;00:00:00.133~=100</property>
-   <property name="1">softlight</property>
-  </transition>
-  <transition id="transition58" in="00:00:40.233" out="00:00:59.867">
+  <transition id="transition56" in="00:00:40.233" out="00:00:59.867">
    <property name="a_track">3</property>
    <property name="b_track">9</property>
    <property name="version">0.9</property>
@@ -39735,7 +39787,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=100</property>
    <property name="1">darken</property>
   </transition>
-  <transition id="transition59" in="00:00:26.367" out="00:00:31.100">
+  <transition id="transition57" in="00:00:26.367" out="00:00:31.100">
    <property name="a_track">3</property>
    <property name="b_track">10</property>
    <property name="version">0.9</property>
@@ -39745,7 +39797,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=0;00:00:01.767=0.57;00:00:02.533=1;00:00:04.033=0.85;00:00:04.733=0</property>
    <property name="1">normal</property>
   </transition>
-  <transition id="transition60" in="00:04:43.800" out="00:04:47.633">
+  <transition id="transition58" in="00:04:43.800" out="00:04:47.633">
    <property name="a_track">3</property>
    <property name="b_track">12</property>
    <property name="version">0.9</property>
@@ -39755,7 +39807,7 @@ p, li { white-space: pre-wrap; }
    <property name="0">00:00:00.000=1;00:00:03.433=0.66;00:00:03.833=0.2</property>
    <property name="1">normal</property>
   </transition>
-  <transition id="transition61" in="00:01:17.733" out="00:01:25.967">
+  <transition id="transition59" in="00:01:17.733" out="00:01:25.967">
    <property name="a_track">3</property>
    <property name="b_track">13</property>
    <property name="version">0.9</property>
@@ -39764,6 +39816,26 @@ p, li { white-space: pre-wrap; }
    <property name="force_track">1</property>
    <property name="0">00:00:00.000=0.17;00:00:00.100=0.17;00:00:07.600=0.17;00:00:08.133=0</property>
    <property name="1">hslluminosity</property>
+  </transition>
+  <transition id="transition60">
+   <property name="a_track">0</property>
+   <property name="b_track">1</property>
+   <property name="mlt_service">mix</property>
+   <property name="kdenlive_id">mix</property>
+   <property name="internal_added">237</property>
+   <property name="always_active">1</property>
+   <property name="accepts_blanks">1</property>
+   <property name="sum">1</property>
+  </transition>
+  <transition id="transition61">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="mlt_service">mix</property>
+   <property name="kdenlive_id">mix</property>
+   <property name="internal_added">237</property>
+   <property name="always_active">1</property>
+   <property name="accepts_blanks">1</property>
+   <property name="sum">1</property>
   </transition>
   <transition id="transition62">
    <property name="a_track">0</property>
