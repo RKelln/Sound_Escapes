@@ -1,0 +1,12 @@
+# ignore everything
+*
+# but descend into directories
+!*/
+
+# whitelist
+!**/final/**
+!.gitignore
+!**/final/source/**
+
+# but still ignore final content
+content/
