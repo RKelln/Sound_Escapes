@@ -21,7 +21,7 @@ It is always a pleasure working with Suzy, as she is such an emotive and lyrical
   * Bash scripts training and animation generation with ConSinGAN
   * Fragment shader (used with VEDA) for kaleidoscope effects
     * Note that shader parameters were tweaked for differnet sections
-* [Models for ReReVST](https://spideroak.com/browse/share/SafeShare/Sound_Escapes_video_source)
+* [Custom models for ReReVST](https://spideroak.com/browse/share/SafeShare/Sound_Escapes_video_source/archives/models/robbies_hobbies)
 
 
 ## Notes:
@@ -109,4 +109,4 @@ Creative Commons Attribution-ShareAlike 4.0 International License.
 You should have received a copy of the license along with this
 work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
 
-Please note, the audio for Robbie's Hobbies and the composition are licenced separately, copyright Spectrum Music and Suzy Wilde, repsectively.
+Please note, the audio for Robbie's Hobbies and the composition are licenced separately, copyright Spectrum Music and Suzy Wilde, respectively.
