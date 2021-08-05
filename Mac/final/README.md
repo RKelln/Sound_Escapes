@@ -29,6 +29,7 @@ In the end this piece speaks to me because, like _Robbies Hobbies_, it too is a 
 ## Source:
 
   * [Videos, images and kdenlive project archive](https://spideroak.com/browse/share/SafeShare/Sound_Escapes_video_source)
+    * Note: because of a [bug in kdenlive](https://bugs.kde.org/show_bug.cgi?id=439194) (as of v21.04.3) timeline clips of musicians (with greenscreens) may need to be disabled and re-enabled before they display correctly
   * `source/code`
     * [TODO] Shader code for Fibonacci and Droste sequences 
   * `source/models/bu3npattern`

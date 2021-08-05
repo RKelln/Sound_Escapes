@@ -17,7 +17,7 @@ It is always a pleasure working with Suzy, as she is such an emotive and lyrical
 
 * [Videos, images and kdenlive project archive](https://spideroak.com/browse/share/SafeShare/Sound_Escapes_video_source)
   * Note: because of a [bug in kdenlive](https://bugs.kde.org/show_bug.cgi?id=439194) (as of v21.04.3) timeline clips of musicians (with greenscreens) may need to be disabled and re-enabled before they display correctly
-* `code/`
+* `source/code/`
   * Bash scripts training and animation generation with ConSinGAN
   * Fragment shader (used with VEDA) for kaleidoscope effects
     * Note that shader parameters were tweaked for differnet sections
