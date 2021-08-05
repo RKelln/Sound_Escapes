@@ -21,8 +21,7 @@ It is always a pleasure working with Suzy, as she is such an emotive and lyrical
   * Bash scripts training and animation generation with ConSinGAN
   * Fragment shader (used with VEDA) for kaleidoscope effects
     * Note that shader parameters were tweaked for differnet sections
-* `models/`
-  * Models for ReReVST project used to stylize musicians more like paintings
+* [Models for ReReVST](https://spideroak.com/browse/share/SafeShare/Sound_Escapes_video_source)
 
 
 ## Notes:
