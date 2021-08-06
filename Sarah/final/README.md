@@ -27,7 +27,7 @@ I ended up taking the videos of Sarah at the recording session, so I saw her pla
   * Note: because of a [bug in kdenlive](https://bugs.kde.org/show_bug.cgi?id=439194) (as of v21.04.3) timeline clips of musicians (with greenscreens) may need to be disabled and re-enabled before they display correctly
 * `source/code/`
   * Bash scripts for generating animal textured musicians with Optex
-  * A very ugly version of the maua-stylegan2 script used for audio-reactivity. This is unusable as is, and requires the separated audio, which is not under an open licence, but gives an example of what was used. I adjusted and played with parameters a settings for each clip.
+  * A very ugly version of the maua-stylegan2 script used for audio-reactivity. This is unusable as is, and requires the separated audio, which is not under an open licence, but gives an example of what was used. I adjusted and played with parameters and settings for each clip.
 * [Custom models](https://spideroak.com/browse/share/SafeShare/Sound_Escapes_video_source/archives/models/hot_bod)
 
 
@@ -59,6 +59,12 @@ $ python generate_audiovisual.py --ckpt ../rosinality-stylegan/checkpoint/animal
 
 
 ## Code/Tools:
+
+  * [kdenlive](https://kdenlive.org)
+    Open source video editor
+
+  * [ffmpeg](http://ffmpeg.org/)
+    Open source audio and video tool
 
   * [StyleGAN 2 in PyTorch](https://github.com/rosinality/stylegan2-pytorch)
     by Kim Seonghyeon
