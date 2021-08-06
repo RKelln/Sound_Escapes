@@ -9,9 +9,7 @@ The piece took a dramatic turn while it was being composed, and became more cent
 The (many) layers in this piece are:
 
 1. A history of human technology, as dreamt by a machine. Using the [aphantasia](https://github.com/RKelln/aphantasia) project, I fed it a list of 146 technologies from a few thousand years ago to today, basing it from the research done for the Creo Animam project. These images form an almost invisible backbone to the piece.
-{{% youtube ZMKdpEwmQFE %}}
 2. A sequence of videos representing humanity and our relationship with the environment and human industry. Pieced together from public domain and creative commons videos, I was particularly delighted by the [Prelinger Archives at the Internet Archive](https://archive.org/details/prelinger), and some government sources.
-{{% youtube 3huPTrTJ2Zc %}}
 3. The seasons of spring, fall and winter as imagined by [StyleGAN2](https://github.com/rosinality/stylegan2-pytorch). Using images based on seasonal search terms for training data these models were deliberately under-trained with far too little training data to create a vague sense of seasonal time - an impression of color and abstract form. These models were then animated using the [maua-stylegan2](https://github.com/JCBrouwer/maua-stylegan2) porject to react to the audio of the piece.
 4. The tree and musicians: a filter or lens which, in this case, literally provides a glimpse of layer 2, the relationship between humanity, industry and nature.
 
