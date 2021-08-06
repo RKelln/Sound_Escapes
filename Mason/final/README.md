@@ -108,3 +108,4 @@ $ python generate_audiovisual.py --ckpt ../rosinality-stylegan/checkpoint/nebula
   * [Vidgear stabilize](https://github.com/abhiTronix)
     by Abhishek Thakur
     
+  * [https://github.com/RKelln/pyimgdata](https://github.com/RKelln/pyimgdata)

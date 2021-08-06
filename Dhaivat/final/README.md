@@ -108,3 +108,5 @@ python generate_audiovisual.py --ckpt ../rosinality-stylegan/checkpoint/spring/0
 
   * [maua-stylegan2](https://github.com/JCBrouwer/maua-stylegan2)
     by Hans Brouwer
+
+  * [https://github.com/RKelln/pyimgdata](https://github.com/RKelln/pyimgdata)

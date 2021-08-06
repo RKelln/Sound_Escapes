@@ -76,3 +76,5 @@ $ python generate_audiovisual.py --ckpt ../rosinality-stylegan/checkpoint/animal
     by Hans Brouwer and Jim Kok
     * [Custom fork used in concert](https://github.com/RKelln/OptimalTextures/tree/video)
 
+  * [https://github.com/RKelln/vid2frame](https://github.com/RKelln/vid2frame)
+

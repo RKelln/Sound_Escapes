@@ -2063,37 +2063,6 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    <property name="kdenlive:collapsed">0</property>
   </filter>
  </producer>
- <producer id="producer2" in="00:00:00.000" out="00:06:01.833">
-  <property name="length">10856</property>
-  <property name="eof">pause</property>
-  <property name="resource">content/20210602_SpectrumMusic-SoundEscapes-Mason EDIT1.wav</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">s32</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">pcm_s24le</property>
-  <property name="meta.media.0.codec.long_name">PCM signed 24-bit little-endian</property>
-  <property name="meta.media.0.codec.bit_rate">2304000</property>
-  <property name="meta.attr.encoded_by.markup">Pro Tools</property>
-  <property name="meta.attr.originator_reference.markup">aui8NpPLuoRk</property>
-  <property name="meta.attr.date.markup">2021-06-11</property>
-  <property name="meta.attr.creation_time.markup">12:50:08</property>
-  <property name="meta.attr.time_reference.markup">196875494</property>
-  <property name="meta.attr.umid.markup">0x060A2B340101010501010F1013000000B3949693E7F08500A5A0005056C00001</property>
-  <property name="seekable">1</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat</property>
-  <property name="kdenlive:clipname">20210602_SpectrumMusic-SoundEscapes-Mason EDIT1.wav</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">14</property>
-  <property name="kdenlive:file_size">104768830</property>
-  <property name="kdenlive:audio_max">1</property>
-  <property name="global_feed">1</property>
-  <property name="kdenlive:file_hash">cccd4497726beb689f9b56120d2be611</property>
- </producer>
  <producer id="producer8" in="00:00:00.000" out="00:00:32.600">
   <property name="length">979</property>
   <property name="eof">pause</property>
@@ -4258,39 +4227,10 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="meta.media.progressive">1</property>
   <property name="global_feed">1</property>
  </producer>
- <producer id="producer32" in="00:00:00.000" out="00:06:17.967">
-  <property name="length">11340</property>
-  <property name="eof">pause</property>
-  <property name="resource">content/Mason_SoundEscapes-MIX3_MASTER-001.wav</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">s32</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">pcm_s24le</property>
-  <property name="meta.media.0.codec.long_name">PCM signed 24-bit little-endian</property>
-  <property name="meta.media.0.codec.bit_rate">2304000</property>
-  <property name="meta.attr.encoded_by.markup">REAPER</property>
-  <property name="meta.attr.date.markup">2021-07-23</property>
-  <property name="meta.attr.creation_time.markup">19-34-25</property>
-  <property name="meta.attr.time_reference.markup">110880000</property>
-  <property name="seekable">1</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat</property>
-  <property name="kdenlive:clipname"/>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">66</property>
-  <property name="kdenlive:file_size">108864736</property>
-  <property name="kdenlive:file_hash">6a65b2a34895c76ecbb1daf40db52255</property>
-  <property name="kdenlive:audio_max">1</property>
-  <property name="global_feed">1</property>
- </producer>
  <playlist id="main_bin">
   <property name="kdenlive:docproperties.activeTrack">1</property>
   <property name="kdenlive:docproperties.audioChannels">2</property>
-  <property name="kdenlive:docproperties.audioTarget">1</property>
+  <property name="kdenlive:docproperties.audioTarget">-1</property>
   <property name="kdenlive:docproperties.compositing">2</property>
   <property name="kdenlive:docproperties.disablepreview">0</property>
   <property name="kdenlive:docproperties.documentid">1620754025982</property>
@@ -4424,7 +4364,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="kdenlive:docproperties.videoTarget">-1</property>
   <property name="kdenlive:docproperties.zonein">3475</property>
   <property name="kdenlive:docproperties.zoneout">3824</property>
-  <property name="kdenlive:docproperties.zoom">5</property>
+  <property name="kdenlive:docproperties.zoom">14</property>
   <property name="kdenlive:expandedFolders"/>
   <property name="kdenlive:documentnotes"/>
   <property name="kdenlive:folder.-1.61">musicians</property>
@@ -4443,7 +4383,6 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <entry producer="producer18" in="00:00:00.000" out="00:08:17.600"/>
   <entry producer="producer4" in="00:00:00.000" out="00:01:33.467"/>
   <entry producer="producer15" in="00:00:00.000" out="00:05:57.567"/>
-  <entry producer="producer2" in="00:00:00.000" out="00:06:01.833"/>
   <entry producer="producer8" in="00:00:00.000" out="00:00:32.600"/>
   <entry producer="producer37" in="00:00:00.000" out="00:01:12.600"/>
   <entry producer="producer42" in="00:00:00.000" out="00:00:47.567"/>
@@ -4478,9 +4417,8 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <entry producer="producer30" in="00:00:00.000" out="00:00:05.767"/>
   <entry producer="producer22" in="00:00:00.000" out="00:00:31.800"/>
   <entry producer="producer31" in="00:00:00.000" out="00:00:12.900"/>
-  <entry producer="producer32" in="00:00:00.000" out="00:06:17.967"/>
  </playlist>
- <producer id="black_track" in="00:00:00.000" out="00:23:05.000">
+ <producer id="black_track" in="00:00:00.000" out="00:22:39.200">
   <property name="length">2147483647</property>
   <property name="eof">continue</property>
   <property name="resource">black</property>
@@ -4489,56 +4427,18 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="mlt_image_format">rgb24a</property>
   <property name="set.test_audio">0</property>
  </producer>
- <producer id="producer33" in="00:00:00.000" out="00:06:01.833">
-  <property name="length">10856</property>
-  <property name="eof">pause</property>
-  <property name="resource">content/20210602_SpectrumMusic-SoundEscapes-Mason EDIT1.wav</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">s32</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">pcm_s24le</property>
-  <property name="meta.media.0.codec.long_name">PCM signed 24-bit little-endian</property>
-  <property name="meta.media.0.codec.bit_rate">2304000</property>
-  <property name="meta.attr.encoded_by.markup">Pro Tools</property>
-  <property name="meta.attr.originator_reference.markup">aui8NpPLuoRk</property>
-  <property name="meta.attr.date.markup">2021-06-11</property>
-  <property name="meta.attr.creation_time.markup">12:50:08</property>
-  <property name="meta.attr.time_reference.markup">196875494</property>
-  <property name="meta.attr.umid.markup">0x060A2B340101010501010F1013000000B3949693E7F08500A5A0005056C00001</property>
-  <property name="seekable">1</property>
-  <property name="kdenlive:clipname">20210602_SpectrumMusic-SoundEscapes-Mason EDIT1.wav</property>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">14</property>
-  <property name="kdenlive:file_size">104768830</property>
-  <property name="kdenlive:audio_max">1</property>
-  <property name="global_feed">1</property>
-  <property name="kdenlive:file_hash">cccd4497726beb689f9b56120d2be611</property>
-  <property name="xml">was here</property>
-  <property name="set.test_audio">0</property>
-  <property name="set.test_image">1</property>
- </producer>
  <playlist id="playlist0">
   <property name="kdenlive:audio_track">1</property>
-  <blank length="00:00:07.000"/>
-  <entry producer="producer33" in="00:00:00.000" out="00:06:01.833">
-   <property name="kdenlive:id">14</property>
-  </entry>
  </playlist>
  <playlist id="playlist1"/>
- <tractor id="tractor0" in="00:00:00.000" out="00:06:08.833">
+ <tractor id="tractor0" in="00:00:00.000">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
+  <property name="kdenlive:locked_track"/>
   <track hide="both" producer="playlist0"/>
   <track hide="video" producer="playlist1"/>
   <filter id="filter20">
@@ -4561,54 +4461,18 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    <property name="disable">1</property>
   </filter>
  </tractor>
- <producer id="producer34" in="00:00:00.000" out="00:06:17.967">
-  <property name="length">11340</property>
-  <property name="eof">pause</property>
-  <property name="resource">content/Mason_SoundEscapes-MIX3_MASTER-001.wav</property>
-  <property name="meta.media.nb_streams">1</property>
-  <property name="meta.media.0.stream.type">audio</property>
-  <property name="meta.media.0.codec.sample_fmt">s32</property>
-  <property name="meta.media.0.codec.sample_rate">48000</property>
-  <property name="meta.media.0.codec.channels">2</property>
-  <property name="meta.media.0.codec.name">pcm_s24le</property>
-  <property name="meta.media.0.codec.long_name">PCM signed 24-bit little-endian</property>
-  <property name="meta.media.0.codec.bit_rate">2304000</property>
-  <property name="meta.attr.encoded_by.markup">REAPER</property>
-  <property name="meta.attr.date.markup">2021-07-23</property>
-  <property name="meta.attr.creation_time.markup">19-34-25</property>
-  <property name="meta.attr.time_reference.markup">110880000</property>
-  <property name="seekable">1</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">0</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="kdenlive:clipname"/>
-  <property name="kdenlive:folderid">-1</property>
-  <property name="kdenlive:id">66</property>
-  <property name="kdenlive:file_size">108864736</property>
-  <property name="kdenlive:file_hash">6a65b2a34895c76ecbb1daf40db52255</property>
-  <property name="kdenlive:audio_max">1</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="set.test_audio">0</property>
-  <property name="set.test_image">1</property>
- </producer>
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
-  <blank length="00:00:07.000"/>
-  <entry producer="producer34" in="00:00:00.000" out="00:06:17.967">
-   <property name="kdenlive:id">66</property>
-  </entry>
  </playlist>
  <playlist id="playlist3"/>
- <tractor id="tractor1" in="00:00:00.000" out="00:06:24.967">
+ <tractor id="tractor1" in="00:00:00.000">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:trackheight">69</property>
   <property name="kdenlive:timeline_active">1</property>
   <property name="kdenlive:collapsed">0</property>
   <property name="kdenlive:thumbs_format"/>
   <property name="kdenlive:audio_rec"/>
-  <property name="kdenlive:locked_track">1</property>
+  <property name="kdenlive:locked_track"/>
   <track hide="video" producer="playlist2"/>
   <track hide="video" producer="playlist3"/>
   <filter id="filter23">
@@ -4690,7 +4554,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer35" in="00:00:00.000" out="00:08:17.600">
+ <producer id="producer33" in="00:00:00.000" out="00:08:17.600">
   <property name="length">14929</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/One night in Finnish Lapland with northern lights.-GuVq6Q7erVM.mkv</property>
@@ -4788,7 +4652,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer36" in="00:00:00.000" out="00:00:30.000">
+ <producer id="producer34" in="00:00:00.000" out="00:00:30.000">
   <property name="length">901</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/Stars in Space - Copyright Free Reusable Stock Video HD-5yXWVS_bE_g.mp4</property>
@@ -4849,7 +4713,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer39" in="00:00:00.000" out="00:03:20.733">
+ <producer id="producer35" in="00:00:00.000" out="00:03:20.733">
   <property name="length">6023</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/Northern lights _ Aurora Borealis _ Norrsken Time-lapse--5LupVNeMHA.mkv</property>
@@ -4922,7 +4786,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer48" in="00:00:00.000" out="00:10:23.633">
+ <producer id="producer36" in="00:00:00.000" out="00:10:23.633">
   <property name="length">18710</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/Night Skies _ Starry Night _ Northern Lights _ Relaxing Music-eY_s5XJDAI0.webm</property>
@@ -5012,10 +4876,10 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:17.833"/>
-  <entry producer="producer35" in="00:04:55.333" out="00:05:04.967">
+  <entry producer="producer33" in="00:04:55.333" out="00:05:04.967">
    <property name="kdenlive:id">11</property>
   </entry>
-  <entry producer="producer36" in="00:00:09.233" out="00:00:10.733">
+  <entry producer="producer34" in="00:00:09.233" out="00:00:10.733">
    <property name="kdenlive:id">5</property>
    <filter id="filter26">
     <property name="version">0.2</property>
@@ -5025,7 +4889,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer35" in="00:04:53.167" out="00:04:55.233">
+  <entry producer="producer33" in="00:04:53.167" out="00:04:55.233">
    <property name="kdenlive:id">11</property>
    <filter id="filter47" in="00:04:55.100" out="00:04:55.233">
     <property name="start">1</property>
@@ -5036,7 +4900,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer35" in="00:05:05.733" out="00:05:10.433">
+  <entry producer="producer33" in="00:05:05.733" out="00:05:10.433">
    <property name="kdenlive:id">11</property>
    <filter id="filter48">
     <property name="smooth">00:05:05.733=0.8;00:05:09.933=0.8;00:05:10.433=2.57706</property>
@@ -5051,7 +4915,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:01:17.633"/>
-  <entry producer="producer39" in="00:00:56.867" out="00:01:32.833">
+  <entry producer="producer35" in="00:00:56.867" out="00:01:32.833">
    <property name="kdenlive:id">8</property>
    <filter id="filter113" in="00:00:56.867" out="00:00:57.267">
     <property name="start">0</property>
@@ -5062,11 +4926,11 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer39" in="00:01:35.200" out="00:02:22.233">
+  <entry producer="producer35" in="00:01:35.200" out="00:02:22.233">
    <property name="kdenlive:id">8</property>
   </entry>
   <blank length="00:00:14.500"/>
-  <entry producer="producer48" in="00:00:00.000" out="00:00:29.833">
+  <entry producer="producer36" in="00:00:00.000" out="00:00:29.833">
    <property name="kdenlive:id">10</property>
    <filter id="filter116" out="00:00:07.500">
     <property name="start">0</property>
@@ -5096,7 +4960,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <track hide="audio" producer="playlist4"/>
   <track producer="playlist5"/>
  </tractor>
- <producer id="producer49" in="00:00:00.000" out="00:00:33.000">
+ <producer id="producer39" in="00:00:00.000" out="00:00:33.000">
   <property name="length">991</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/Moon Close Up H264.mp4</property>
@@ -5149,7 +5013,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer50" in="00:00:00.000" out="00:00:30.000">
+ <producer id="producer48" in="00:00:00.000" out="00:00:30.000">
   <property name="length">901</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/Stars in Space - Copyright Free Reusable Stock Video HD-5yXWVS_bE_g.mp4</property>
@@ -5210,7 +5074,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer51" in="00:00:00.000" out="00:00:25.467">
+ <producer id="producer49" in="00:00:00.000" out="00:00:25.467">
   <property name="length">765</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/millky_way_slomo.mp4</property>
@@ -5262,7 +5126,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer52" in="00:00:00.000" out="00:01:26.733">
+ <producer id="producer50" in="00:00:00.000" out="00:01:26.733">
   <property name="length">2603</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/Algonquin Park Stars Timelapse-1gwwgR7oNb4.mkv</property>
@@ -5418,7 +5282,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer53" in="00:00:00.000" out="00:00:17.567">
+ <producer id="producer51" in="00:00:00.000" out="00:00:17.567">
   <property name="length">528</property>
   <property name="eof">pause</property>
   <property name="resource">0.600000:content/footage/Time lapse vieo of a starry night.mp4</property>
@@ -5567,7 +5431,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:28.133"/>
-  <entry producer="producer49" in="00:00:16.433" out="00:00:29.733">
+  <entry producer="producer39" in="00:00:16.433" out="00:00:29.733">
    <property name="kdenlive:id">2</property>
    <filter id="filter52" in="00:00:27.967" out="00:00:29.733">
     <property name="start">1</property>
@@ -5579,7 +5443,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:10.533"/>
-  <entry producer="producer50" in="00:00:08.867" out="00:00:09.200">
+  <entry producer="producer48" in="00:00:08.867" out="00:00:09.200">
    <property name="kdenlive:id">5</property>
    <filter id="filter30">
     <property name="version">0.2</property>
@@ -5590,7 +5454,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:01.533"/>
-  <entry producer="producer50" in="00:00:10.767" out="00:00:11.633">
+  <entry producer="producer48" in="00:00:10.767" out="00:00:11.633">
    <property name="kdenlive:id">5</property>
    <filter id="filter31">
     <property name="version">0.2</property>
@@ -5600,7 +5464,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:05.600"/>
-  <entry producer="producer50" in="00:00:00.000" out="00:00:07.767">
+  <entry producer="producer48" in="00:00:00.000" out="00:00:07.767">
    <property name="kdenlive:id">5</property>
    <filter id="filter58" in="00:00:04.967" out="00:00:07.767">
     <property name="start">1</property>
@@ -5618,11 +5482,11 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer51" in="00:00:00.000" out="00:00:22.733">
+  <entry producer="producer49" in="00:00:00.000" out="00:00:22.733">
    <property name="kdenlive:id">38</property>
   </entry>
   <blank length="00:00:12.600"/>
-  <entry producer="producer52" in="00:00:38.900" out="00:01:15.300">
+  <entry producer="producer50" in="00:00:38.900" out="00:01:15.300">
    <property name="kdenlive:id">6</property>
    <filter id="filter32">
     <property name="rotate_center">1</property>
@@ -5636,7 +5500,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:01:19.600"/>
-  <entry producer="producer53" in="00:00:01.267" out="00:00:17.567">
+  <entry producer="producer51" in="00:00:01.267" out="00:00:17.567">
    <property name="kdenlive:id">7</property>
    <filter id="filter114" in="00:00:01.267" out="00:00:01.333">
     <property name="start">0</property>
@@ -5708,7 +5572,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <track hide="audio" producer="playlist6"/>
   <track producer="playlist7"/>
  </tractor>
- <producer id="producer54" in="00:00:00.000" out="00:05:57.567">
+ <producer id="producer52" in="00:00:00.000" out="00:05:57.567">
   <property name="length">10728</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Sarah_kit_mason_00043-take3_full.mp4</property>
@@ -6789,7 +6653,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
 </property>
   </filter>
  </producer>
- <producer id="producer55" in="00:00:00.000" out="00:00:33.000">
+ <producer id="producer53" in="00:00:00.000" out="00:00:33.000">
   <property name="length">991</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/Moon Close Up H264.mp4</property>
@@ -6842,7 +6706,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer56" in="00:00:00.000" out="00:08:17.600">
+ <producer id="producer54" in="00:00:00.000" out="00:08:17.600">
   <property name="length">14929</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/One night in Finnish Lapland with northern lights.-GuVq6Q7erVM.mkv</property>
@@ -6940,7 +6804,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer58" in="00:00:00.000" out="00:00:18.000">
+ <producer id="producer55" in="00:00:00.000" out="00:00:18.000">
   <property name="length">541</property>
   <property name="eof">pause</property>
   <property name="resource">content/ai/the_night_is_young_020000_ac537018_eye_aurora.mp4</property>
@@ -6998,7 +6862,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer61" in="00:00:00.000" out="00:01:52.300">
+ <producer id="producer56" in="00:00:00.000" out="00:01:52.300">
   <property name="length">3370</property>
   <property name="eof">pause</property>
   <property name="resource">1.500000:content/footage/2021-04-24_Toronto_night+tree+moon+clouds_3.MP4</property>
@@ -7058,7 +6922,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer62" in="00:00:00.000" out="00:00:13.900">
+ <producer id="producer58" in="00:00:00.000" out="00:00:13.900">
   <property name="length">418</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/starry_timelapse_cc.mp4</property>
@@ -7230,7 +7094,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
  </producer>
  <playlist id="playlist8">
   <blank length="00:00:07.733"/>
-  <entry producer="producer54" in="00:00:00.667" out="00:00:30.600">
+  <entry producer="producer52" in="00:00:00.667" out="00:00:30.600">
    <property name="kdenlive:id">13</property>
    <filter id="filter230" in="00:00:30.467" out="00:00:30.600">
     <property name="start">1</property>
@@ -7252,7 +7116,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:16.300"/>
-  <entry producer="producer55" in="00:00:00.000" out="00:00:15.100">
+  <entry producer="producer53" in="00:00:00.000" out="00:00:15.100">
    <property name="kdenlive:id">2</property>
    <filter id="filter99" out="00:00:01.433">
     <property name="start">0</property>
@@ -7262,7 +7126,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="alpha">-1</property>
    </filter>
   </entry>
-  <entry producer="producer55" in="00:00:15.133" out="00:00:16.400">
+  <entry producer="producer53" in="00:00:15.133" out="00:00:16.400">
    <property name="kdenlive:id">2</property>
    <filter id="filter100">
     <property name="rotate_center">1</property>
@@ -7276,11 +7140,11 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:11.500"/>
-  <entry producer="producer56" in="00:04:49.700" out="00:04:53.167">
+  <entry producer="producer54" in="00:04:49.700" out="00:04:53.167">
    <property name="kdenlive:id">11</property>
   </entry>
   <blank length="00:00:00.767"/>
-  <entry producer="producer58" in="00:00:01.200" out="00:00:18.000">
+  <entry producer="producer55" in="00:00:01.200" out="00:00:18.000">
    <property name="kdenlive:id">35</property>
    <filter id="filter53">
     <property name="version">0.1</property>
@@ -7325,7 +7189,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:01.000"/>
-  <entry producer="producer61" in="00:00:36.400" out="00:00:43.567">
+  <entry producer="producer56" in="00:00:36.400" out="00:00:43.567">
    <property name="kdenlive:id">4</property>
    <filter id="filter105">
     <property name="rotate_center">1</property>
@@ -7339,7 +7203,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:21.133"/>
-  <entry producer="producer62" in="00:00:00.000" out="00:00:13.900">
+  <entry producer="producer58" in="00:00:00.000" out="00:00:13.900">
    <property name="kdenlive:id">37</property>
   </entry>
   <blank length="00:00:34.367"/>
@@ -7503,7 +7367,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <track hide="audio" producer="playlist8"/>
   <track producer="playlist9"/>
  </tractor>
- <producer id="producer66" in="00:00:00.000" out="00:01:09.467">
+ <producer id="producer61" in="00:00:00.000" out="00:01:09.467">
   <property name="length">2085</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/2021-04-24_Toronto_night+tree+blossom+cherry+moon.MP4</property>
@@ -7588,7 +7452,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer67" in="00:00:00.000" out="00:01:33.467">
+ <producer id="producer62" in="00:00:00.000" out="00:01:33.467">
   <property name="length">2805</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/2021-04-24_Toronto_night+tree+moon+clouds.MP4</property>
@@ -7754,7 +7618,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer68" in="00:00:00.000" out="00:00:11.867">
+ <producer id="producer66" in="00:00:00.000" out="00:00:11.867">
   <property name="length">357</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/Meteor Shower H264.mp4</property>
@@ -7869,7 +7733,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer69" in="00:00:00.000" out="00:00:11.367">
+ <producer id="producer67" in="00:00:00.000" out="00:00:11.367">
   <property name="length">342</property>
   <property name="eof">pause</property>
   <property name="resource">0.500000:content/Mason_eye_MVI_6012.mp4</property>
@@ -7983,7 +7847,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
  </producer>
  <playlist id="playlist10">
   <blank length="00:00:07.733"/>
-  <entry producer="producer66" in="00:01:02.767" out="00:01:06.867">
+  <entry producer="producer61" in="00:01:02.767" out="00:01:06.867">
    <property name="kdenlive:id">3</property>
    <filter id="filter37" in="00:01:02.767" out="00:01:03.467">
     <property name="start">0</property>
@@ -8002,7 +7866,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer66" in="00:00:18.000" out="00:00:21.667">
+  <entry producer="producer61" in="00:00:18.000" out="00:00:21.667">
    <property name="kdenlive:id">3</property>
    <filter id="filter39" in="00:00:18.000" out="00:00:18.267">
     <property name="start">0</property>
@@ -8021,7 +7885,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer66" in="00:00:43.067" out="00:00:46.700">
+  <entry producer="producer61" in="00:00:43.067" out="00:00:46.700">
    <property name="kdenlive:id">3</property>
    <filter id="filter41" in="00:00:43.067" out="00:00:43.300">
     <property name="start">0</property>
@@ -8040,7 +7904,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer67" in="00:00:20.300" out="00:00:23.933">
+  <entry producer="producer62" in="00:00:20.300" out="00:00:23.933">
    <property name="kdenlive:id">12</property>
    <filter id="filter43" in="00:00:20.300" out="00:00:20.500">
     <property name="start">0</property>
@@ -8059,7 +7923,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer67" in="00:00:41.800" out="00:00:45.333">
+  <entry producer="producer62" in="00:00:41.800" out="00:00:45.333">
    <property name="kdenlive:id">12</property>
    <filter id="filter61" in="00:00:41.800" out="00:00:42.067">
     <property name="start">0</property>
@@ -8078,7 +7942,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer67" in="00:01:08.167" out="00:01:11.700">
+  <entry producer="producer62" in="00:01:08.167" out="00:01:11.700">
    <property name="kdenlive:id">12</property>
    <filter id="filter63" in="00:01:08.167" out="00:01:08.367">
     <property name="start">0</property>
@@ -8097,7 +7961,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer68" in="00:00:00.000" out="00:00:03.600">
+  <entry producer="producer66" in="00:00:00.000" out="00:00:03.600">
    <property name="kdenlive:id">9</property>
    <filter id="filter65" out="00:00:00.233">
     <property name="start">0</property>
@@ -8116,7 +7980,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer68" in="00:00:04.167" out="00:00:11.367">
+  <entry producer="producer66" in="00:00:04.167" out="00:00:11.367">
    <property name="kdenlive:id">9</property>
    <filter id="filter67" in="00:00:04.167" out="00:00:04.367">
     <property name="start">0</property>
@@ -8286,7 +8150,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:01:09.567"/>
-  <entry producer="producer69" in="00:00:00.000" out="00:00:10.700">
+  <entry producer="producer67" in="00:00:00.000" out="00:00:10.700">
    <property name="kdenlive:id">43</property>
    <filter id="filter170" out="00:00:02.633">
     <property name="start">0</property>
@@ -8361,7 +8225,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <track hide="audio" producer="playlist10"/>
   <track producer="playlist11"/>
  </tractor>
- <producer id="producer70" in="00:00:00.000" out="00:00:30.000">
+ <producer id="producer68" in="00:00:00.000" out="00:00:30.000">
   <property name="length">901</property>
   <property name="eof">pause</property>
   <property name="resource">content/footage/Stars in Space - Copyright Free Reusable Stock Video HD-5yXWVS_bE_g.mp4</property>
@@ -8422,7 +8286,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer71" in="00:00:00.000" out="00:05:57.567">
+ <producer id="producer2" in="00:00:00.000" out="00:05:57.567">
   <property name="length">10728</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Sarah_kit_mason_00043-take3_full.mp4</property>
@@ -10511,7 +10375,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
 </property>
   </filter>
  </producer>
- <producer id="producer72" in="00:00:00.000" out="00:00:11.567">
+ <producer id="producer70" in="00:00:00.000" out="00:00:11.567">
   <property name="length">348</property>
   <property name="eof">pause</property>
   <property name="resource">0.500000:content/mason_eye_vidgear_stab_reflect.mp4</property>
@@ -10619,7 +10483,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
  </producer>
  <playlist id="playlist12">
   <blank length="00:01:25.433"/>
-  <entry producer="producer70" in="00:00:00.000" out="00:00:09.200">
+  <entry producer="producer68" in="00:00:00.000" out="00:00:09.200">
    <property name="kdenlive:id">5</property>
    <filter id="filter221" out="00:00:00.867">
     <property name="start">0</property>
@@ -10637,7 +10501,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer70" in="00:00:09.233" out="00:00:10.733">
+  <entry producer="producer68" in="00:00:09.233" out="00:00:10.733">
    <property name="kdenlive:id">5</property>
    <filter id="filter80">
     <property name="version">0.2</property>
@@ -10647,7 +10511,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer70" in="00:00:10.767" out="00:00:17.633">
+  <entry producer="producer68" in="00:00:10.767" out="00:00:17.633">
    <property name="kdenlive:id">5</property>
    <filter id="filter81" in="00:00:14.867" out="00:00:17.633">
     <property name="start">1</property>
@@ -10666,7 +10530,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:23.233"/>
-  <entry producer="producer71" in="00:01:59.267" out="00:02:19.200">
+  <entry producer="producer2" in="00:01:59.267" out="00:02:19.200">
    <property name="kdenlive:id">13</property>
    <filter id="filter232" in="00:01:59.267" out="00:02:05.267">
     <property name="start">0</property>
@@ -13471,7 +13335,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:02:08.800"/>
-  <entry producer="producer72" in="00:00:00.000" out="00:00:10.700">
+  <entry producer="producer70" in="00:00:00.000" out="00:00:10.700">
    <property name="kdenlive:id">46</property>
    <property name="kdenlive:activeeffect">3</property>
    <filter id="filter83" out="00:00:02.633">
@@ -13553,7 +13417,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <track hide="audio" producer="playlist12"/>
   <track producer="playlist13"/>
  </tractor>
- <producer id="producer73" in="00:00:00.000" out="00:05:54.867">
+ <producer id="producer71" in="00:00:00.000" out="00:05:54.867">
   <property name="length">10647</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_134319_Sarah_kit+handheld_mason-take3_full.mp4</property>
@@ -13622,7 +13486,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer74" in="00:00:00.000" out="00:05:57.567">
+ <producer id="producer72" in="00:00:00.000" out="00:05:57.567">
   <property name="length">10728</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Sarah_kit_mason_00043-take3_full.mp4</property>
@@ -13761,7 +13625,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
  </producer>
  <playlist id="playlist14">
   <blank length="00:00:37.700"/>
-  <entry producer="producer73" in="00:00:28.233" out="00:00:32.800">
+  <entry producer="producer71" in="00:00:28.233" out="00:00:32.800">
    <property name="kdenlive:id">32</property>
    <filter id="filter234" in="00:00:28.233" out="00:00:28.633">
     <property name="start">0</property>
@@ -13799,7 +13663,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:43.900"/>
-  <entry producer="producer74" in="00:01:19.133" out="00:01:36.000">
+  <entry producer="producer72" in="00:01:19.133" out="00:01:36.000">
    <property name="kdenlive:id">13</property>
    <filter id="filter92" in="00:01:19.133" out="00:01:21.233">
     <property name="start">0</property>
@@ -14229,7 +14093,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer74" in="00:01:36.033" out="00:01:43.800">
+  <entry producer="producer72" in="00:01:36.033" out="00:01:43.800">
    <property name="kdenlive:id">13</property>
    <filter id="filter95">
     <property name="mode">alpha</property>
@@ -14703,7 +14567,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:24.533"/>
-  <entry producer="producer71" in="00:05:30.267" out="00:05:54.900">
+  <entry producer="producer2" in="00:05:30.267" out="00:05:54.900">
    <property name="kdenlive:id">13</property>
    <filter id="filter238">
     <property name="mode">alpha</property>
@@ -24879,7 +24743,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <track hide="audio" producer="playlist14"/>
   <track producer="playlist15"/>
  </tractor>
- <producer id="producer75" in="00:00:00.000" out="00:00:28.000">
+ <producer id="producer73" in="00:00:00.000" out="00:00:28.000">
   <property name="length">841</property>
   <property name="eof">pause</property>
   <property name="resource">content/ai/the_night_is_young_190000_5b2fe543_cherry_nebula.mp4</property>
@@ -24938,7 +24802,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer76" in="00:00:00.000" out="00:00:19.933">
+ <producer id="producer74" in="00:00:00.000" out="00:00:19.933">
   <property name="length">599</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/ReReVST-starry_timelapse_cc-sarah_fill_no-global_style=1.0_content=1.0.mp4</property>
@@ -24990,7 +24854,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer77" in="00:00:00.000" out="00:00:46.833">
+ <producer id="producer75" in="00:00:00.000" out="00:00:46.833">
   <property name="length">1406</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/ReReVST-aurora-aurora_musicians_no-global_style=1.0_content=1.0.mp4</property>
@@ -25042,7 +24906,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer78" in="00:00:00.000" out="00:01:59.867">
+ <producer id="producer76" in="00:00:00.000" out="00:01:59.867">
   <property name="length">3597</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Caleb_upright+4k+portrait_mason_P1000556-take5_m125_to_end.MP4</property>
@@ -25150,7 +25014,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    <property name="av.brightness">0</property>
   </filter>
  </producer>
- <producer id="producer79" in="00:00:00.000" out="00:02:03.067">
+ <producer id="producer77" in="00:00:00.000" out="00:02:03.067">
   <property name="length">3693</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Caleb_upright_mason_MVI_6048-take5_from_125.mkv</property>
@@ -25266,7 +25130,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    <property name="av.brightness">0</property>
   </filter>
  </producer>
- <producer id="producer80" in="00:00:00.000" out="00:00:32.600">
+ <producer id="producer32" in="00:00:00.000" out="00:00:32.600">
   <property name="length">979</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Caleb_upright+handheld_mason_MVI_6006-pickup_ending.mkv</property>
@@ -25331,7 +25195,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
  </producer>
  <playlist id="playlist16">
   <blank length="00:00:12.400"/>
-  <entry producer="producer75" in="00:00:00.967" out="00:00:28.000">
+  <entry producer="producer73" in="00:00:00.967" out="00:00:28.000">
    <property name="kdenlive:id">33</property>
    <filter id="filter130" in="00:00:00.967" out="00:00:01.533">
     <property name="start">0</property>
@@ -25353,7 +25217,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:01:26.867"/>
-  <entry producer="producer76" in="00:00:00.000" out="00:00:19.933">
+  <entry producer="producer74" in="00:00:00.000" out="00:00:19.933">
    <property name="kdenlive:id">42</property>
    <filter id="filter246" out="00:00:05.900">
     <property name="start">0</property>
@@ -25364,7 +25228,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:01:10.800"/>
-  <entry producer="producer77" in="00:00:00.000" out="00:00:46.267">
+  <entry producer="producer75" in="00:00:00.000" out="00:00:46.267">
    <property name="kdenlive:id">44</property>
    <property name="kdenlive:activeeffect">2</property>
    <filter id="filter247" in="00:00:45.400" out="00:00:46.267">
@@ -25412,7 +25276,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:00.933"/>
-  <entry producer="producer78" in="00:00:26.933" out="00:00:52.833">
+  <entry producer="producer76" in="00:00:26.933" out="00:00:52.833">
    <property name="kdenlive:id">27</property>
    <filter id="filter252">
     <property name="rotate_center">1</property>
@@ -25453,7 +25317,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer79" in="00:00:52.300" out="00:01:07.233">
+  <entry producer="producer77" in="00:00:52.300" out="00:01:07.233">
    <property name="kdenlive:id">21</property>
    <filter id="filter255">
     <property name="version">0.1</property>
@@ -25477,10 +25341,10 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:28.233"/>
-  <entry producer="producer80" in="00:00:00.000" out="00:00:20.967">
+  <entry producer="producer32" in="00:00:00.000" out="00:00:20.967">
    <property name="kdenlive:id">15</property>
   </entry>
-  <entry producer="producer80" in="00:00:21.000" out="00:00:23.867">
+  <entry producer="producer32" in="00:00:21.000" out="00:00:23.867">
    <property name="kdenlive:id">15</property>
    <filter id="filter257">
     <property name="version">0.1</property>
@@ -25548,7 +25412,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <track hide="both" producer="playlist16"/>
   <track producer="playlist17"/>
  </tractor>
- <producer id="producer81" in="00:00:00.000" out="00:01:12.600">
+ <producer id="producer79" in="00:00:00.000" out="00:01:12.600">
   <property name="length">2179</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Caleb+Chris_upright+piano+handheld_mason_MVI_6037-take3_caleb_beginning.mkv</property>
@@ -25658,7 +25522,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    <property name="av.brightness">0</property>
   </filter>
  </producer>
- <producer id="producer82" in="00:00:00.000" out="00:00:47.567">
+ <producer id="producer69" in="00:00:00.000" out="00:00:47.567">
   <property name="length">1428</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Caleb+Chris_upright+piano+handheld_mason_MVI_6037-take3_caleb_solo.mkv</property>
@@ -25734,7 +25598,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer83" in="00:00:00.000" out="00:00:47.567">
+ <producer id="producer81" in="00:00:00.000" out="00:00:47.567">
   <property name="length">1428</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Caleb+Chris_upright+piano+handheld_mason_MVI_6037-take3_caleb_solo.mkv</property>
@@ -25810,7 +25674,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">0</property>
  </producer>
- <producer id="producer84" in="00:00:00.000" out="00:02:03.067">
+ <producer id="producer82" in="00:00:00.000" out="00:02:03.067">
   <property name="length">3693</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Caleb_upright_mason_MVI_6048-take5_from_125.mkv</property>
@@ -25926,7 +25790,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    <property name="av.brightness">0</property>
   </filter>
  </producer>
- <producer id="producer85" in="00:00:00.000" out="00:00:25.933">
+ <producer id="producer78" in="00:00:00.000" out="00:00:25.933">
   <property name="length">779</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Caleb_upright_mason_MVI_6048-take6_ending.mkv</property>
@@ -25991,7 +25855,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
  </producer>
  <playlist id="playlist18">
   <blank length="00:00:50.100"/>
-  <entry producer="producer81" in="00:00:11.000" out="00:00:22.733">
+  <entry producer="producer79" in="00:00:11.000" out="00:00:22.733">
    <property name="kdenlive:id">16</property>
    <filter id="filter269">
     <property name="mode">alpha</property>
@@ -32978,7 +32842,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:01:39.633"/>
-  <entry producer="producer82" in="00:00:06.900" out="00:00:26.233">
+  <entry producer="producer69" in="00:00:06.900" out="00:00:26.233">
    <property name="kdenlive:id">17</property>
    <filter id="filter270">
     <property name="version">0.1</property>
@@ -34586,7 +34450,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer83" in="00:00:26.267" out="00:00:27.500">
+  <entry producer="producer81" in="00:00:26.267" out="00:00:27.500">
    <property name="kdenlive:id">17</property>
    <filter id="filter276">
     <property name="version">0.1</property>
@@ -35358,7 +35222,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:01:48.133"/>
-  <entry producer="producer84" in="00:00:52.300" out="00:01:07.233">
+  <entry producer="producer82" in="00:00:52.300" out="00:01:07.233">
    <property name="kdenlive:id">21</property>
    <filter id="filter283">
     <property name="version">0.1</property>
@@ -35382,7 +35246,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:48.733"/>
-  <entry producer="producer85" in="00:00:21.167" out="00:00:25.933">
+  <entry producer="producer78" in="00:00:21.167" out="00:00:25.933">
    <property name="kdenlive:id">22</property>
   </entry>
  </playlist>
@@ -35397,7 +35261,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <track hide="both" producer="playlist18"/>
   <track producer="playlist19"/>
  </tractor>
- <producer id="producer86" in="00:00:00.000" out="00:04:45.300">
+ <producer id="producer84" in="00:00:00.000" out="00:04:45.300">
   <property name="length">8560</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Caleb_upright+4k+portrait+badfocus_mason_P1000533-take3_start_to_end_solo.MP4</property>
@@ -35492,7 +35356,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer87" in="00:00:00.000" out="00:04:45.300">
+ <producer id="producer80" in="00:00:00.000" out="00:04:45.300">
   <property name="length">8560</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Caleb_upright+4k+portrait+badfocus_mason_P1000533-take3_start_to_end_solo.MP4</property>
@@ -35654,7 +35518,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    <property name="av.brightness">0</property>
   </filter>
  </producer>
- <producer id="producer88" in="00:00:00.000" out="00:01:59.867">
+ <producer id="producer86" in="00:00:00.000" out="00:01:59.867">
   <property name="length">3597</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Caleb_upright+4k+portrait_mason_P1000556-take5_m125_to_end.MP4</property>
@@ -35762,7 +35626,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    <property name="av.brightness">0</property>
   </filter>
  </producer>
- <producer id="producer89" in="00:00:00.000" out="00:00:28.133">
+ <producer id="producer83" in="00:00:00.000" out="00:00:28.133">
   <property name="length">845</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Caleb_upright+4k+portrait_mason_P1000556-take6_end.MP4</property>
@@ -35828,7 +35692,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
  </producer>
  <playlist id="playlist20">
   <blank length="00:00:40.700"/>
-  <entry producer="producer86" in="00:00:34.700" out="00:00:44.233">
+  <entry producer="producer84" in="00:00:34.700" out="00:00:44.233">
    <property name="kdenlive:id">31</property>
    <filter id="filter297" in="00:00:34.700" out="00:00:36.367">
     <property name="start">0</property>
@@ -36159,7 +36023,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:18.367"/>
-  <entry producer="producer86" in="00:01:02.633" out="00:01:05.400">
+  <entry producer="producer84" in="00:01:02.633" out="00:01:05.400">
    <property name="kdenlive:id">31</property>
    <filter id="filter301">
     <property name="background">colour:0</property>
@@ -36208,7 +36072,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:01:14.433"/>
-  <entry producer="producer86" in="00:02:19.867" out="00:02:37.333">
+  <entry producer="producer84" in="00:02:19.867" out="00:02:37.333">
    <property name="kdenlive:id">31</property>
    <filter id="filter305">
     <property name="rotate_center">1</property>
@@ -36264,7 +36128,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:20.967"/>
-  <entry producer="producer86" in="00:02:58.333" out="00:03:31.033">
+  <entry producer="producer84" in="00:02:58.333" out="00:03:31.033">
    <property name="kdenlive:id">31</property>
    <filter id="filter310">
     <property name="version">0.1</property>
@@ -37621,7 +37485,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:00.033"/>
-  <entry producer="producer87" in="00:03:31.100" out="00:03:54.333">
+  <entry producer="producer80" in="00:03:31.100" out="00:03:54.333">
    <property name="kdenlive:id">31</property>
    <filter id="filter316">
     <property name="version">0.1</property>
@@ -38058,7 +37922,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:23.967"/>
-  <entry producer="producer88" in="00:00:26.933" out="00:00:54.100">
+  <entry producer="producer86" in="00:00:26.933" out="00:00:54.100">
    <property name="kdenlive:id">27</property>
    <filter id="filter322">
     <property name="rotate_center">1</property>
@@ -38092,7 +37956,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:56.667"/>
-  <entry producer="producer89" in="00:00:17.167" out="00:00:28.133">
+  <entry producer="producer83" in="00:00:17.167" out="00:00:28.133">
    <property name="kdenlive:id">28</property>
   </entry>
  </playlist>
@@ -38107,7 +37971,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <track hide="both" producer="playlist20"/>
   <track producer="playlist21"/>
  </tractor>
- <producer id="producer90" in="00:00:00.000" out="00:04:45.300">
+ <producer id="producer88" in="00:00:00.000" out="00:04:45.300">
   <property name="length">8560</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-06-02_Caleb_upright+4k+portrait+badfocus_mason_P1000533-take3_start_to_end_solo.MP4</property>
@@ -38235,7 +38099,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    <property name="av.brightness">0</property>
   </filter>
  </producer>
- <producer id="producer91" in="00:00:00.000" out="00:00:32.267">
+ <producer id="producer85" in="00:00:00.000" out="00:00:32.267">
   <property name="length">969</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Caleb+Chris_upright+piano+handheld_mason_MVI_6037-take3_chris_piano.mkv</property>
@@ -38306,7 +38170,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer92" in="00:00:00.000" out="00:00:06.300">
+ <producer id="producer87" in="00:00:00.000" out="00:00:06.300">
   <property name="length">190</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Chris_piano+handheld_mason_MVI_6036-unknown_take_near_end_headshot.mkv</property>
@@ -38423,7 +38287,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
  </producer>
  <playlist id="playlist22">
   <blank length="00:00:40.700"/>
-  <entry producer="producer90" in="00:00:34.700" out="00:00:44.233">
+  <entry producer="producer88" in="00:00:34.700" out="00:00:44.233">
    <property name="kdenlive:id">31</property>
    <filter id="filter328" in="00:00:34.700" out="00:00:36.367">
     <property name="start">0</property>
@@ -38772,7 +38636,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:01:05.567"/>
-  <entry producer="producer91" in="00:00:03.000" out="00:00:14.600">
+  <entry producer="producer85" in="00:00:03.000" out="00:00:14.600">
    <property name="kdenlive:id">19</property>
    <filter id="filter349">
     <property name="version">0.1</property>
@@ -39046,7 +38910,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:56.867"/>
-  <entry producer="producer90" in="00:02:58.333" out="00:03:31.033">
+  <entry producer="producer88" in="00:02:58.333" out="00:03:31.033">
    <property name="kdenlive:id">31</property>
    <filter id="filter334">
     <property name="version">0.1</property>
@@ -40255,7 +40119,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:01:31.100"/>
-  <entry producer="producer92" in="00:00:00.000" out="00:00:06.300">
+  <entry producer="producer87" in="00:00:00.000" out="00:00:06.300">
    <property name="kdenlive:id">24</property>
   </entry>
   <blank length="00:00:18.200"/>
@@ -40277,7 +40141,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <track hide="audio" producer="playlist22"/>
   <track producer="playlist23"/>
  </tractor>
- <producer id="producer93" in="00:00:00.000" out="00:00:29.533">
+ <producer id="producer89" in="00:00:00.000" out="00:00:29.533">
   <property name="length">887</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Caleb+Chris_upright+piano+handheld_mason_MVI_6037-take3_chris_start.mkv</property>
@@ -40348,7 +40212,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer95" in="00:00:00.000" out="00:01:12.600">
+ <producer id="producer92" in="00:00:00.000" out="00:01:12.600">
   <property name="length">2179</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Caleb+Chris_upright+piano+handheld_mason_MVI_6037-take3_caleb_beginning.mkv</property>
@@ -40505,7 +40369,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer96" in="00:00:00.000" out="00:01:29.100">
+ <producer id="producer90" in="00:00:00.000" out="00:01:29.100">
   <property name="length">2674</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Caleb+Chris_upright+piano+handheld_mason_MVI_6037-take3_chris_end_bass_solo.mkv</property>
@@ -40581,7 +40445,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer99" in="00:00:00.000" out="00:00:22.867">
+ <producer id="producer91" in="00:00:00.000" out="00:00:22.867">
   <property name="length">687</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Chris_piano+handheld_mason_MVI_6034-unknown_track_near_end.mkv</property>
@@ -40644,7 +40508,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="set.test_audio">1</property>
   <property name="set.test_image">1</property>
  </producer>
- <producer id="producer100" in="00:00:00.000" out="00:00:26.367">
+ <producer id="producer93" in="00:00:00.000" out="00:00:26.367">
   <property name="length">792</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Chris_piano_4k_mason_P1180165-take6_end-merged.MP4</property>
@@ -40706,11 +40570,11 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
  </producer>
  <playlist id="playlist24">
   <blank length="00:00:07.067"/>
-  <entry producer="producer93" in="00:00:00.000" out="00:00:29.533">
+  <entry producer="producer89" in="00:00:00.000" out="00:00:29.533">
    <property name="kdenlive:id">20</property>
   </entry>
   <blank length="00:00:13.467"/>
-  <entry producer="producer95" in="00:00:11.000" out="00:00:22.733">
+  <entry producer="producer92" in="00:00:11.000" out="00:00:22.733">
    <property name="kdenlive:id">16</property>
    <filter id="filter346">
     <property name="mode">alpha</property>
@@ -48022,7 +47886,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:01:29.633"/>
-  <entry producer="producer96" in="00:00:09.167" out="00:00:32.400">
+  <entry producer="producer90" in="00:00:09.167" out="00:00:32.400">
    <property name="kdenlive:id">18</property>
    <filter id="filter355">
     <property name="version">0.1</property>
@@ -48252,11 +48116,11 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:01:11.900"/>
-  <entry producer="producer99" in="00:00:03.300" out="00:00:14.633">
+  <entry producer="producer91" in="00:00:03.300" out="00:00:14.633">
    <property name="kdenlive:id">23</property>
   </entry>
   <blank length="00:00:30.833"/>
-  <entry producer="producer100" in="00:00:22.733" out="00:00:25.600">
+  <entry producer="producer93" in="00:00:22.733" out="00:00:25.600">
    <property name="kdenlive:id">26</property>
    <filter id="filter365">
     <property name="version">0.1</property>
@@ -48360,7 +48224,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer101" in="00:00:00.000" out="00:01:59.433">
+ <producer id="producer95" in="00:00:00.000" out="00:01:59.433">
   <property name="length">3584</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_21-28-22_Chris_piano_mason_C0021-take5_m125_to_end.MP4</property>
@@ -48492,7 +48356,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    <property name="av.brightness">0</property>
   </filter>
  </producer>
- <producer id="producer103" in="00:00:00.000" out="00:01:59.433">
+ <producer id="producer100" in="00:00:00.000" out="00:01:59.433">
   <property name="length">3584</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_21-28-22_Chris_piano_mason_C0021-take5_m125_to_end.MP4</property>
@@ -48556,7 +48420,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer id="producer104" in="00:00:00.000" out="00:00:27.033">
+ <producer id="producer96" in="00:00:00.000" out="00:00:27.033">
   <property name="length">812</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_21-28-22_Chris_piano_mason_C0021-take6_end.MP4</property>
@@ -48682,7 +48546,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:50.967"/>
-  <entry producer="producer101" in="00:00:01.567" out="00:00:25.633">
+  <entry producer="producer95" in="00:00:01.567" out="00:00:25.633">
    <property name="kdenlive:id">29</property>
    <filter id="filter386">
     <property name="version">0.3</property>
@@ -48714,7 +48578,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:11.133"/>
-  <entry producer="producer103" in="00:00:36.800" out="00:00:58.533">
+  <entry producer="producer100" in="00:00:36.800" out="00:00:58.533">
    <property name="kdenlive:id">29</property>
    <property name="kdenlive:activeeffect">1</property>
    <filter id="filter388" in="00:00:36.800" out="00:00:37.867">
@@ -51111,7 +50975,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer101" in="00:00:58.567" out="00:01:56.133">
+  <entry producer="producer95" in="00:00:58.567" out="00:01:56.133">
    <property name="kdenlive:id">29</property>
    <filter id="filter392">
     <property name="mode">alpha</property>
@@ -51335,7 +51199,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
     <property name="kdenlive:collapsed">0</property>
    </filter>
   </entry>
-  <entry producer="producer104" in="00:00:23.033" out="00:00:27.033">
+  <entry producer="producer96" in="00:00:23.033" out="00:00:27.033">
    <property name="kdenlive:id">30</property>
   </entry>
  </playlist>
@@ -51350,7 +51214,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <track hide="audio" producer="playlist26"/>
   <track producer="playlist27"/>
  </tractor>
- <producer id="producer105" in="00:00:00.000" out="00:02:00.067">
+ <producer id="producer99" in="00:00:00.000" out="00:02:00.067">
   <property name="length">3603</property>
   <property name="eof">pause</property>
   <property name="resource">content/musicians/2021-02-06_Chris_piano_4k_mason_P1180165-take5_m125_to_end.MP4</property>
@@ -51423,7 +51287,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
  </producer>
  <playlist id="playlist28">
   <blank length="00:03:58.400"/>
-  <entry producer="producer105" in="00:00:00.000" out="00:01:38.833">
+  <entry producer="producer99" in="00:00:00.000" out="00:01:38.833">
    <property name="kdenlive:id">25</property>
    <filter id="filter394">
     <property name="version">0.1</property>
@@ -54524,7 +54388,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
    </filter>
   </entry>
   <blank length="00:00:13.033"/>
-  <entry producer="producer100" in="00:00:18.567" out="00:00:22.700">
+  <entry producer="producer93" in="00:00:18.567" out="00:00:22.700">
    <property name="kdenlive:id">26</property>
   </entry>
  </playlist>
@@ -54624,7 +54488,7 @@ Segment-Durations-Ms: 5120(r=120),4080,&#xd;
   <track hide="audio" producer="playlist30"/>
   <track producer="playlist31"/>
  </tractor>
- <tractor id="tractor16" global_feed="1" in="00:00:00.000" out="00:23:05.000">
+ <tractor id="tractor16" global_feed="1" in="00:00:00.000" out="00:22:39.200">
   <track producer="black_track"/>
   <track producer="tractor0"/>
   <track producer="tractor1"/>
