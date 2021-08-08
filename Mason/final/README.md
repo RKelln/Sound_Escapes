@@ -1,6 +1,6 @@
 # The Night is Young
 
-Composer: **Mason Victoria**
+Composer: [**Mason Victoria**](https://www.masonvictoriamusic.com/)
 
 Mason was inspired by his first camp experience when he was a child. After growing up in the city he saw the stars clearly for the first time. Visually he was inspired by Memo Akten's fantastic [Learning to see: We are made of star dust (#2)](https://vimeo.com/242498070).
 
@@ -109,3 +109,15 @@ $ python generate_audiovisual.py --ckpt ../rosinality-stylegan/checkpoint/nebula
     by Abhishek Thakur
     
   * [https://github.com/RKelln/pyimgdata](https://github.com/RKelln/pyimgdata)
+
+
+## Sound Escapes
+
+This piece is part of the [Sound Escapes concert](http://www.ryankelln.com/project/sound-escapes/) in collaboration with [Spectrum Music](https://www.spectrummusic.ca/).
+
+
+## Licence
+
+_The Night is Young_ visuals and code is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Please note that footage and code from other people and projects are licenced under their own licence. This includes the audio and composition for _The Night is Young_ that are licenced separately, copyright Spectrum Music and Mason Victoria, respectively.
+
+You should have received a copy of the license along with this work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.

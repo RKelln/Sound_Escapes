@@ -1,6 +1,6 @@
 # Hot Bod
 
-Composer: **Sarah Thawer** 
+Composer: [**Sarah Thawer**](https://sarahthawer.com/)
 
 Arranger: **Mason Victoria**
 
@@ -77,4 +77,16 @@ $ python generate_audiovisual.py --ckpt ../rosinality-stylegan/checkpoint/animal
     * [Custom fork used in concert](https://github.com/RKelln/OptimalTextures/tree/video)
 
   * [https://github.com/RKelln/vid2frame](https://github.com/RKelln/vid2frame)
+
+
+## Sound Escapes
+
+This piece is part of the [Sound Escapes concert](http://www.ryankelln.com/project/sound-escapes/) in collaboration with [Spectrum Music](https://www.spectrummusic.ca/).
+
+
+## Licence
+
+_Hot Bod_ visuals and code is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Please note that footage and code from other people and projects are licenced under their own licence. This includes the audio and composition for _Hot Bod_ that are licenced separately, copyright Spectrum Music and Sarah Thawer, respectively.
+
+You should have received a copy of the license along with this work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
 

@@ -103,10 +103,6 @@ This piece is part of the [Sound Escapes concert](http://www.ryankelln.com/proje
 
 ## Licence
 
-Robbie's Hobbies visuals and code is licensed under a
-Creative Commons Attribution-ShareAlike 4.0 International License.
+_Robbie's Hobbies_ visuals and code is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Please note that footage and code from other people and projects are licenced under their own licence. This includes the audio and composition for _Robbie's Hobbies_ that are licenced separately, copyright Spectrum Music and Suzy Wilde, respectively.
 
-You should have received a copy of the license along with this
-work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
-
-Please note, the audio for Robbie's Hobbies and the composition are licenced separately, copyright Spectrum Music and Suzy Wilde, respectively.
+You should have received a copy of the license along with this work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.

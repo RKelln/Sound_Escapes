@@ -108,3 +108,16 @@ python generate_audiovisual.py --ckpt ../rosinality-stylegan/checkpoint/spring/0
     by Hans Brouwer
 
   * [https://github.com/RKelln/pyimgdata](https://github.com/RKelln/pyimgdata)
+
+
+## Sound Escapes
+
+This piece is part of the [Sound Escapes concert](http://www.ryankelln.com/project/sound-escapes/) in collaboration with [Spectrum Music](https://www.spectrummusic.ca/).
+
+
+## Licence
+
+_Fade to Black_ visuals and code is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Please note that footage and code from other people and projects are licenced under their own licence. This includes the audio and composition for _Fade to Black_ that are licenced separately, copyright Spectrum Music and Dhaivat Jani, respectively.
+
+You should have received a copy of the license along with this work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
+

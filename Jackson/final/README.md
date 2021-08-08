@@ -1,6 +1,6 @@
 # Bird Brained
 
-Composer: **Jackson Welchner**
+Composer: [**Jackson Welchner**](https://jacksonwelchner.com/)
 
 Jackson's pieces often have a cheekiness to them and challenge the musicians and leave them whooping in delight once it grooves. Bird Brained piece fits the mould and is themed visually around bird flocking.
 
@@ -89,3 +89,15 @@ Building little art instruments like that really makes me happy, and Jackson alw
 
   * [Super Resolution API](https://deepai.org/machine-learning-model/torch-srgan)
     by DeepAI
+
+
+## Sound Escapes
+
+This piece is part of the [Sound Escapes concert](http://www.ryankelln.com/project/sound-escapes/) in collaboration with [Spectrum Music](https://www.spectrummusic.ca/).
+
+
+## Licence
+
+_Bird Brained_ visuals and code is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Please note that footage and code from other people and projects are licenced under their own licence. This includes the audio and composition for _Bird Brained_ that are licenced separately, copyright Spectrum Music and Jackson Welchner, respectively.
+
+You should have received a copy of the license along with this work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.

@@ -128,3 +128,15 @@ ffmpeg -i _out/stories/_final/%05d.jpg -crf 22 -r 25 -preset veryslow _out/stori
 
   * [Droste effect](http://roy.red/posts/droste/)
     by Roy Wiggins
+
+
+## Sound Escapes
+
+This piece is part of the [Sound Escapes concert](http://www.ryankelln.com/project/sound-escapes/) in collaboration with [Spectrum Music](https://www.spectrummusic.ca/).
+
+
+## Licence
+
+_i am a strange loop_ visuals and code is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. Please note that footage and code from other people and projects are licenced under their own licence. This includes the audio and composition for _i am a strange loop_ that are licenced separately, copyright Spectrum Music and Mac Rogers, respectively.
+
+You should have received a copy of the license along with this work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
